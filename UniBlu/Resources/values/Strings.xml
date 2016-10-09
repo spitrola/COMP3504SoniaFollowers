@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">UniBlu</string>
+    <string name="welcome">Welcome to UniBlu</string>
+    <string name="appName">UniBlu the App 4 U</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="usernameHint">Enter your username here</string>
+    <string name="passwordHint">Enter your password here</string>
+    <string name="loginButton">Login</string>
 </resources>

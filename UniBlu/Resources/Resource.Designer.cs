@@ -41,11 +41,30 @@ namespace UniBlu
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int blue = 2130968576;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int Heart = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
 			
 			static Drawable()
 			{
@@ -57,11 +76,45 @@ namespace UniBlu
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f070001
+			public const int imageView1 = 2131165185;
+			
+			// aapt resource value: 0x7f070005
+			public const int loginButton = 2131165189;
+			
+			// aapt resource value: 0x7f070004
+			public const int passwordEditText = 2131165188;
+			
+			// aapt resource value: 0x7f070002
+			public const int textView1 = 2131165186;
+			
+			// aapt resource value: 0x7f070000
+			public const int toolbar = 2131165184;
+			
+			// aapt resource value: 0x7f070003
+			public const int usernameEditText = 2131165187;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int toolbar = 2130903041;
 			
 			static Layout()
 			{
@@ -76,11 +129,26 @@ namespace UniBlu
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int appName = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050006
+			public const int loginButton = 2131034118;
+			
+			// aapt resource value: 0x7f050003
+			public const int password = 2131034115;
+			
+			// aapt resource value: 0x7f050005
+			public const int passwordHint = 2131034117;
+			
+			// aapt resource value: 0x7f050002
+			public const int username = 2131034114;
+			
+			// aapt resource value: 0x7f050004
+			public const int usernameHint = 2131034116;
+			
+			// aapt resource value: 0x7f050000
+			public const int welcome = 2131034112;
 			
 			static String()
 			{
@@ -88,6 +156,22 @@ namespace UniBlu
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int MyTheme = 2131099648;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

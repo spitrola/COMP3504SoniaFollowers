@@ -10,14 +10,35 @@ package uniblu.uniblu;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int blue=0x7f040000;
+    }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int heart=0x7f020000;
+        public static final int icon=0x7f020001;
+    }
+    public static final class id {
+        public static final int imageView1=0x7f070001;
+        public static final int loginButton=0x7f070005;
+        public static final int passwordEditText=0x7f070004;
+        public static final int textView1=0x7f070002;
+        public static final int toolbar=0x7f070000;
+        public static final int usernameEditText=0x7f070003;
     }
     public static final class layout {
         public static final int main=0x7f030000;
+        public static final int toolbar=0x7f030001;
     }
     public static final class string {
-        public static final int ApplicationName=0x7f040001;
-        public static final int Hello=0x7f040000;
+        public static final int appName=0x7f050001;
+        public static final int loginButton=0x7f050006;
+        public static final int password=0x7f050003;
+        public static final int passwordHint=0x7f050005;
+        public static final int username=0x7f050002;
+        public static final int usernameHint=0x7f050004;
+        public static final int welcome=0x7f050000;
+    }
+    public static final class style {
+        public static final int MyTheme=0x7f060000;
     }
 }
