@@ -1,4 +1,4 @@
-# COMP3504SoniaFollowers ![GitHub Logo](UniBlu/Resources/drawable/logoIcon.png)
+# COMP3504SoniaFollowers ![GitHub Logo](UniBlu/Resources/drawable/UniBlu.png)
 Programming 4 - group project done in Xamarin Android<br />
 As partial fulfilment of the requirements for COMP3504<br />
 For the Bachelor of Computer Information Systems Degree<br />
