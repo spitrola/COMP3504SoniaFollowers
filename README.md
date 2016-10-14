@@ -1,9 +1,9 @@
-# COMP3504SoniaFollowers ![GitHub Logo](/images/Logo.png)
-Programming 4 - group project done in Xamarin Android <br />
-###As partial fulfilment of the requirements for COMP3504
-###For the Bachelor of Computer Information Systems Degree
-###At Mount Royal University
-####Calgary, Alberta, Canada
+# COMP3504SoniaFollowers ![GitHub Logo](/UniBlu/Resources/drawable/Logo.png)
+Programming 4 - group project done in Xamarin Android
+As partial fulfilment of the requirements for COMP3504
+For the Bachelor of Computer Information Systems Degree
+At Mount Royal University
+Calgary, Alberta, Canada
 <br />
 #*Course Professor:*&nbsp;&nbsp;&nbsp;_**Jordan Kidney**_ :poop: :bangbang:
 <br />

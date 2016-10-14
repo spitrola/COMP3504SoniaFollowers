@@ -5,7 +5,7 @@ using System;
 
 namespace UniBlu
 {
-    [Activity(Label="@string/appName", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label="@string/appName", MainLauncher = true, Icon = "@drawable/logo")]
     public class MainActivity : Activity
     {
         Button loginButton;
@@ -33,6 +33,7 @@ namespace UniBlu
         {
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetActionBar(toolbar);
+            ActionBar.SetDisplayUseLogoEnabled(true);
             ActionBar.Title = GetString(Resource.String.appName);
 
             loginButton = FindViewById<Button>(Resource.Id.loginButton);
