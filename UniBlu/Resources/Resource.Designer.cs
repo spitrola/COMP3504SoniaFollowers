@@ -72,6 +72,9 @@ namespace UniBlu
 			// aapt resource value: 0x7f020003
 			public const int logoIcon = 2130837507;
 			
+			// aapt resource value: 0x7f020004
+			public const int UniBlu = 2130837508;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -85,23 +88,38 @@ namespace UniBlu
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070001
-			public const int imageView1 = 2131165185;
-			
-			// aapt resource value: 0x7f070005
-			public const int loginButton = 2131165189;
-			
-			// aapt resource value: 0x7f070004
-			public const int passwordEditText = 2131165188;
-			
 			// aapt resource value: 0x7f070002
-			public const int textView1 = 2131165186;
+			public const int announcementButton = 2131165186;
+			
+			// aapt resource value: 0x7f070001
+			public const int coursePlannerButton = 2131165185;
 			
 			// aapt resource value: 0x7f070000
-			public const int toolbar = 2131165184;
+			public const int imageView1 = 2131165184;
 			
 			// aapt resource value: 0x7f070003
-			public const int usernameEditText = 2131165187;
+			public const int instructorBiosButton = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int labSchedulesButton = 2131165188;
+			
+			// aapt resource value: 0x7f07000a
+			public const int loginButton = 2131165194;
+			
+			// aapt resource value: 0x7f070009
+			public const int passwordEditText = 2131165193;
+			
+			// aapt resource value: 0x7f070005
+			public const int studentSocietyButton = 2131165189;
+			
+			// aapt resource value: 0x7f070007
+			public const int textView1 = 2131165191;
+			
+			// aapt resource value: 0x7f070006
+			public const int toolbar = 2131165190;
+			
+			// aapt resource value: 0x7f070008
+			public const int usernameEditText = 2131165192;
 			
 			static Id()
 			{
@@ -117,10 +135,13 @@ namespace UniBlu
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int LandingPageView = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int toolbar = 2130903041;
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int toolbar = 2130903042;
 			
 			static Layout()
 			{
@@ -135,8 +156,20 @@ namespace UniBlu
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f050008
+			public const int announcementsButton = 2131034120;
+			
 			// aapt resource value: 0x7f050001
 			public const int appName = 2131034113;
+			
+			// aapt resource value: 0x7f050007
+			public const int coursePlannerButton = 2131034119;
+			
+			// aapt resource value: 0x7f050009
+			public const int instructorBiosButton = 2131034121;
+			
+			// aapt resource value: 0x7f05000a
+			public const int labSchedulesButton = 2131034122;
 			
 			// aapt resource value: 0x7f050006
 			public const int loginButton = 2131034118;
@@ -146,6 +179,9 @@ namespace UniBlu
 			
 			// aapt resource value: 0x7f050005
 			public const int passwordHint = 2131034117;
+			
+			// aapt resource value: 0x7f05000b
+			public const int studentSocietyButton = 2131034123;
 			
 			// aapt resource value: 0x7f050002
 			public const int username = 2131034114;

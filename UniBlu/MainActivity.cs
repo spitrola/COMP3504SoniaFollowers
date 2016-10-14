@@ -2,6 +2,7 @@
 using Android.Widget;
 using Android.OS;
 using System;
+using Android.Content;
 
 namespace UniBlu
 {
@@ -26,7 +27,8 @@ namespace UniBlu
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            var intent = new Intent(this, typeof(LandingPageActivity));
+            StartActivity(intent);
         }
 
         private void FindViews()

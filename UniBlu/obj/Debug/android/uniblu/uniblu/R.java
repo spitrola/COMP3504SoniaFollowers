@@ -18,24 +18,36 @@ public final class R {
         public static final int icon=0x7f020001;
         public static final int logo=0x7f020002;
         public static final int logoicon=0x7f020003;
+        public static final int uniblu=0x7f020004;
     }
     public static final class id {
-        public static final int imageView1=0x7f070001;
-        public static final int loginButton=0x7f070005;
-        public static final int passwordEditText=0x7f070004;
-        public static final int textView1=0x7f070002;
-        public static final int toolbar=0x7f070000;
-        public static final int usernameEditText=0x7f070003;
+        public static final int announcementButton=0x7f070002;
+        public static final int coursePlannerButton=0x7f070001;
+        public static final int imageView1=0x7f070000;
+        public static final int instructorBiosButton=0x7f070003;
+        public static final int labSchedulesButton=0x7f070004;
+        public static final int loginButton=0x7f07000a;
+        public static final int passwordEditText=0x7f070009;
+        public static final int studentSocietyButton=0x7f070005;
+        public static final int textView1=0x7f070007;
+        public static final int toolbar=0x7f070006;
+        public static final int usernameEditText=0x7f070008;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int toolbar=0x7f030001;
+        public static final int landingpageview=0x7f030000;
+        public static final int main=0x7f030001;
+        public static final int toolbar=0x7f030002;
     }
     public static final class string {
+        public static final int announcementsButton=0x7f050008;
         public static final int appName=0x7f050001;
+        public static final int coursePlannerButton=0x7f050007;
+        public static final int instructorBiosButton=0x7f050009;
+        public static final int labSchedulesButton=0x7f05000a;
         public static final int loginButton=0x7f050006;
         public static final int password=0x7f050003;
         public static final int passwordHint=0x7f050005;
+        public static final int studentSocietyButton=0x7f05000b;
         public static final int username=0x7f050002;
         public static final int usernameHint=0x7f050004;
         public static final int welcome=0x7f050000;
