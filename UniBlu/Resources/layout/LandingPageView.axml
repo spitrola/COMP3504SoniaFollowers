@@ -23,25 +23,30 @@
         android:text="@string/coursePlannerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:id="@+id/coursePlannerButton" />
     <Button
         android:text="@string/announcementsButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:id="@+id/announcementButton" />
     <Button
         android:text="@string/instructorBiosButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:id="@+id/instructorBiosButton" />
     <Button
         android:text="@string/labSchedulesButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:id="@+id/labSchedulesButton" />
     <Button
         android:text="@string/studentSocietyButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
         android:id="@+id/studentSocietyButton" />
 </LinearLayout>
