@@ -12,4 +12,14 @@
     <string name="instructorBiosButton">Instructor Bio\'s</string>
     <string name="labSchedulesButton">Lab Schedules</string>
     <string name="studentSocietyButton">Student Society</string>
+    <string name="settings_label">Settings...</string>
+    <string name="settings_title">UniBlu Settings</string>
+    <string name="music_title">Play Music</string>
+    <string name="music_summary">Pomp and Circumstance</string>
+    <string name="scrollingScreen_title">Add Background Scroll</string>
+    <string name="scrollingScreen_summary">Gotta Love the Disco Screen Scroll</string>
+    <string name="language_prompt">Pick a language</string>
+    <string-array name="language_array">
+      <item>English</item>
+    </string-array>
 </resources>
