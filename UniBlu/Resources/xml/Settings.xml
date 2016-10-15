@@ -4,11 +4,13 @@
   <PreferenceCategory
     android:title="@string/settings_title" >
     <CheckBoxPreference
+      android:key="music"
       android:title="@string/music_title"
       android:summary="@string/music_summary"
-      android:defaultValue="true"
+      android:defaultValue="false"
       android:checkable="true"/>
     <CheckBoxPreference
+      android:key="scrollingScreen"
       android:title="@string/scrollingScreen_title"
       android:summary="@string/scrollingScreen_summary"
       android:defaultValue="false"

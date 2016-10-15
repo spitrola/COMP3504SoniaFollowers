@@ -20,7 +20,7 @@ namespace UniBlu
         {
             stop(context);
             // Start music only if its preference is enabled
-            //if (Preferences.getMusic(context)) 
+            if (Preferences.getMusic(context)) 
             {
                 mp = MediaPlayer.Create(context, resource);
                 mp.Looping = true;

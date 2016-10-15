@@ -17,7 +17,7 @@ namespace UniBlu
     {
         // Option names and default values
         private const String OPT_MUSIC = "music";
-        private const Boolean OPT_MUSIC_DEFAULT = true;
+        private const bool OPT_MUSIC_DEFAULT = true;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
