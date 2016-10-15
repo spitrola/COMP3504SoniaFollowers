@@ -25,8 +25,18 @@ namespace UniBlu
 			FindViews();
 			HandleEvents();
 		}
+        protected override void OnResume()
+        {
+            base.OnResume();
+            Music.play(this, Resource.Raw.pomp_loop);
+        }
+        protected override void OnPause()
+        {
+            base.OnPause();
+            Music.stop(this);
+        }
 
-		private void FindViews()
+        private void FindViews()
 		{
 
 		}
