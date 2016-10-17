@@ -21,7 +21,7 @@ namespace UniBlu
 			SetContentView(Resource.Layout.LandingPageView);
 			var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar1);
 			SetActionBar(toolbar);
-			ActionBar.Title = "UniBlu";
+			ActionBar.Title = GetString(Resource.String.appName);
 			FindViews();
 			HandleEvents();
 		}
@@ -34,6 +34,24 @@ namespace UniBlu
         {
             base.OnPause();
             Music.stop(this);
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.SettingsMenu, menu);
+            return base.OnCreateOptionsMenu(menu);
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Resource.Id.settings:
+                    var intent = new Intent(this, typeof(SettingsActivity));
+                    StartActivity(intent);
+                    return true;
+            }
+            return base.OnOptionsItemSelected(item);
         }
 
         private void FindViews()
