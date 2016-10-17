@@ -104,11 +104,17 @@ namespace UniBlu
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0b0010
+			public const int about = 2131427344;
+			
 			// aapt resource value: 0x7f0b0003
 			public const int announcementButton = 2131427331;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int coursePlannerButton = 2131427330;
+			
+			// aapt resource value: 0x7f0b000e
+			public const int downloadData = 2131427342;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int imageView1 = 2131427329;
@@ -124,6 +130,12 @@ namespace UniBlu
 			
 			// aapt resource value: 0x7f0b000a
 			public const int passwordEditText = 2131427338;
+			
+			// aapt resource value: 0x7f0b000d
+			public const int printScreen = 2131427341;
+			
+			// aapt resource value: 0x7f0b000f
+			public const int search = 2131427343;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int settings = 2131427340;
@@ -210,6 +222,9 @@ namespace UniBlu
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f070016
+			public const int about_label = 2131165206;
+			
 			// aapt resource value: 0x7f070008
 			public const int announcementsButton = 2131165192;
 			
@@ -218,6 +233,9 @@ namespace UniBlu
 			
 			// aapt resource value: 0x7f070007
 			public const int coursePlannerButton = 2131165191;
+			
+			// aapt resource value: 0x7f070014
+			public const int downloadData_label = 2131165204;
 			
 			// aapt resource value: 0x7f070009
 			public const int instructorBiosButton = 2131165193;
@@ -243,11 +261,17 @@ namespace UniBlu
 			// aapt resource value: 0x7f070005
 			public const int passwordHint = 2131165189;
 			
+			// aapt resource value: 0x7f070013
+			public const int printScreen_label = 2131165203;
+			
 			// aapt resource value: 0x7f070011
 			public const int scrollingScreen_summary = 2131165201;
 			
 			// aapt resource value: 0x7f070010
 			public const int scrollingScreen_title = 2131165200;
+			
+			// aapt resource value: 0x7f070015
+			public const int search_label = 2131165205;
 			
 			// aapt resource value: 0x7f07000c
 			public const int settings_label = 2131165196;

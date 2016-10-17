@@ -24,13 +24,17 @@ public final class R {
         public static final int uniblu=0x7f020004;
     }
     public static final class id {
+        public static final int about=0x7f0b0010;
         public static final int announcementButton=0x7f0b0003;
         public static final int coursePlannerButton=0x7f0b0002;
+        public static final int downloadData=0x7f0b000e;
         public static final int imageView1=0x7f0b0001;
         public static final int instructorBiosButton=0x7f0b0004;
         public static final int labSchedulesButton=0x7f0b0005;
         public static final int loginButton=0x7f0b000b;
         public static final int passwordEditText=0x7f0b000a;
+        public static final int printScreen=0x7f0b000d;
+        public static final int search=0x7f0b000f;
         public static final int settings=0x7f0b000c;
         public static final int studentSocietyButton=0x7f0b0006;
         public static final int textView1=0x7f0b0008;
@@ -50,9 +54,11 @@ public final class R {
         public static final int pomp_loop=0x7f050000;
     }
     public static final class string {
+        public static final int about_label=0x7f070016;
         public static final int announcementsButton=0x7f070008;
         public static final int appName=0x7f070001;
         public static final int coursePlannerButton=0x7f070007;
+        public static final int downloadData_label=0x7f070014;
         public static final int instructorBiosButton=0x7f070009;
         public static final int labSchedulesButton=0x7f07000a;
         public static final int language_prompt=0x7f070012;
@@ -61,8 +67,10 @@ public final class R {
         public static final int music_title=0x7f07000e;
         public static final int password=0x7f070003;
         public static final int passwordHint=0x7f070005;
+        public static final int printScreen_label=0x7f070013;
         public static final int scrollingScreen_summary=0x7f070011;
         public static final int scrollingScreen_title=0x7f070010;
+        public static final int search_label=0x7f070015;
         public static final int settings_label=0x7f07000c;
         public static final int settings_title=0x7f07000d;
         public static final int studentSocietyButton=0x7f07000b;

@@ -22,4 +22,8 @@
     <string-array name="language_array">
       <item>English</item>
     </string-array>
+    <string name="printScreen_label">Print Screen</string>
+    <string name="downloadData_label">Download Data</string>
+    <string name="search_label">Search</string>
+    <string name="about_label">About</string>
 </resources>
