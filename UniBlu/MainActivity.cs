@@ -7,7 +7,7 @@ using Android.Views;
 
 namespace UniBlu
 {
-	[Activity(Label = "@string/appName", MainLauncher = true, Icon = "@drawable/logo")]
+	[Activity(Label = "@string/appName", MainLauncher = true, Icon = "@drawable/logo2")]
 	public class MainActivity : Activity
 	{
 		Button loginButton;
