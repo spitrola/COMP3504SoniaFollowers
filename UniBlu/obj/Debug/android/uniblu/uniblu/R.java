@@ -14,7 +14,9 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int blue=0x7f060000;
+        public static final int black=0x7f060001;
+        public static final int blueText=0x7f060002;
+        public static final int white=0x7f060000;
     }
     public static final class drawable {
         public static final int heart=0x7f020000;
@@ -24,23 +26,22 @@ public final class R {
         public static final int uniblu=0x7f020004;
     }
     public static final class id {
-        public static final int about=0x7f0b0010;
-        public static final int announcementButton=0x7f0b0003;
-        public static final int coursePlannerButton=0x7f0b0002;
-        public static final int downloadData=0x7f0b000e;
-        public static final int imageView1=0x7f0b0001;
-        public static final int instructorBiosButton=0x7f0b0004;
-        public static final int labSchedulesButton=0x7f0b0005;
-        public static final int loginButton=0x7f0b000b;
-        public static final int passwordEditText=0x7f0b000a;
-        public static final int printScreen=0x7f0b000d;
-        public static final int search=0x7f0b000f;
-        public static final int settings=0x7f0b000c;
-        public static final int studentSocietyButton=0x7f0b0006;
-        public static final int textView1=0x7f0b0008;
-        public static final int toolbar=0x7f0b0007;
-        public static final int toolbar1=0x7f0b0000;
-        public static final int usernameEditText=0x7f0b0009;
+        public static final int about=0x7f0b000f;
+        public static final int announcementButton=0x7f0b0002;
+        public static final int coursePlannerButton=0x7f0b0001;
+        public static final int downloadData=0x7f0b000d;
+        public static final int imageView1=0x7f0b0000;
+        public static final int instructorBiosButton=0x7f0b0003;
+        public static final int labSchedulesButton=0x7f0b0004;
+        public static final int loginButton=0x7f0b000a;
+        public static final int passwordEditText=0x7f0b0009;
+        public static final int printScreen=0x7f0b000c;
+        public static final int search=0x7f0b000e;
+        public static final int settings=0x7f0b000b;
+        public static final int studentSocietyButton=0x7f0b0005;
+        public static final int textView1=0x7f0b0007;
+        public static final int toolbar=0x7f0b0006;
+        public static final int usernameEditText=0x7f0b0008;
     }
     public static final class layout {
         public static final int landingpageview=0x7f030000;
