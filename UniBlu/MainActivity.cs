@@ -45,7 +45,11 @@ namespace UniBlu
 					var intent = new Intent(this, typeof(SettingsActivity));
 					StartActivity(intent);
 					return true;
-			}
+                case Resource.Id.about:
+                    intent = new Intent(this, typeof(AboutActivity));
+                    StartActivity(intent);
+                    return true;
+            }
 			return base.OnOptionsItemSelected(item);
 		}
 

@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutActivity.cs" />
     <Compile Include="LandingPageActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Music.cs" />
@@ -77,6 +78,9 @@
       <SubType>Designer</SubType>
     </None>
     <AndroidResource Include="Resources\layout\LandingPageView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\aboutLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -119,6 +123,15 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Alpha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\sigma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\delta.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

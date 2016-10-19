@@ -26,4 +26,21 @@
     <string name="downloadData_label">Download Data</string>
     <string name="search_label">Search</string>
     <string name="about_label">About</string>
+  <string name="aboutSonia">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Fusce ultricies augue nulla, eget lobortis nibh tempus sit amet.
+    Duis nec aliquam sem. Nam ac gravida purus, a porttitor sapien.
+  </string>
+  <string name="aboutJames">
+    Nam aliquam suscipit nunc, sit amet mollis massa blandit ac.
+    Nam eget luctus turpis, eu pharetra urna. Fusce eu accumsan ligula.
+    Nullam gravida ornare nunc, a gravida risus varius non.
+  </string>
+  <string name="aboutRyan">
+    Mauris eu lacinia nibh, quis vehicula velit. Duis eget bibendum eros, at sagittis metus.
+    Nullam gravida tellus sed leo eleifend, nec facilisis leo scelerisque.
+    Quisque sit amet est arcu.
+    Nullam hendrerit, leo ut gravida egestas, tellus enim mollis mauris, quis aliquet velit lacus eu ex.
+  </string>
+  <string name="aboutUs">About Us</string>
 </resources>
