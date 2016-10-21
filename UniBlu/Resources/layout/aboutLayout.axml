@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      layout="@layout/toolbar" />
+    <ImageView
+        android:src="@drawable/Alpha"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/soniaImageView" />
+    <TextView
+        android:text="@string/aboutSonia"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/soniaTextView" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+     <ImageView
+        android:src="@drawable/delta"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/jamesImageView" /> 
+    <TextView
+        android:text="@string/aboutJames"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jamesTextView" />
+   <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+       <ImageView
+        android:src="@drawable/sigma"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/jamesImageView" /> 
+   <TextView
+          android:text="@string/aboutRyan"
+          android:textAppearance="?android:attr/textAppearanceMedium"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/jamesTextView" />
+  </LinearLayout>
