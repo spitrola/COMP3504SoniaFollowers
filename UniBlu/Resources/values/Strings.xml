@@ -43,4 +43,5 @@
     Nullam hendrerit, leo ut gravida egestas, tellus enim mollis mauris, quis aliquet velit lacus eu ex.
   </string>
   <string name="aboutUs">About Us</string>
+  <string name="sorryNotDone">Sorry, that feature has not been implemented yet, stay tuned it is coming!</string>
 </resources>

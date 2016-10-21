@@ -8,15 +8,19 @@
 package uniblu.uniblu;
 
 public final class R {
+    public static final class anim {
+        public static final int numberofshakes=0x7f040000;
+        public static final int screenshake=0x7f040001;
+    }
     public static final class array {
-        public static final int language_array=0x7f080000;
+        public static final int language_array=0x7f090000;
     }
     public static final class attr {
     }
     public static final class color {
-        public static final int black=0x7f060001;
-        public static final int blueText=0x7f060002;
-        public static final int white=0x7f060000;
+        public static final int black=0x7f070001;
+        public static final int blueText=0x7f070002;
+        public static final int white=0x7f070000;
     }
     public static final class drawable {
         public static final int alpha=0x7f020000;
@@ -30,26 +34,26 @@ public final class R {
         public static final int uniblu=0x7f020008;
     }
     public static final class id {
-        public static final int about=0x7f0b0013;
-        public static final int announcementButton=0x7f0b0006;
-        public static final int coursePlannerButton=0x7f0b0005;
-        public static final int downloadData=0x7f0b0011;
-        public static final int imageView1=0x7f0b0004;
-        public static final int instructorBiosButton=0x7f0b0007;
-        public static final int jamesImageView=0x7f0b0002;
-        public static final int jamesTextView=0x7f0b0003;
-        public static final int labSchedulesButton=0x7f0b0008;
-        public static final int loginButton=0x7f0b000e;
-        public static final int passwordEditText=0x7f0b000d;
-        public static final int printScreen=0x7f0b0010;
-        public static final int search=0x7f0b0012;
-        public static final int settings=0x7f0b000f;
-        public static final int soniaImageView=0x7f0b0000;
-        public static final int soniaTextView=0x7f0b0001;
-        public static final int studentSocietyButton=0x7f0b0009;
-        public static final int textView1=0x7f0b000b;
-        public static final int toolbar=0x7f0b000a;
-        public static final int usernameEditText=0x7f0b000c;
+        public static final int about=0x7f0c0013;
+        public static final int announcementButton=0x7f0c0006;
+        public static final int coursePlannerButton=0x7f0c0005;
+        public static final int downloadData=0x7f0c0011;
+        public static final int imageView1=0x7f0c0004;
+        public static final int instructorBiosButton=0x7f0c0007;
+        public static final int jamesImageView=0x7f0c0002;
+        public static final int jamesTextView=0x7f0c0003;
+        public static final int labSchedulesButton=0x7f0c0008;
+        public static final int loginButton=0x7f0c000e;
+        public static final int passwordEditText=0x7f0c000d;
+        public static final int printScreen=0x7f0c0010;
+        public static final int search=0x7f0c0012;
+        public static final int settings=0x7f0c000f;
+        public static final int soniaImageView=0x7f0c0000;
+        public static final int soniaTextView=0x7f0c0001;
+        public static final int studentSocietyButton=0x7f0c0009;
+        public static final int textView1=0x7f0c000b;
+        public static final int toolbar=0x7f0c000a;
+        public static final int usernameEditText=0x7f0c000c;
     }
     public static final class layout {
         public static final int aboutlayout=0x7f030000;
@@ -58,44 +62,45 @@ public final class R {
         public static final int toolbar=0x7f030003;
     }
     public static final class menu {
-        public static final int settingsmenu=0x7f0a0000;
+        public static final int settingsmenu=0x7f0b0000;
     }
     public static final class raw {
-        public static final int pomp_loop=0x7f050000;
+        public static final int pomp_loop=0x7f060000;
     }
     public static final class string {
-        public static final int aboutJames=0x7f070018;
-        public static final int aboutRyan=0x7f070019;
-        public static final int aboutSonia=0x7f070017;
-        public static final int aboutUs=0x7f07001a;
-        public static final int about_label=0x7f070016;
-        public static final int announcementsButton=0x7f070008;
-        public static final int appName=0x7f070001;
-        public static final int coursePlannerButton=0x7f070007;
-        public static final int downloadData_label=0x7f070014;
-        public static final int instructorBiosButton=0x7f070009;
-        public static final int labSchedulesButton=0x7f07000a;
-        public static final int language_prompt=0x7f070012;
-        public static final int loginButton=0x7f070006;
-        public static final int music_summary=0x7f07000f;
-        public static final int music_title=0x7f07000e;
-        public static final int password=0x7f070003;
-        public static final int passwordHint=0x7f070005;
-        public static final int printScreen_label=0x7f070013;
-        public static final int scrollingScreen_summary=0x7f070011;
-        public static final int scrollingScreen_title=0x7f070010;
-        public static final int search_label=0x7f070015;
-        public static final int settings_label=0x7f07000c;
-        public static final int settings_title=0x7f07000d;
-        public static final int studentSocietyButton=0x7f07000b;
-        public static final int username=0x7f070002;
-        public static final int usernameHint=0x7f070004;
-        public static final int welcome=0x7f070000;
+        public static final int aboutJames=0x7f080018;
+        public static final int aboutRyan=0x7f080019;
+        public static final int aboutSonia=0x7f080017;
+        public static final int aboutUs=0x7f08001a;
+        public static final int about_label=0x7f080016;
+        public static final int announcementsButton=0x7f080008;
+        public static final int appName=0x7f080001;
+        public static final int coursePlannerButton=0x7f080007;
+        public static final int downloadData_label=0x7f080014;
+        public static final int instructorBiosButton=0x7f080009;
+        public static final int labSchedulesButton=0x7f08000a;
+        public static final int language_prompt=0x7f080012;
+        public static final int loginButton=0x7f080006;
+        public static final int music_summary=0x7f08000f;
+        public static final int music_title=0x7f08000e;
+        public static final int password=0x7f080003;
+        public static final int passwordHint=0x7f080005;
+        public static final int printScreen_label=0x7f080013;
+        public static final int scrollingScreen_summary=0x7f080011;
+        public static final int scrollingScreen_title=0x7f080010;
+        public static final int search_label=0x7f080015;
+        public static final int settings_label=0x7f08000c;
+        public static final int settings_title=0x7f08000d;
+        public static final int sorryNotDone=0x7f08001b;
+        public static final int studentSocietyButton=0x7f08000b;
+        public static final int username=0x7f080002;
+        public static final int usernameHint=0x7f080004;
+        public static final int welcome=0x7f080000;
     }
     public static final class style {
-        public static final int MyTheme=0x7f090000;
+        public static final int MyTheme=0x7f0a0000;
     }
     public static final class xml {
-        public static final int settings=0x7f040000;
+        public static final int settings=0x7f050000;
     }
 }

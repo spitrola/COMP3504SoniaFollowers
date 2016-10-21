@@ -1,9 +1,13 @@
-﻿using Android.App;
+﻿
+using System;
+using Android.App;
 using Android.Widget;
 using Android.OS;
-using System;
 using Android.Content;
 using Android.Views;
+using Android.Graphics;
+using Android.Views.Animations;
+using Android.Animation;
 
 namespace UniBlu
 {
@@ -13,6 +17,7 @@ namespace UniBlu
 		Button loginButton;
 		EditText password;
 		EditText username;
+        Toolbar toolbar;
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
@@ -49,11 +54,17 @@ namespace UniBlu
                     intent = new Intent(this, typeof(AboutActivity));
                     StartActivity(intent);
                     return true;
+                default:
+                    Animation myAnimation = AnimationUtils.LoadAnimation(this, Resource.Animation.screenShake);
+                    toolbar.StartAnimation(myAnimation);
+                    Toast toast = Toast.MakeText(this, Resource.String.sorryNotDone, ToastLength.Long);
+                    toast.SetGravity(GravityFlags.Center, 0, 0);
+                    toast.Show();
+                    return base.OnOptionsItemSelected(item);
             }
-			return base.OnOptionsItemSelected(item);
 		}
 
-		private void HandleEvents()
+        private void HandleEvents()
 		{
 			loginButton.Click += LoginButton_Click;
 		}
@@ -66,7 +77,7 @@ namespace UniBlu
 
 		private void FindViews()
 		{
-			var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+			toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
 			SetActionBar(toolbar);
 			ActionBar.SetDisplayUseLogoEnabled(true);
 			ActionBar.Title = GetString(Resource.String.welcome);
