@@ -52,7 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutActivity.cs" />
+    <Compile Include="BaseActivity.cs" />
     <Compile Include="LandingPageActivity.cs" />
+    <Compile Include="MainActivity - Copy.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Music.cs" />
     <Compile Include="Preferences.cs" />

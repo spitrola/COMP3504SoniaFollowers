@@ -43,17 +43,17 @@ public final class R {
         public static final int jamesImageView=0x7f0c0002;
         public static final int jamesTextView=0x7f0c0003;
         public static final int labSchedulesButton=0x7f0c0008;
-        public static final int loginButton=0x7f0c000e;
-        public static final int passwordEditText=0x7f0c000d;
+        public static final int loginButton=0x7f0c000d;
+        public static final int passwordEditText=0x7f0c000c;
         public static final int printScreen=0x7f0c0010;
         public static final int search=0x7f0c0012;
         public static final int settings=0x7f0c000f;
         public static final int soniaImageView=0x7f0c0000;
         public static final int soniaTextView=0x7f0c0001;
         public static final int studentSocietyButton=0x7f0c0009;
-        public static final int textView1=0x7f0c000b;
-        public static final int toolbar=0x7f0c000a;
-        public static final int usernameEditText=0x7f0c000c;
+        public static final int textView1=0x7f0c000a;
+        public static final int toolbar=0x7f0c000e;
+        public static final int usernameEditText=0x7f0c000b;
     }
     public static final class layout {
         public static final int aboutlayout=0x7f030000;

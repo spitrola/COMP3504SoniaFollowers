@@ -4,10 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <include
-      android:layout_width="fill_parent"
-      android:layout_height="wrap_content"
-      android:layout_alignParentTop="true"
-      layout="@layout/toolbar" />
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/toolbar" />
     <ImageView
         android:src="@drawable/Alpha"
         android:layout_width="match_parent"
@@ -23,30 +23,30 @@
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="@android:color/darker_gray" />
-     <ImageView
+    <ImageView
         android:src="@drawable/delta"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/jamesImageView" /> 
+        android:id="@+id/jamesImageView" />
     <TextView
         android:text="@string/aboutJames"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/jamesTextView" />
-   <View
+    <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="@android:color/darker_gray" />
-       <ImageView
+    <ImageView
         android:src="@drawable/sigma"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/jamesImageView" /> 
-   <TextView
-          android:text="@string/aboutRyan"
-          android:textAppearance="?android:attr/textAppearanceMedium"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:id="@+id/jamesTextView" />
-  </LinearLayout>
+        android:id="@+id/jamesImageView" />
+    <TextView
+        android:text="@string/aboutRyan"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jamesTextView" />
+</LinearLayout>

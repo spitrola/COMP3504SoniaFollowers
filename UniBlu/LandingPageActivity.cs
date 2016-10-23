@@ -13,19 +13,17 @@ using Android.Widget;
 namespace UniBlu
 {
 	[Activity(Label = "Landing Page sucks as a title")]
-	class LandingPageActivity : Activity
+	class LandingPageActivity : BaseActivity
 	{
+        Toolbar toolbar;
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 			SetContentView(Resource.Layout.LandingPageView);
-			var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-			SetActionBar(toolbar);
-			ActionBar.Title = GetString(Resource.String.appName);
 			FindViews();
 			HandleEvents();
 		}
-		protected override void OnResume()
+/*		protected override void OnResume()
 		{
 			base.OnResume();
 			Music.play(this, Resource.Raw.pomp_loop);
@@ -57,14 +55,17 @@ namespace UniBlu
 			}
 			return base.OnOptionsItemSelected(item);
 		}
-
+*/
 		private void FindViews()
 		{
-
-		}
+            toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetActionBar(toolbar);
+            ActionBar.SetDisplayUseLogoEnabled(true);
+            ActionBar.Title = GetString(Resource.String.appName);
+        }
 		private void HandleEvents()
 		{
 
-		}
+        }
 	}
 }

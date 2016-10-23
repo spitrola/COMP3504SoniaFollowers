@@ -168,11 +168,11 @@ namespace UniBlu
 			// aapt resource value: 0x7f0c0008
 			public const int labSchedulesButton = 2131492872;
 			
-			// aapt resource value: 0x7f0c000e
-			public const int loginButton = 2131492878;
-			
 			// aapt resource value: 0x7f0c000d
-			public const int passwordEditText = 2131492877;
+			public const int loginButton = 2131492877;
+			
+			// aapt resource value: 0x7f0c000c
+			public const int passwordEditText = 2131492876;
 			
 			// aapt resource value: 0x7f0c0010
 			public const int printScreen = 2131492880;
@@ -192,14 +192,14 @@ namespace UniBlu
 			// aapt resource value: 0x7f0c0009
 			public const int studentSocietyButton = 2131492873;
 			
-			// aapt resource value: 0x7f0c000b
-			public const int textView1 = 2131492875;
-			
 			// aapt resource value: 0x7f0c000a
-			public const int toolbar = 2131492874;
+			public const int textView1 = 2131492874;
 			
-			// aapt resource value: 0x7f0c000c
-			public const int usernameEditText = 2131492876;
+			// aapt resource value: 0x7f0c000e
+			public const int toolbar = 2131492878;
+			
+			// aapt resource value: 0x7f0c000b
+			public const int usernameEditText = 2131492875;
 			
 			static Id()
 			{

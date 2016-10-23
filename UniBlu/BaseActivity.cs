@@ -9,21 +9,31 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Views.Animations;
 
 namespace UniBlu
 {
-    [Activity(Label = "About Us")]
-    public class AboutActivity : BaseActivity
+    [Activity(Label = "BaseActivity")]
+    public class BaseActivity : Activity
     {
         Toolbar toolbar;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.aboutLayout);
+            SetContentView(Resource.Layout.Main);
             FindViews();
-            HandleEvents();
         }
-/*        protected override void OnResume()
+        private void FindViews()
+        {
+            toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetActionBar(toolbar);
+        }
+        public Toolbar getToolBar()
+        {
+            return toolbar;
+        }
+
+        protected override void OnResume()
         {
             base.OnResume();
             Music.play(this, Resource.Raw.pomp_loop);
@@ -48,20 +58,18 @@ namespace UniBlu
                     var intent = new Intent(this, typeof(SettingsActivity));
                     StartActivity(intent);
                     return true;
+                case Resource.Id.about:
+                    intent = new Intent(this, typeof(AboutActivity));
+                    StartActivity(intent);
+                    return true;
+                default:
+                    Animation myAnimation = AnimationUtils.LoadAnimation(this, Resource.Animation.screenShake);
+                    this.toolbar.StartAnimation(myAnimation);
+                    Toast toast = Toast.MakeText(this, Resource.String.sorryNotDone, ToastLength.Long);
+                    toast.SetGravity(GravityFlags.Center, 0, 0);
+                    toast.Show();
+                    return base.OnOptionsItemSelected(item);
             }
-            return base.OnOptionsItemSelected(item);
-        }
-*/
-        private void FindViews()
-        {
-            toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-            SetActionBar(toolbar);
-            ActionBar.SetDisplayUseLogoEnabled(true);
-            ActionBar.Title = GetString(Resource.String.aboutUs);
-        }
-        private void HandleEvents()
-        {
-
         }
     }
 }
