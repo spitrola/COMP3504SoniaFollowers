@@ -9,13 +9,16 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Graphics;
+using Android.Views.Animations;
+using Android.Animation;
 
 namespace UniBlu
 {
 	[Activity(Label = "Landing Page sucks as a title")]
 	class LandingPageActivity : BaseActivity
 	{
-        Toolbar toolbar;
+        //Toolbar toolbar;
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
@@ -58,9 +61,10 @@ namespace UniBlu
 */
 		private void FindViews()
 		{
-            toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-            SetActionBar(toolbar);
+            this.toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetActionBar(this.toolbar);
             ActionBar.SetDisplayUseLogoEnabled(true);
+            ActionBar.SetDisplayHomeAsUpEnabled(true);
             ActionBar.Title = GetString(Resource.String.appName);
         }
 		private void HandleEvents()

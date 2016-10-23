@@ -10,13 +10,14 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Views.Animations;
+using Android.Animation;
 
 namespace UniBlu
 {
     [Activity(Label = "BaseActivity")]
     public class BaseActivity : Activity
     {
-        Toolbar toolbar;
+        protected Toolbar toolbar;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -27,6 +28,11 @@ namespace UniBlu
         {
             toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetActionBar(toolbar);
+            ActionBar.SetHomeButtonEnabled(true);
+            ActionBar.SetDisplayUseLogoEnabled(true);
+            ActionBar.SetDisplayHomeAsUpEnabled(true);
+            ActionBar.SetHomeAsUpIndicator(Resource.Drawable.leftArrow);
+
         }
         public Toolbar getToolBar()
         {
@@ -64,7 +70,7 @@ namespace UniBlu
                     return true;
                 default:
                     Animation myAnimation = AnimationUtils.LoadAnimation(this, Resource.Animation.screenShake);
-                    this.toolbar.StartAnimation(myAnimation);
+                    toolbar.StartAnimation(myAnimation);
                     Toast toast = Toast.MakeText(this, Resource.String.sorryNotDone, ToastLength.Long);
                     toast.SetGravity(GravityFlags.Center, 0, 0);
                     toast.Show();

@@ -17,7 +17,7 @@ namespace UniBlu
 		Button loginButton;
 		EditText password;
 		EditText username;
-        Toolbar toolbar;
+        // Toolbar toolbar;
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
@@ -40,8 +40,8 @@ namespace UniBlu
 
 		private void FindViews()
 		{
-			toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-			SetActionBar(toolbar);
+			this.toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+			SetActionBar(this.toolbar);
 			ActionBar.SetDisplayUseLogoEnabled(true);
 			ActionBar.Title = GetString(Resource.String.welcome);
 

@@ -11,7 +11,7 @@ using Android.Animation;
 
 namespace UniBlu
 {
-	[Activity(Label = "@string/appName", MainLauncher = true, Icon = "@drawable/logo2")]
+	[Activity(Label = "@string/appName", Icon = "@drawable/logo2")]
 	public class MainActivityCopy : Activity
 	{
 		Button loginButton;
