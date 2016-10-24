@@ -13,14 +13,128 @@ public final class R {
         public static final int screenshake=0x7f040001;
     }
     public static final class array {
-        public static final int language_array=0x7f090000;
+        public static final int language_array=0x7f0b0000;
     }
     public static final class attr {
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardBackgroundColor=0x7f010000;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardCornerRadius=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardElevation=0x7f010002;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardMaxElevation=0x7f010003;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardPreventCornerOverlap=0x7f010005;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cardUseCompatPadding=0x7f010004;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPadding=0x7f010006;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingBottom=0x7f01000a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingLeft=0x7f010007;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingRight=0x7f010008;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int contentPaddingTop=0x7f010009;
     }
     public static final class color {
-        public static final int black=0x7f070001;
-        public static final int blueText=0x7f070002;
-        public static final int white=0x7f070000;
+        public static final int black=0x7f080005;
+        public static final int blueText=0x7f080006;
+        public static final int cardview_dark_background=0x7f080000;
+        public static final int cardview_light_background=0x7f080001;
+        public static final int cardview_shadow_end_color=0x7f080002;
+        public static final int cardview_shadow_start_color=0x7f080003;
+        public static final int white=0x7f080004;
+    }
+    public static final class dimen {
+        public static final int cardview_compat_inset_shadow=0x7f090000;
+        public static final int cardview_default_elevation=0x7f090001;
+        public static final int cardview_default_radius=0x7f090002;
     }
     public static final class drawable {
         public static final int alpha=0x7f020000;
@@ -36,26 +150,27 @@ public final class R {
         public static final int uniblu=0x7f02000a;
     }
     public static final class id {
-        public static final int about=0x7f0c0013;
-        public static final int announcementButton=0x7f0c0006;
-        public static final int coursePlannerButton=0x7f0c0005;
-        public static final int downloadData=0x7f0c0011;
-        public static final int imageView1=0x7f0c0004;
-        public static final int instructorBiosButton=0x7f0c0007;
-        public static final int jamesImageView=0x7f0c0002;
-        public static final int jamesTextView=0x7f0c0003;
-        public static final int labSchedulesButton=0x7f0c0008;
-        public static final int loginButton=0x7f0c000d;
-        public static final int passwordEditText=0x7f0c000c;
-        public static final int printScreen=0x7f0c0010;
-        public static final int search=0x7f0c0012;
-        public static final int settings=0x7f0c000f;
-        public static final int soniaImageView=0x7f0c0000;
-        public static final int soniaTextView=0x7f0c0001;
-        public static final int studentSocietyButton=0x7f0c0009;
-        public static final int textView1=0x7f0c000a;
-        public static final int toolbar=0x7f0c000e;
-        public static final int usernameEditText=0x7f0c000b;
+        public static final int about=0x7f0d0014;
+        public static final int announcementButton=0x7f0d0007;
+        public static final int card_view=0x7f0d0000;
+        public static final int coursePlannerButton=0x7f0d0006;
+        public static final int downloadData=0x7f0d0012;
+        public static final int imageView1=0x7f0d0005;
+        public static final int instructorBiosButton=0x7f0d0008;
+        public static final int jamesImageView=0x7f0d0003;
+        public static final int jamesTextView=0x7f0d0004;
+        public static final int labSchedulesButton=0x7f0d0009;
+        public static final int loginButton=0x7f0d000e;
+        public static final int passwordEditText=0x7f0d000d;
+        public static final int printScreen=0x7f0d0011;
+        public static final int search=0x7f0d0013;
+        public static final int settings=0x7f0d0010;
+        public static final int soniaImageView=0x7f0d0001;
+        public static final int soniaTextView=0x7f0d0002;
+        public static final int studentSocietyButton=0x7f0d000a;
+        public static final int textView1=0x7f0d000b;
+        public static final int toolbar=0x7f0d000f;
+        public static final int usernameEditText=0x7f0d000c;
     }
     public static final class layout {
         public static final int aboutlayout=0x7f030000;
@@ -64,45 +179,274 @@ public final class R {
         public static final int toolbar=0x7f030003;
     }
     public static final class menu {
-        public static final int settingsmenu=0x7f0b0000;
+        public static final int settingsmenu=0x7f0c0000;
     }
     public static final class raw {
         public static final int pomp_loop=0x7f060000;
     }
     public static final class string {
-        public static final int aboutJames=0x7f080018;
-        public static final int aboutRyan=0x7f080019;
-        public static final int aboutSonia=0x7f080017;
-        public static final int aboutUs=0x7f08001a;
-        public static final int about_label=0x7f080016;
-        public static final int announcementsButton=0x7f080008;
-        public static final int appName=0x7f080001;
-        public static final int coursePlannerButton=0x7f080007;
-        public static final int downloadData_label=0x7f080014;
-        public static final int instructorBiosButton=0x7f080009;
-        public static final int labSchedulesButton=0x7f08000a;
-        public static final int language_prompt=0x7f080012;
-        public static final int loginButton=0x7f080006;
-        public static final int music_summary=0x7f08000f;
-        public static final int music_title=0x7f08000e;
-        public static final int password=0x7f080003;
-        public static final int passwordHint=0x7f080005;
-        public static final int printScreen_label=0x7f080013;
-        public static final int scrollingScreen_summary=0x7f080011;
-        public static final int scrollingScreen_title=0x7f080010;
-        public static final int search_label=0x7f080015;
-        public static final int settings_label=0x7f08000c;
-        public static final int settings_title=0x7f08000d;
-        public static final int sorryNotDone=0x7f08001b;
-        public static final int studentSocietyButton=0x7f08000b;
-        public static final int username=0x7f080002;
-        public static final int usernameHint=0x7f080004;
-        public static final int welcome=0x7f080000;
+        public static final int aboutJames=0x7f0a0018;
+        public static final int aboutRyan=0x7f0a0019;
+        public static final int aboutSonia=0x7f0a0017;
+        public static final int aboutUs=0x7f0a001a;
+        public static final int about_label=0x7f0a0016;
+        public static final int announcementsButton=0x7f0a0008;
+        public static final int appName=0x7f0a0001;
+        public static final int coursePlannerButton=0x7f0a0007;
+        public static final int downloadData_label=0x7f0a0014;
+        public static final int instructorBiosButton=0x7f0a0009;
+        public static final int labSchedulesButton=0x7f0a000a;
+        public static final int language_prompt=0x7f0a0012;
+        public static final int loginButton=0x7f0a0006;
+        public static final int music_summary=0x7f0a000f;
+        public static final int music_title=0x7f0a000e;
+        public static final int password=0x7f0a0003;
+        public static final int passwordHint=0x7f0a0005;
+        public static final int printScreen_label=0x7f0a0013;
+        public static final int scrollingScreen_summary=0x7f0a0011;
+        public static final int scrollingScreen_title=0x7f0a0010;
+        public static final int search_label=0x7f0a0015;
+        public static final int settings_label=0x7f0a000c;
+        public static final int settings_title=0x7f0a000d;
+        public static final int sorryNotDone=0x7f0a001b;
+        public static final int studentSocietyButton=0x7f0a000b;
+        public static final int username=0x7f0a0002;
+        public static final int usernameHint=0x7f0a0004;
+        public static final int welcome=0x7f0a0000;
     }
     public static final class style {
-        public static final int MyTheme=0x7f0a0000;
+        public static final int Base_CardView=0x7f070001;
+        public static final int CardView=0x7f070000;
+        public static final int CardView_Dark=0x7f070002;
+        public static final int CardView_Light=0x7f070003;
+        public static final int MyTheme=0x7f070004;
     }
     public static final class xml {
         public static final int settings=0x7f050000;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a CardView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor UniBlu.UniBlu:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius UniBlu.UniBlu:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation UniBlu.UniBlu:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation UniBlu.UniBlu:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap UniBlu.UniBlu:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding UniBlu.UniBlu:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding UniBlu.UniBlu:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom UniBlu.UniBlu:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft UniBlu.UniBlu:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight UniBlu.UniBlu:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop UniBlu.UniBlu:contentPaddingTop}</code></td><td></td></tr>
+           </table>
+           @see #CardView_android_minHeight
+           @see #CardView_android_minWidth
+           @see #CardView_cardBackgroundColor
+           @see #CardView_cardCornerRadius
+           @see #CardView_cardElevation
+           @see #CardView_cardMaxElevation
+           @see #CardView_cardPreventCornerOverlap
+           @see #CardView_cardUseCompatPadding
+           @see #CardView_contentPadding
+           @see #CardView_contentPaddingBottom
+           @see #CardView_contentPaddingLeft
+           @see #CardView_contentPaddingRight
+           @see #CardView_contentPaddingTop
+         */
+        public static final int[] CardView = {
+            0x0101013f, 0x01010140, 0x7f010000, 0x7f010001,
+            0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005,
+            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009,
+            0x7f01000a
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+          attribute's value can be found in the {@link #CardView} array.
+          @attr name android:minHeight
+        */
+        public static final int CardView_android_minHeight = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+          attribute's value can be found in the {@link #CardView} array.
+          @attr name android:minWidth
+        */
+        public static final int CardView_android_minWidth = 0;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#cardBackgroundColor}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:cardBackgroundColor
+        */
+        public static final int CardView_cardBackgroundColor = 2;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#cardCornerRadius}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:cardCornerRadius
+        */
+        public static final int CardView_cardCornerRadius = 3;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#cardElevation}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:cardElevation
+        */
+        public static final int CardView_cardElevation = 4;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#cardMaxElevation}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:cardMaxElevation
+        */
+        public static final int CardView_cardMaxElevation = 5;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#cardPreventCornerOverlap}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:cardPreventCornerOverlap
+        */
+        public static final int CardView_cardPreventCornerOverlap = 7;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#cardUseCompatPadding}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:cardUseCompatPadding
+        */
+        public static final int CardView_cardUseCompatPadding = 6;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#contentPadding}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:contentPadding
+        */
+        public static final int CardView_contentPadding = 8;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#contentPaddingBottom}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:contentPaddingBottom
+        */
+        public static final int CardView_contentPaddingBottom = 12;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#contentPaddingLeft}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:contentPaddingLeft
+        */
+        public static final int CardView_contentPaddingLeft = 9;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#contentPaddingRight}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:contentPaddingRight
+        */
+        public static final int CardView_contentPaddingRight = 10;
+        /**
+          <p>This symbol is the offset where the {@link UniBlu.UniBlu.R.attr#contentPaddingTop}
+          attribute's value can be found in the {@link #CardView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name UniBlu.UniBlu:contentPaddingTop
+        */
+        public static final int CardView_contentPaddingTop = 11;
+    };
 }
