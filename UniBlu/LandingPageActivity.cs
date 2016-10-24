@@ -36,8 +36,6 @@ namespace UniBlu
         {
             SetActionBar(this.toolbar);
             ActionBar.Title = GetString(Resource.String.appName);
-            ActionBar.SetDisplayHomeAsUpEnabled(true);
-            ActionBar.SetHomeButtonEnabled(true);
         }
 
         private void FindViews()

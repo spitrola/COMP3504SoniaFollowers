@@ -27,10 +27,6 @@ namespace UniBlu
         {
             SetActionBar(this.toolbar);
             ActionBar.Title = GetString(Resource.String.aboutUs);
-            ActionBar.SetDisplayHomeAsUpEnabled(true);
-            ActionBar.SetHomeButtonEnabled(true);
-            ActionBar.SetDisplayUseLogoEnabled(true);
-            ActionBar.SetLogo(Resource.Drawable.logo2Icon);
         }
         private void FindViews()
         {
