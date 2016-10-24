@@ -29,10 +29,6 @@ namespace UniBlu
         private void SetToolBar()
         {
             SetActionBar(toolbar);
-            ActionBar.SetHomeButtonEnabled(true);
-            ActionBar.SetDisplayUseLogoEnabled(true);
-            ActionBar.SetDisplayHomeAsUpEnabled(true);
-            ActionBar.SetHomeAsUpIndicator(Resource.Drawable.leftArrow);
         }
 
         private void FindViews()
@@ -68,6 +64,9 @@ namespace UniBlu
                 case Resource.Id.about:
                     intent = new Intent(this, typeof(AboutActivity));
                     StartActivity(intent);
+                    return true;
+                case Android.Resource.Id.Home:
+                    Finish();
                     return true;
                 default:
                     Animation myAnimation = AnimationUtils.LoadAnimation(this, Resource.Animation.screenShake);

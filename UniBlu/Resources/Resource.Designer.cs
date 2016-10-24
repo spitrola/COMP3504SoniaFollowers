@@ -123,13 +123,16 @@ namespace UniBlu
 			public const int logo2 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int logoIcon = 2130837511;
+			public const int logo2Icon = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int sigma = 2130837512;
+			public const int logoIcon = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int UniBlu = 2130837513;
+			public const int sigma = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int UniBlu = 2130837514;
 			
 			static Drawable()
 			{
