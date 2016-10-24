@@ -214,8 +214,8 @@ namespace UniBlu
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0d0014
-			public const int about = 2131558420;
+			// aapt resource value: 0x7f0d0015
+			public const int about = 2131558421;
 			
 			// aapt resource value: 0x7f0d0007
 			public const int announcementButton = 2131558407;
@@ -226,8 +226,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0006
 			public const int coursePlannerButton = 2131558406;
 			
-			// aapt resource value: 0x7f0d0012
-			public const int downloadData = 2131558418;
+			// aapt resource value: 0x7f0d0013
+			public const int downloadData = 2131558419;
 			
 			// aapt resource value: 0x7f0d0005
 			public const int imageView1 = 2131558405;
@@ -244,20 +244,23 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0009
 			public const int labSchedulesButton = 2131558409;
 			
+			// aapt resource value: 0x7f0d000f
+			public const int loginButton = 2131558415;
+			
 			// aapt resource value: 0x7f0d000e
-			public const int loginButton = 2131558414;
+			public const int notRegistered = 2131558414;
 			
 			// aapt resource value: 0x7f0d000d
 			public const int passwordEditText = 2131558413;
 			
+			// aapt resource value: 0x7f0d0012
+			public const int printScreen = 2131558418;
+			
+			// aapt resource value: 0x7f0d0014
+			public const int search = 2131558420;
+			
 			// aapt resource value: 0x7f0d0011
-			public const int printScreen = 2131558417;
-			
-			// aapt resource value: 0x7f0d0013
-			public const int search = 2131558419;
-			
-			// aapt resource value: 0x7f0d0010
-			public const int settings = 2131558416;
+			public const int settings = 2131558417;
 			
 			// aapt resource value: 0x7f0d0001
 			public const int soniaImageView = 2131558401;
@@ -271,8 +274,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d000b
 			public const int textView1 = 2131558411;
 			
-			// aapt resource value: 0x7f0d000f
-			public const int toolbar = 2131558415;
+			// aapt resource value: 0x7f0d0010
+			public const int toolbar = 2131558416;
 			
 			// aapt resource value: 0x7f0d000c
 			public const int usernameEditText = 2131558412;
@@ -391,6 +394,9 @@ namespace UniBlu
 			
 			// aapt resource value: 0x7f0a000e
 			public const int music_title = 2131361806;
+			
+			// aapt resource value: 0x7f0a001c
+			public const int notRegistered = 2131361820;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int password = 2131361795;

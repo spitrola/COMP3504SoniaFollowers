@@ -150,26 +150,27 @@ containing a value of this type.
         public static final int uniblu=0x7f02000a;
     }
     public static final class id {
-        public static final int about=0x7f0d0014;
+        public static final int about=0x7f0d0015;
         public static final int announcementButton=0x7f0d0007;
         public static final int card_view=0x7f0d0000;
         public static final int coursePlannerButton=0x7f0d0006;
-        public static final int downloadData=0x7f0d0012;
+        public static final int downloadData=0x7f0d0013;
         public static final int imageView1=0x7f0d0005;
         public static final int instructorBiosButton=0x7f0d0008;
         public static final int jamesImageView=0x7f0d0003;
         public static final int jamesTextView=0x7f0d0004;
         public static final int labSchedulesButton=0x7f0d0009;
-        public static final int loginButton=0x7f0d000e;
+        public static final int loginButton=0x7f0d000f;
+        public static final int notRegistered=0x7f0d000e;
         public static final int passwordEditText=0x7f0d000d;
-        public static final int printScreen=0x7f0d0011;
-        public static final int search=0x7f0d0013;
-        public static final int settings=0x7f0d0010;
+        public static final int printScreen=0x7f0d0012;
+        public static final int search=0x7f0d0014;
+        public static final int settings=0x7f0d0011;
         public static final int soniaImageView=0x7f0d0001;
         public static final int soniaTextView=0x7f0d0002;
         public static final int studentSocietyButton=0x7f0d000a;
         public static final int textView1=0x7f0d000b;
-        public static final int toolbar=0x7f0d000f;
+        public static final int toolbar=0x7f0d0010;
         public static final int usernameEditText=0x7f0d000c;
     }
     public static final class layout {
@@ -200,6 +201,7 @@ containing a value of this type.
         public static final int loginButton=0x7f0a0006;
         public static final int music_summary=0x7f0a000f;
         public static final int music_title=0x7f0a000e;
+        public static final int notRegistered=0x7f0a001c;
         public static final int password=0x7f0a0003;
         public static final int passwordHint=0x7f0a0005;
         public static final int printScreen_label=0x7f0a0013;

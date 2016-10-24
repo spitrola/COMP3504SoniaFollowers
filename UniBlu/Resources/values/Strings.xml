@@ -44,4 +44,5 @@
   </string>
   <string name="aboutUs">About Us</string>
   <string name="sorryNotDone">Sorry, that feature has not been implemented yet, stay tuned it is coming!</string>
+  <string name="notRegistered"><u>Not Registered?</u></string>
 </resources>
