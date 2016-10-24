@@ -23,20 +23,21 @@ namespace UniBlu
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
             FindViews();
+            SetToolBar();
         }
-        private void FindViews()
+
+        private void SetToolBar()
         {
-            toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetActionBar(toolbar);
             ActionBar.SetHomeButtonEnabled(true);
             ActionBar.SetDisplayUseLogoEnabled(true);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             ActionBar.SetHomeAsUpIndicator(Resource.Drawable.leftArrow);
-
         }
-        public Toolbar getToolBar()
+
+        private void FindViews()
         {
-            return toolbar;
+            toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
         }
 
         protected override void OnResume()

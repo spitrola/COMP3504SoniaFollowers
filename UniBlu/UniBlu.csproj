@@ -26,7 +26,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>3</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
@@ -54,7 +54,6 @@
     <Compile Include="AboutActivity.cs" />
     <Compile Include="BaseActivity.cs" />
     <Compile Include="LandingPageActivity.cs" />
-    <Compile Include="MainActivity - Copy.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Music.cs" />
     <Compile Include="Preferences.cs" />
@@ -136,7 +135,9 @@
     <AndroidResource Include="Resources\drawable\delta.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\anim\numberOfShakes.xml" />
+    <AndroidResource Include="Resources\anim\numberOfShakes.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\anim\screenShake.xml" />
