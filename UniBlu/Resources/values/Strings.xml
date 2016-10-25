@@ -45,4 +45,8 @@
   <string name="aboutUs">About Us</string>
   <string name="sorryNotDone">Sorry, that feature has not been implemented yet, stay tuned it is coming!</string>
   <string name="notRegistered"><u>Not Registered?</u></string>
+  <string name="selectUserName">Select A User Name</string>
+  <string name="selectPassword">Select a Password</string>
+  <string name="confirmPassword">Confirm Password</string>
+  <string name="registration">Registration</string>
 </resources>

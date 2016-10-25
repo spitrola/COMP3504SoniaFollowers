@@ -17,6 +17,7 @@ namespace UniBlu
 		private Button loginButton;
 		private EditText password;
 		private EditText username;
+        private Button notRegistered;
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
@@ -34,9 +35,16 @@ namespace UniBlu
         private void HandleEvents()
 		{
 			loginButton.Click += LoginButton_Click;
+            notRegistered.Click += NotRegistered_Click;
 		}
 
-		private void LoginButton_Click(object sender, EventArgs e)
+        private void NotRegistered_Click(object sender, EventArgs e)
+        {
+            var intent = new Intent(this, typeof(RegistrationActivity));
+            StartActivity(intent);
+        }
+
+        private void LoginButton_Click(object sender, EventArgs e)
 		{
 			var intent = new Intent(this, typeof(LandingPageActivity));
 			StartActivity(intent);
@@ -46,7 +54,8 @@ namespace UniBlu
 		{
 			this.toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
 			loginButton = FindViewById<Button>(Resource.Id.loginButton);
-			password = FindViewById<EditText>(Resource.Id.passwordEditText);
+            notRegistered = FindViewById<Button>(Resource.Id.notRegistered);
+            password = FindViewById<EditText>(Resource.Id.passwordEditText);
 			username = FindViewById<EditText>(Resource.Id.usernameEditText);
 		}
 	}
