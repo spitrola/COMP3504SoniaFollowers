@@ -18,6 +18,7 @@ namespace UniBlu
         EditText userNameRegistration;
         EditText password;
         EditText confirmPassword;
+        Button registerButton;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -39,9 +40,20 @@ namespace UniBlu
             userNameRegistration = FindViewById<EditText>(Resource.Id.userNameEditText);
             password = FindViewById<EditText>(Resource.Id.passwordEditText);
             confirmPassword = FindViewById<EditText>(Resource.Id.confirmPasswordEditText);
+            registerButton = FindViewById<Button>(Resource.Id.registerButton);
         }
         private void HandleEvents()
         {
+            registerButton.Click += RegisterButton_Click;
+        }
+
+        private void RegisterButton_Click(object sender, EventArgs e)
+        {
+            Toast toast = Toast.MakeText(this, Resource.String.thankYouForRegistering, ToastLength.Long);
+            toast.SetGravity(GravityFlags.Center, 0, 0);
+            toast.Show();
+            var intent = new Intent(this, typeof(LandingPageActivity));
+            StartActivity(intent);
         }
     }
 }

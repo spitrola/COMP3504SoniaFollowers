@@ -49,4 +49,6 @@
   <string name="selectPassword">Select a Password</string>
   <string name="confirmPassword">Confirm Password</string>
   <string name="registration">Registration</string>
+  <string name="registerButton">Register</string>
+  <string name="thankYouForRegistering">Thank you for registering.</string>
 </resources>

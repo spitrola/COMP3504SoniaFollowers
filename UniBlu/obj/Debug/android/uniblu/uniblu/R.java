@@ -150,13 +150,13 @@ containing a value of this type.
         public static final int uniblu=0x7f02000a;
     }
     public static final class id {
-        public static final int about=0x7f0d001a;
+        public static final int about=0x7f0d001b;
         public static final int announcementButton=0x7f0d0007;
         public static final int card_view=0x7f0d0000;
         public static final int confirmPasswordEditText=0x7f0d0014;
         public static final int confirmPasswordTextView=0x7f0d0013;
         public static final int coursePlannerButton=0x7f0d0006;
-        public static final int downloadData=0x7f0d0018;
+        public static final int downloadData=0x7f0d0019;
         public static final int imageView1=0x7f0d0005;
         public static final int instructorBiosButton=0x7f0d0008;
         public static final int jamesImageView=0x7f0d0003;
@@ -166,15 +166,16 @@ containing a value of this type.
         public static final int notRegistered=0x7f0d000e;
         public static final int passwordEditText=0x7f0d000d;
         public static final int passwordTextView=0x7f0d0012;
-        public static final int printScreen=0x7f0d0017;
-        public static final int search=0x7f0d0019;
+        public static final int printScreen=0x7f0d0018;
+        public static final int registerButton=0x7f0d0015;
+        public static final int search=0x7f0d001a;
         public static final int selectUserNameTextView=0x7f0d0010;
-        public static final int settings=0x7f0d0016;
+        public static final int settings=0x7f0d0017;
         public static final int soniaImageView=0x7f0d0001;
         public static final int soniaTextView=0x7f0d0002;
         public static final int studentSocietyButton=0x7f0d000a;
         public static final int textView1=0x7f0d000b;
-        public static final int toolbar=0x7f0d0015;
+        public static final int toolbar=0x7f0d0016;
         public static final int userNameEditText=0x7f0d0011;
         public static final int usernameEditText=0x7f0d000c;
     }
@@ -212,6 +213,7 @@ containing a value of this type.
         public static final int password=0x7f0a0003;
         public static final int passwordHint=0x7f0a0005;
         public static final int printScreen_label=0x7f0a0013;
+        public static final int registerButton=0x7f0a0021;
         public static final int registration=0x7f0a0020;
         public static final int scrollingScreen_summary=0x7f0a0011;
         public static final int scrollingScreen_title=0x7f0a0010;
@@ -222,6 +224,7 @@ containing a value of this type.
         public static final int settings_title=0x7f0a000d;
         public static final int sorryNotDone=0x7f0a001b;
         public static final int studentSocietyButton=0x7f0a000b;
+        public static final int thankYouForRegistering=0x7f0a0022;
         public static final int username=0x7f0a0002;
         public static final int usernameHint=0x7f0a0004;
         public static final int welcome=0x7f0a0000;
