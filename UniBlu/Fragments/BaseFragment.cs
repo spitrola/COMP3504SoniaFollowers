@@ -11,6 +11,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using UniBlu.Model;
+using UniBlu.Service;
 
 namespace UniBlu.Fragments
 {
@@ -18,10 +19,11 @@ namespace UniBlu.Fragments
     {
         protected ListView listView;
         protected List<Announcement> announcements;
-        protected AnnouncementDataService announcementDataService;
+        private AnnouncementDataService announcementDataService;
+
         public BaseFragment()
         {
-            announcementDataService = new announcementDataService();
+            announcementDataService = new AnnouncementDataService();
         }
         protected void HandleEvents()
         {
