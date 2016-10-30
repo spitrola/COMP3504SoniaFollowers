@@ -57,9 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutActivity.cs" />
+    <Compile Include="Adapters\AnnouncementAdapter.cs" />
     <Compile Include="BaseActivity.cs" />
+    <Compile Include="Fragments\BaseFragment.cs" />
     <Compile Include="LandingPageActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Model\Announcement.cs" />
+    <Compile Include="Model\AnnouncementGroup.cs" />
     <Compile Include="Music.cs" />
     <Compile Include="Preferences.cs" />
     <Compile Include="RegistrationActivity.cs" />
@@ -92,6 +96,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\registrationLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AnnouncementRowView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
