@@ -19,7 +19,7 @@ namespace UniBlu.Fragments
     {
         protected ListView listView;
         protected List<Announcement> announcements;
-        private AnnouncementDataService announcementDataService;
+        protected AnnouncementDataService announcementDataService;
 
         public BaseFragment()
         {

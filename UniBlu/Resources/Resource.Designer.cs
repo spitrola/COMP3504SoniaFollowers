@@ -130,6 +130,9 @@ namespace UniBlu
 			// aapt resource value: 0x7f080003
 			public const int cardview_shadow_start_color = 2131230723;
 			
+			// aapt resource value: 0x7f080007
+			public const int uniblue = 2131230727;
+			
 			// aapt resource value: 0x7f080004
 			public const int white = 2131230724;
 			
@@ -214,47 +217,53 @@ namespace UniBlu
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0d0020
-			public const int about = 2131558432;
+			// aapt resource value: 0x7f0d0024
+			public const int about = 2131558436;
 			
-			// aapt resource value: 0x7f0d000c
-			public const int announcementButton = 2131558412;
+			// aapt resource value: 0x7f0d0010
+			public const int announcementButton = 2131558416;
 			
 			// aapt resource value: 0x7f0d0008
-			public const int announcementContentTextView = 2131558408;
+			public const int announcementCloseButton = 2131558408;
+			
+			// aapt resource value: 0x7f0d000c
+			public const int announcementContentTextView = 2131558412;
+			
+			// aapt resource value: 0x7f0d000a
+			public const int announcementDateTextView = 2131558410;
+			
+			// aapt resource value: 0x7f0d000d
+			public const int announcementListView = 2131558413;
+			
+			// aapt resource value: 0x7f0d000b
+			public const int announcementPostedByTextView = 2131558411;
 			
 			// aapt resource value: 0x7f0d0006
-			public const int announcementDateTextView = 2131558406;
-			
-			// aapt resource value: 0x7f0d0009
-			public const int announcementListView = 2131558409;
-			
-			// aapt resource value: 0x7f0d0007
-			public const int announcementPostedByTextView = 2131558407;
-			
-			// aapt resource value: 0x7f0d0005
-			public const int announcementTitleTextView = 2131558405;
+			public const int announcementTitleTextView = 2131558406;
 			
 			// aapt resource value: 0x7f0d0000
 			public const int card_view = 2131558400;
 			
-			// aapt resource value: 0x7f0d0019
-			public const int confirmPasswordEditText = 2131558425;
+			// aapt resource value: 0x7f0d001d
+			public const int confirmPasswordEditText = 2131558429;
 			
-			// aapt resource value: 0x7f0d0018
-			public const int confirmPasswordTextView = 2131558424;
+			// aapt resource value: 0x7f0d001c
+			public const int confirmPasswordTextView = 2131558428;
 			
-			// aapt resource value: 0x7f0d000b
-			public const int coursePlannerButton = 2131558411;
+			// aapt resource value: 0x7f0d000f
+			public const int coursePlannerButton = 2131558415;
 			
-			// aapt resource value: 0x7f0d001e
-			public const int downloadData = 2131558430;
+			// aapt resource value: 0x7f0d0022
+			public const int downloadData = 2131558434;
 			
-			// aapt resource value: 0x7f0d000a
-			public const int imageView1 = 2131558410;
+			// aapt resource value: 0x7f0d0009
+			public const int fragmentContainer = 2131558409;
 			
-			// aapt resource value: 0x7f0d000d
-			public const int instructorBiosButton = 2131558413;
+			// aapt resource value: 0x7f0d000e
+			public const int imageView1 = 2131558414;
+			
+			// aapt resource value: 0x7f0d0011
+			public const int instructorBiosButton = 2131558417;
 			
 			// aapt resource value: 0x7f0d0003
 			public const int jamesImageView = 2131558403;
@@ -262,35 +271,41 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0004
 			public const int jamesTextView = 2131558404;
 			
-			// aapt resource value: 0x7f0d000e
-			public const int labSchedulesButton = 2131558414;
-			
-			// aapt resource value: 0x7f0d0014
-			public const int loginButton = 2131558420;
-			
-			// aapt resource value: 0x7f0d0013
-			public const int notRegistered = 2131558419;
-			
 			// aapt resource value: 0x7f0d0012
-			public const int passwordEditText = 2131558418;
+			public const int labSchedulesButton = 2131558418;
+			
+			// aapt resource value: 0x7f0d0018
+			public const int loginButton = 2131558424;
+			
+			// aapt resource value: 0x7f0d0005
+			public const int mainScrollView = 2131558405;
 			
 			// aapt resource value: 0x7f0d0017
-			public const int passwordTextView = 2131558423;
+			public const int notRegistered = 2131558423;
 			
-			// aapt resource value: 0x7f0d001d
-			public const int printScreen = 2131558429;
+			// aapt resource value: 0x7f0d0016
+			public const int passwordEditText = 2131558422;
 			
-			// aapt resource value: 0x7f0d001a
-			public const int registerButton = 2131558426;
+			// aapt resource value: 0x7f0d001b
+			public const int passwordTextView = 2131558427;
 			
-			// aapt resource value: 0x7f0d001f
-			public const int search = 2131558431;
+			// aapt resource value: 0x7f0d0007
+			public const int postedByTextView = 2131558407;
 			
-			// aapt resource value: 0x7f0d0015
-			public const int selectUserNameTextView = 2131558421;
+			// aapt resource value: 0x7f0d0021
+			public const int printScreen = 2131558433;
 			
-			// aapt resource value: 0x7f0d001c
-			public const int settings = 2131558428;
+			// aapt resource value: 0x7f0d001e
+			public const int registerButton = 2131558430;
+			
+			// aapt resource value: 0x7f0d0023
+			public const int search = 2131558435;
+			
+			// aapt resource value: 0x7f0d0019
+			public const int selectUserNameTextView = 2131558425;
+			
+			// aapt resource value: 0x7f0d0020
+			public const int settings = 2131558432;
 			
 			// aapt resource value: 0x7f0d0001
 			public const int soniaImageView = 2131558401;
@@ -298,20 +313,20 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0002
 			public const int soniaTextView = 2131558402;
 			
-			// aapt resource value: 0x7f0d000f
-			public const int studentSocietyButton = 2131558415;
+			// aapt resource value: 0x7f0d0013
+			public const int studentSocietyButton = 2131558419;
 			
-			// aapt resource value: 0x7f0d0010
-			public const int textView1 = 2131558416;
+			// aapt resource value: 0x7f0d0014
+			public const int textView1 = 2131558420;
 			
-			// aapt resource value: 0x7f0d001b
-			public const int toolbar = 2131558427;
+			// aapt resource value: 0x7f0d001f
+			public const int toolbar = 2131558431;
 			
-			// aapt resource value: 0x7f0d0016
-			public const int userNameEditText = 2131558422;
+			// aapt resource value: 0x7f0d001a
+			public const int userNameEditText = 2131558426;
 			
-			// aapt resource value: 0x7f0d0011
-			public const int usernameEditText = 2131558417;
+			// aapt resource value: 0x7f0d0015
+			public const int usernameEditText = 2131558421;
 			
 			static Id()
 			{
@@ -330,28 +345,34 @@ namespace UniBlu
 			public const int aboutLayout = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int AnnouncementRowView = 2130903041;
+			public const int AnnouncementDetailView = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int InstructorAnnouncementFragment = 2130903042;
+			public const int AnnouncementMenuView = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int LandingPageView = 2130903043;
+			public const int AnnouncementRowView = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Main = 2130903044;
+			public const int InstructorAnnouncementFragment = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int ProgramAnnouncementFragment = 2130903045;
+			public const int LandingPageView = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int registrationLayout = 2130903046;
+			public const int Main = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int StudentSocietyAnnouncementFragment = 2130903047;
+			public const int ProgramAnnouncementFragment = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int toolbar = 2130903048;
+			public const int registrationLayout = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int StudentSocietyAnnouncementFragment = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int toolbar = 2130903050;
 			
 			static Layout()
 			{

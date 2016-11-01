@@ -14,7 +14,7 @@ using UniBlu.Model;
 
 namespace UniBlu.Service
 {
-    class AnnouncementDataService
+    public class AnnouncementDataService
     {
         private static AnnouncementRepository announcementRepository = new AnnouncementRepository();
 

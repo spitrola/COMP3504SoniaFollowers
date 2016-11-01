@@ -80,7 +80,8 @@ namespace UniBlu
 
         private void AnnouncementButton_Click(object sender, EventArgs e)
         {
-            notDone();
+            var intent = new Intent(this, typeof(AnnouncementMenuActivity));
+            StartActivity(intent);
         }
 
         private void CoursePlannerButton_Click(object sender, EventArgs e)

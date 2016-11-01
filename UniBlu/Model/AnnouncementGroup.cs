@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace UniBlu.Model
 {
-    class AnnouncementGroup
+    public class AnnouncementGroup
     {
         public int AnnouncementGroupId { get; set; }
         public string Title { get; set; }

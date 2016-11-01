@@ -59,8 +59,12 @@
     <Compile Include="AboutActivity.cs" />
     <Compile Include="AnnouncementDetailActivity.cs" />
     <Compile Include="Adapters\AnnouncementListAdapter.cs" />
+    <Compile Include="AnnouncementMenuActivity.cs" />
     <Compile Include="BaseActivity.cs" />
     <Compile Include="Fragments\BaseFragment.cs" />
+    <Compile Include="Fragments\InstructorsFragment.cs" />
+    <Compile Include="Fragments\ProgramFragment.cs" />
+    <Compile Include="Fragments\SocietyFragment.cs" />
     <Compile Include="LandingPageActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\Announcement.cs" />
@@ -113,6 +117,12 @@
     <AndroidResource Include="Resources\layout\StudentSocietyAnnouncementFragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\AnnouncementDetailView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AnnouncementMenuView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Heart.png" />
@@ -128,7 +138,9 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\values\Colors.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logo.png" />
