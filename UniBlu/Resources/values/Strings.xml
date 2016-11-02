@@ -18,6 +18,8 @@
     <string name="music_summary">Pomp and Circumstance</string>
     <string name="scrollingScreen_title">Add Background Scroll</string>
     <string name="scrollingScreen_summary">Gotta Love the Disco Screen Scroll</string>
+    <string name="saveReadAnnouncements_title">Delete announcements after reading</string>
+    <string name="saveReadAnnouncements_summary">Announcements can still be found at www.mymru.ca</string>
     <string name="language_prompt">Pick a language</string>
     <string-array name="language_array">
       <item>English</item>

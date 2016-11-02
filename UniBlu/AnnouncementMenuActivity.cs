@@ -17,7 +17,7 @@ using UniBlu.Fragments;
 namespace UniBlu
 {
     [Activity(Label = "Announcements")]
-    public class AnnouncementMenuActivity : Activity
+    public class AnnouncementMenuActivity :  Activity
     {
         private ListView announcementListView;
         private List<Announcement> allAnnouncements;
@@ -25,11 +25,9 @@ namespace UniBlu
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);
+            ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
 
             SetContentView(Resource.Layout.AnnouncementMenuView);
-
-            this.ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
 
             AddTab("Program", new ProgramFragment());
             AddTab("Instructors", new InstructorsFragment());

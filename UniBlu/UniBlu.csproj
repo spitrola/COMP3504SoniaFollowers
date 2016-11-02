@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutActivity.cs" />
+    <Compile Include="Adapters\InstructorBioAdapter.cs" />
     <Compile Include="AnnouncementDetailActivity.cs" />
     <Compile Include="Adapters\AnnouncementListAdapter.cs" />
     <Compile Include="AnnouncementMenuActivity.cs" />
@@ -65,17 +66,21 @@
     <Compile Include="Fragments\InstructorsFragment.cs" />
     <Compile Include="Fragments\ProgramFragment.cs" />
     <Compile Include="Fragments\SocietyFragment.cs" />
+    <Compile Include="InstructorBiosListActivity.cs" />
     <Compile Include="LandingPageActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\Announcement.cs" />
     <Compile Include="Model\AnnouncementGroup.cs" />
+    <Compile Include="Model\InstructorBio.cs" />
     <Compile Include="Music.cs" />
     <Compile Include="Preferences.cs" />
     <Compile Include="RegistrationActivity.cs" />
     <Compile Include="Repository\AnnouncementRepository.cs" />
+    <Compile Include="Repository\InstructorBioRepository.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\AnnouncementDataService.cs" />
+    <Compile Include="Service\InstructorBioDataService.cs" />
     <Compile Include="SettingsActivity.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +126,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\AnnouncementMenuView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\InstructorBioListView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\InstructorBiosView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

@@ -75,7 +75,8 @@ namespace UniBlu
 
         private void InstructorBiosButton_Click(object sender, EventArgs e)
         {
-            notDone();
+            var intent = new Intent(this, typeof(InstructorBiosListActivity));
+            StartActivity(intent);
         }
 
         private void AnnouncementButton_Click(object sender, EventArgs e)
