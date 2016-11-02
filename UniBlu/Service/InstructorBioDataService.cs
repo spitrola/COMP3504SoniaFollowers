@@ -14,7 +14,7 @@ using UniBlu.Model;
 
 namespace UniBlu.Service
 {
-    class InstructorBioDataService
+    public class InstructorBioDataService
     {
         private static InstructorBioRepository instructorBioRepository = new InstructorBioRepository();
 

@@ -21,23 +21,28 @@ namespace UniBlu
         private ListView instructorBioListView;
         private InstructorBioDataService instructorBioDataService;
         private List<InstructorBio> allInstructorBios;
+        private InstructorBioAdapter InstructorBioAdapter;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.InstructorBioListView);
-
-            FindViews();
             instructorBioDataService = new InstructorBioDataService();
-            // TODO Need to get the data and bind to view
             allInstructorBios = instructorBioDataService.GetAllInstructorBios();
+            FindViews();
+            
+            InstructorBioAdapter = new InstructorBioAdapter(this, allInstructorBios);
+
+            instructorBioListView.Adapter = InstructorBioAdapter;
+            // TODO Need to get the data and bind to view
+            
             instructorBioListView.ItemClick += ListView_ItemClick;
         }
 
         private void FindViews()
         {
-            instructorBioListView = FindViewById<ListView>(Resource.Layout.InstructorBioListView);
+            instructorBioListView = FindViewById<ListView>(Resource.Id.listView1);
         }
 
         private void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
