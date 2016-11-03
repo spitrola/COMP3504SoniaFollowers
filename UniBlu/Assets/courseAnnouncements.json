@@ -1,0 +1,660 @@
+[
+	{
+		"content": "\r\n Pluralsight course: Write Less Code with Xamarin Designer\r\nhttps://app.pluralsight.com/library/courses/xamarin-designer-write-less-code/table-of-contents\r\n\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Thursday, October 27, 2016 2:18:14 PM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "New pluralsight course: Write Less Code with Xamarin Designer"
+	},
+	{
+		"content": "\r\nhttps://developer.xamarin.com/samples/android/all/\r\n\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Wednesday, October 19, 2016 9:37:39 PM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "Sample Xamarin.Android projects"
+	},
+	{
+		"content": "\r\n(1) Exam 2 marks have been posted\r\n(2) Reminder: \r\nSkills demo 1 period has been extended. You have from Oct 5 to Oct 31 to sign up for and do your demo. Each demo now has a 40 minute time period.\r\n     All previously booked demos have been cancelled to allow for rebooking. If you have already done your demo you are good. If you have not done your demo please sign up for a demo again through the following link:\r\n       http://tinyurl.com/j76neg6\r\n\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Monday, October 10, 2016 8:21:23 PM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "Exam 2 marks and Skills Demo 1"
+	},
+	{
+		"content": "\r\n(1) Skills demo 1 period has been extended. You have from Oct 5 to Oct 31 to sign up for and do your demo. Each demo now has a 40 minute time period.\r\n     All previously booked demos have been cancelled to allow for rebooking. If you have already done your demo you are good. If you have not done your demo please sign up for a demo again through the following link:\r\n       http://tinyurl.com/j76neg6\r\n (2) The dates for Exams 3,4, and 5 have been changed. The course calendar has been updated along with the main course content section to reflect this. The new dates are listed below\r\n(3) For Course material 3 you will now see \"Exam and Studying Prep Material\" this contains a document with questions to help you study the provided material. Exam 3 will be built using these questions. These questions will also help you with early prep for Skills demo 2\r\n(4) Phase 4 of the course project is now worth 11% ( some of the weight of phase 5 was moved here)\r\n(5) Phase 5 of the project now contains fewer steps. I will discuss this in class next week.\r\n\r\nCourse Link/Main course content/Course Material 3 (Oct 5 to Oct 25)/Exam and Studying Prep Material\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Wednesday, October 5, 2016 8:30:59 PM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "Large update"
+	},
+	{
+		"content": "\r\nIf you want to set up the development environment the same way it runs in the lab (Virtual machine, etc..) you can use the tools outlined in the attached document found under the \"Dev Env Setup\" found on blackboard.\r\nIf you are setting up the environment in a different way, it will be your responsibility to make sure it is set up properly.\r\n\r\nCourse Link/Dev Env Setup\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Tuesday, September 20, 2016 1:22:11 PM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "Personal development environment setup information"
+	},
+	{
+		"content": "\r\nUpdates\r\nThis Monday (Sept 19th) during lecture time there will also be talk given by Ray DePaul who is the Director of the Institute for Innovation & Entrepreneurship.\r\nhttp://www.mtroyal.ca/ProgramsCourses/FacultiesSchoolsCentres/Business/FacultyStaff/depaulr.htm\r\n \r\nReminders\r\n(1) Phase 2 of the course project is Due this Wednesday\r\n(2) The first exam is this Wednesday during the tutorial time. The exam is based upon material from \"Course material 1\"\r\n\r\n\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Sunday, September 18, 2016 11:32:01 AM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "Reminders and updates"
+	},
+	{
+		"content": "\r\n(1) As mentioned in class today Colulton found a legal way to get three free months access to Pluralsight; the information is below:\r\nhttps://absolute-sharepoint.com/2015/12/free-pluralsight-6-month-subscription.html\r\nYou will also need to set up a Microsoft email address (hotmail, live, or any email linked to a Microsoft account)\r\nOther students in the course have tested it and everything has worked for them\r\n(2) Some people have been thinking about developing games in the course. For a limited time (open for the next 7ish days)  A development environment designed for games call GameMaker is available for as low as $20 (normally way higher than this). If you ay at least $15 to $20 you will get access to the android and ios output modules. Take a look and react fast if you are interested\r\nhttps://www.humblebundle.com/gamemaker-bundle\r\n \r\n\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Monday, September 12, 2016 5:38:49 PM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "Pluralsight (3 months free) and Possible way to develop games ( react fast to get access)"
+	},
+	{
+		"content": "\r\nReminder: Today was the first day of classes. \r\nYou should start Studying all material under \"Course Material 1\" as of today. This is a self-guided course, so you do not need t wait for the first lecture. \r\nThe first exam based upon this material will be held on Sept 21 (Two weeks from today).\r\nThis exam is worth 10% of your grade. \r\n\r\nCourse Link/Main course content/Course Material 1 (Sept 7 to Sept 20)\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Thursday, September 8, 2016 11:14:01 PM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "You should start studying now"
+	},
+	{
+		"content": "\r\nIn this course, we will be concentrating on Android development using Xamarin. If you want to independently (outside of the course) learn about IOS development using Swift I came across the following free Standford course resource: \r\n\" Developing iOS 9 Apps with Swift \"\r\n https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961\r\n\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Wednesday, September 7, 2016 9:56:23 PM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "Free Stanford course on IOS development with Swift"
+	},
+	{
+		"content": "\r\nAndroid emulation while developing can be painfully slow, and we are having issues on the school computers. A faster solution is to hook up and android based devices by usb to the computer. The development environments will be able to recolonize this and let you debug apps directly on the device (it will compile and load the app onto the device for you). As such, I wanted to send out a quick survey to see how many of you currently have or can get access to an android device. The department has a few that can be used, but I want to see if more need to be acquired.  \r\nPlease fill out the 2 second survey found at the link below\r\nhttps://goo.gl/forms/fwHz5PkXAegUxpoz1\r\n\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Wednesday, August 24, 2016 5:50:31 PM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "Survey: Do you have access to an android device for development?"
+	},
+	{
+		"content": "\r\nProgramming 4 is open early for business.\r\nYou can now get a head start on studying material before the semester officially begins. \r\nYou will be able to work at your pace to learn the material. For an introduction to the course and where to get started\r\nwatch the \"Course introduction video\" posted under the main course content section of Blackboard. \r\n\r\nCourse Link/Main course content/Course Introduction Video\r\n",
+		"postedBy": "Jordan Kidney",
+		"postedOn": "Tuesday, August 23, 2016 10:12:21 PM MDT",
+		"postedTo": "COMP 3504 F16 Prog IV: Software Engineering",
+		"title": "Course is open for business"
+	},
+	{
+		"content": "\r\nHello everyone. The fourth and last quiz will be Wed April 1. This is not an April Fool's joke!\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Friday, March 27, 2015 2:21:21 PM MDT",
+		"postedTo": "COMP-3512 - Winter 2015 - Web II: Web Application Dev",
+		"title": "Quiz #4 - Wed April 1"
+	},
+	{
+		"content": "\r\nHello everyone. I have uploaded the revised version of assignment #3.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, March 24, 2015 3:49:48 PM MDT",
+		"postedTo": "COMP-3512 - Winter 2015 - Web II: Web Application Dev",
+		"title": "Assignment #3 - revised"
+	},
+	{
+		"content": "\r\nHello everyone. I have made a small revision to the second assignment (which has been uploaded to blackboard). I have simplified the browse case by removing the need to display the director and cast members from the list display. To do so would have required nested repeaters or gridviews which are a little too complicated for this assignment. My apologies to any who invested a bunch of time in doing this!! If you have already solved this problem then no need to change anything.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Monday, March 9, 2015 10:15:59 AM MDT",
+		"postedTo": "COMP-3512 - Winter 2015 - Web II: Web Application Dev",
+		"title": "Assignment #2 - revised version uploaded"
+	},
+	{
+		"content": "\r\nReminder next quiz on Wed March 11.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Sunday, March 8, 2015 8:40:06 PM MDT",
+		"postedTo": "COMP-3512 - Winter 2015 - Web II: Web Application Dev",
+		"title": "Quiz #3 - Wed March 11"
+	},
+	{
+		"content": "\r\nHello everyone. There are a range of possible errors that may encounter with Lab4 and Visual Studio 2012 (or higher), so I will try to clarify how they are solved in this announcement.\r\nVS2012 introduced a new local database mechanism called SQL Server Local/DB which replaces the previous SQL Server Express. Unfortunately, there is not any backwards compatibility, so the original database I provided might not work If you see an error message about SQL Server Express or something like that, then that means you are using the wrong database file.\r\nAnother error is possible with the new Local/DB file.\r\nSeveral students (including myself) discovered that no matter what they did, they started seeing a error message about not being about to connect to the database: \"A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Error occurred during LocalDB instance startup: SQL Server process failed to start\"\r\n The solution to this problem is as follows:\r\n1. Open a cmd window\r\n2. type in the following commands:\r\nsqllocaldb delete \"v11.0\"\r\nsqllocaldb create \"v11.0\"\r\n \r\nFinally, VS2012 has changed the interface for the New Query. In lab4, there are instructions (for instance on page 13) to the Add Table Dialog and other things that are no longer available in VS2012.  In previous versions of VS, there was a Microsoft Access style visual query builder but now it seems VS2012 only provides a command window for typing in SQL commands.\r\n \r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Wednesday, March 4, 2015 10:01:10 AM MST",
+		"postedTo": "COMP-3512 - Winter 2015 - Web II: Web Application Dev",
+		"title": "B215 database errors"
+	},
+	{
+		"content": "\r\nHello everyone. Our next quiz will be at the beginning of class on Friday Feb 6.\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, February 3, 2015 3:15:42 PM MST",
+		"postedTo": "COMP-3512 - Winter 2015 - Web II: Web Application Dev",
+		"title": "COMP3512 - Quiz #2 - Friday"
+	},
+	{
+		"content": "\r\nHello everyone. I've uploaded a revised assignment #1 with a different due date. The new date is now Sunday Feb 15 (instead of Wed Feb 11). The reason for the original due date is that I wanted everyone to have completed their assignment before the midterm so that people wouldn't struggle with the php coding questions on the midterm. However, I was a little worried about the assignment interfering with your exam preparation so I decided to change the due date to the Sunday after the exam. \r\nRegardless of the due date change, I would STRONGLY advise you to get as much of the assignment completed as possible before the exam.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Wednesday, January 28, 2015 10:30:53 AM MST",
+		"postedTo": "COMP-3512 - Winter 2015 - Web II: Web Application Dev",
+		"title": "Assignment #1 due date changed"
+	},
+	{
+		"content": "\r\nHello everyone. Assignment #1 has been uploaded to blackboard. The relevant files are on the Resources folder in B215.\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, January 27, 2015 4:32:54 PM MST",
+		"postedTo": "COMP-3512 - Winter 2015 - Web II: Web Application Dev",
+		"title": "COMP3512 - Assignment #1"
+	},
+	{
+		"content": "\r\nHello everyone. We will have our first quiz at the beginning of this Friday's (Jan 23) class.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, January 20, 2015 2:58:30 PM MST",
+		"postedTo": "COMP-3512 - Winter 2015 - Web II: Web Application Dev",
+		"title": "COMP3512 - First Quiz - Friday Jan 23"
+	},
+	{
+		"content": "\r\nHello everyone and welcome to COMP3512. Classes start at Mount Royal on Thursday Jan 8. The first lecture for COMP3512 is on Friday, but the first lab is on Thursday. Normally, I wait until we have a lecture before the first lab, but since we have a small class and I don't want to wait till next week for our first lab, I would like you to attend the first lab on Thursday Jan 8 at 14:00 in B215. I will hand out the course outlines, talk a little about the course, and, of course, I will \"hand out\" the first lab ... which is actually a set of HTML and CSS review exercises.\r\nRandy Connolly\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, January 6, 2015 2:48:54 PM MST",
+		"postedTo": "COMP-3512 - Winter 2015 - Web II: Web Application Dev",
+		"title": "COMP 3512 - First Lab Thursday"
+	},
+	{
+		"content": "\r\nHello everyone. One of your colleagues noted that the mark sheet for the second assignment only adds up to to 95 not 100. Sorry about that. I've made the adjustment in my excel spreadsheet. So to see what your actual mark on the assignment was, divide it by 95 and not 100. (For instance, if your mark on the assignment was 70, it's percentage mark was actually 73.4%).\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, April 19, 2016 11:59:51 AM MDT",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "assign 2 out of 95 not 100"
+	},
+	{
+		"content": "\r\nHello everyone. I've been trying to mark the remaining labs 9 and 10. Unfortunately, I've had very little success because the mongod daemon exits with an error message similar to \"Insufficient free space for journal files / Please make at least 3379MB available in /data/db/journal\". If you haven't had your labs marked, you are probably going to need to remove old lab workspace etc from your cloud9 account to free up the necessary space. I would love to have the marking done if possible for tomorrow so it would be great if you could see to this. Be sure to test run your mongod to ensure it runs correctly.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Monday, April 18, 2016 11:36:06 AM MDT",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Problems with mongodb on cloud9"
+	},
+	{
+		"content": "\r\nHello everyone. I just wanted to remind everyone that I will be out of town next week so no classes. See you at the final exam. I will be available via email but my response time may vary.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Saturday, April 9, 2016 4:52:22 PM MDT",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Reminder - next week"
+	},
+	{
+		"content": "\r\nOur last quiz will be on Tues Apr 5\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, March 29, 2016 3:12:59 PM MDT",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Quiz #4"
+	},
+	{
+		"content": "\r\nHello everyone. I have uploaded a revised version of assignment #2 (changes are marked in yellow) that clarifies the login and functionality around messages.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, March 29, 2016 3:02:16 PM MDT",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Revision of assignment 2"
+	},
+	{
+		"content": "\r\nHello everyone. I've uploaded the last of our labs, which is called Lab 10 (sorry about the strange numbering system). It builds on Lab 9 in that it makes use of the node+mongo web service created in that lab. This one steps you through two Angular exercises. The second one covers routing and views and controllers and will hopefully provide piratical guidance in constructing the type of Angular SPA application needed in your assignment.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Friday, March 18, 2016 3:43:24 PM MDT",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Lab 10 now available"
+	},
+	{
+		"content": "\r\nHello everyone. I have uploaded a revised version of assignment #2.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Wednesday, March 16, 2016 4:04:56 PM MDT",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "New version of assignment 2"
+	},
+	{
+		"content": "\r\nHello everyone. I've uploaded an alternate version of the assignment #2 JSON file. This one was modified by one your class colleagues and it changes the json slightly. Instead of an array of employee objects, it contains an array of unnamed objects. This simplifies your data navigation coding slightly (e.g., instead of employees[i].employee.firstname it would be employees[i].firstname). It is not a huge change but nonetheless you're certainly free to use this version if you so wish. If you do use it, you might send a thank you (or a beer or a coffee or a fancy sports car) to James/Sonya/Mark/Nolan.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Monday, March 14, 2016 12:44:04 PM MDT",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Modified version of json file"
+	},
+	{
+		"content": "\r\nBoth projects for Lab 9 are available on blackboard. I would recommend trying to complete this lab by the middle of next week. Once you have it working, share the workspace (RW permissions) with me.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Friday, March 11, 2016 3:06:45 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Both projects for Lab 9 are available"
+	},
+	{
+		"content": "\r\nThe two files you'll need are on Blackboard. I hope to post the second half this afternoon.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Friday, March 11, 2016 12:27:32 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "First 1/2 of Lab 9 available"
+	},
+	{
+		"content": "\r\nThe first draft of Assignment #2 now available on Blackboard. I think that it is a reasonable assignment given the time remaining, the size of the groups, your general excellence, and everyone's end-of-the-year fatigue. It is possible some changes around the login functionality might get changed.\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Monday, March 7, 2016 9:19:19 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Assignment #2 now available"
+	},
+	{
+		"content": "\r\nHello everyone. I have uploaded the draft manuscript of the first JavaScript chapter for the second edition of the textbook.\r\nYou may remember that Ricardo and I are beginning to work on the second edition of our textbook. In the new edition, the JavaScript coverage is going to be substantially expanded. Instead of two chapters on JavaScript, it will have four chapters: ch 8 - Language Fundamentals, ch 9 - using javascript [DOM and events], ch 10 Extending JavaScript [jquery + ajax], and ch 20 Frameworks [angular + node.js].\r\nI have completed and uploaded to Blackboard the manuscript for the language fundamentals chapter. It is a pdf of the Microsoft Word draft, so it doesn't have all the fancy formatting etc that the finished version will have. You are welcome to take a read through it if you are interested. Eventually in the fall, copy editors and proof readers will give it a closer read and fix up grammar problems and so on. What I would be interested in hearing now from any of you are \"bigger\" issues (e.g., \"this explanation didn't make sense\" or \"this could use a better example\" or \"you should also talk about X here\" etc). \r\nOf course, you are busy with a lot of courses right now so there is absolutely no expectation on any of you. However, if you do find yourself reading through parts of it over the next several months, and you do find yourself having opinions, I would be happy to hear them. You could do so via email or by using the comment feature in Acrobat.\r\nAt the very least, I think it might be helpful when studying for the final exam. As well, please don't distribute this file.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Thursday, March 3, 2016 3:59:28 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "JavaScript Chapter available"
+	},
+	{
+		"content": "\r\nHello everyone. We are going to have our next quiz on Tuesday March 8.\r\nAs well, I have a favour to ask of all of you. I would love if you would be willing to fill out an online survey about your knowledge of the different computing disciplines. This is part of an on-going international research project for which I am one of main investigators. The survey takes about 10 minutes and is 100% optional and 100% anonymous. It asks a few demographic questions and then gives you a series of computing tasks (e.g., \"Designs testing procedures for large scale systems\"), and then asks you to rank on a scale of 1-5 whether you think it belongs to Computer Engineering, Computer Science, Information Systems, Information Technology, or Software Engineering. There are no right or wrong answers; we are interested in what computing tasks majors and non-majors think \"belong\" to different disciplines. Some respondents are familiar with these disciplines, while others are not knowledgeable. This survey helps us better understand what undergraduates know about these different computing disciplines in general. This research will help inform the construction of guidance counseling material (which is the last phase of this research). At any rate, me and my research team would be thrilled if you could spend 10 minutes to fill out the survey.\r\nThe URL for the survey is:\r\nhttps://www.surveymonkey.com/ r/computing-disciplines \r\nRegards,\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, March 1, 2016 4:26:02 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Next quiz and favour"
+	},
+	{
+		"content": "\r\nHello everyone. I've uploaded last semester's javascript quiz #4 question on blackboard. You might find it useful when studying for the midterm.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, February 9, 2016 4:28:26 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "another sample javascript question"
+	},
+	{
+		"content": "\r\nHello everyone. We have our midterm on Thursday's class. I'd like to give you a little bit of preparation by having a quiz at the beginning of Tuesday's class.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Sunday, February 7, 2016 1:50:31 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Quiz and midterm"
+	},
+	{
+		"content": "\r\nHello everyone. I have pushed out an updated specification for the assignment. It can be found on the github page for the assignment (https://github.com/rconnolly/comp4513-assign1).\r\nThe assignment is now more or less complete. There may be small changes, such as clarifications, made to the assignment over the next few weeks, but no other major functionality will likely be added.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Monday, February 1, 2016 2:59:08 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Assignment #1 updated/completed"
+	},
+	{
+		"content": "\r\nHello everyone. As mentioned yesterday in class, in order to give you some extra practice with Javascript, I have added two additional exercises for Lab 8. You can find the relevant files on the updated comp4513-lab8 github repo. The file with the instructions is called Lab 8 - Project for this week. It would be great if you  could try to finish these two exercises for Wed Feb 3.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Friday, January 29, 2016 11:35:45 AM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Updated Lab 8"
+	},
+	{
+		"content": "\r\nHello everyone. Not only will we have a quiz in tomorrow's class, I have a desire to use color on a whiteboard, so we are going to have tomorrow's class in E203.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Monday, January 25, 2016 3:10:41 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "*** NOTE: *** Tues class in E203"
+	},
+	{
+		"content": "\r\nHello everyone. We are going to have our first quiz (one question about 5 minutes) at the beginning of Tues's class. It will likely be a JavaScript programming question.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Sunday, January 24, 2016 11:51:38 AM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Quiz  #1 - Tues"
+	},
+	{
+		"content": "\r\nSorry for all the announcements. Marking on cloud9 has been a bit of chore because when I see my list of shared workspaces, there is no easy way to see whose projects I have already marked. If I have marked your lab, there will be a file in your called marking. If you have that file, could you please unshare your workspace with me? Thanks\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Thursday, January 21, 2016 9:31:32 AM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "marking request"
+	},
+	{
+		"content": "\r\nRather than provide the starting files on Blackboard or on NetStorage, the files for lab 8 (and also for assignment #1) are available on GitHub. I've included some introductory information about Git and GitHub in the Lab 8 document in the Content area on Blackboard for the course. I've included the github URLs for the next lab and the assignment in that document and also here in this announcement. Good luck!\r\nYou can find the GitHub repository for Lab 8 at:  https://github.com/rconnolly/comp4513-lab08\r\nYou can find the GitHub repository for Assign 1 at:https://github.com/rconnolly/comp4513-assign1\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Wednesday, January 20, 2016 5:30:48 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "github locations for assignment and next lab"
+	},
+	{
+		"content": "\r\nYou can find them in the Blackboard content area.\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Wednesday, January 20, 2016 5:25:47 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Instructions for lab 8"
+	},
+	{
+		"content": "\r\nHello everyone. I started the process of marking the labs and quickly realized that I can't always tell from the user name who a given cloud9 project belongs to. Can you change your exercise.html file and add your name to the <h1> tag (that is, change it from <h1>Posts</h1> to <h1>Your Name</h1>). Thanks\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Wednesday, January 20, 2016 4:15:53 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "small change for cloud9"
+	},
+	{
+		"content": "\r\nHello everyone. Being able to experiment with different environments is one of the key outcomes of COMP4513. For this reason, we will likely be using different approaches to set up and hand in our labs. For our first lab (lab 7), this is the system we are going to use:\r\n1. Create a new user account on cloud9.\r\n2. Create a new public HTML5 workspace named comp4513-lab7\r\n3. You can code directly within the cloud9 ide if you haven't completed the lab. If you have already completed the lab, then simply upload all the files (under the File | Upload Local Files menu command).\r\n4. test to make sure it works (use the preview button)\r\n5. When it is ready to be marked, share it with me. Use the Share button in the upper right corner of your workspace. In the share dialog, invite me to have access to your workspace via my email (rconnolly@mtroyal.ca). Keep it as RW so I can add a note telling you if something needs to be fixed etc.\r\n6. If it works, I should be able to test it. It would be great if someone can try this in the next 24 hours so I can verify that this approach works! :-)\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Tuesday, January 19, 2016 5:26:46 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "Handing in first lab 7"
+	},
+	{
+		"content": "\r\nI have uploaded the first lab to Blackboard. I would recommend that you read through the PDF of the lab, and then do the walkthrough exercises. For marks, there is an additional exercise file. I will provide guidance about how to submit later. I would strongly recommend that you do the walkthrough lab for Tuesday next week. The exercise for marks uses the Bootstrap CSS system. If you have no experience with Bootstrap, I would also strongly recommend taking some time to learn it and play around with it.\r\nRandy\r\n\r\n",
+		"postedBy": "Randy Connolly",
+		"postedOn": "Wednesday, January 13, 2016 2:49:21 PM MST",
+		"postedTo": "COMP-4513 - Winter 2016 - Web III: Advanced Web Dev",
+		"title": "COMP4513 - first lab"
+	},
+	{
+		"content": "\r\nYou have likely seen your final letter grades by now. If you have any questions, please don't hesitate to email me or drop by my office. I am happy to go over your final exam or clarify anything else. \r\nI post interesting \"Big Data\" and NoSQL information on my LinkedIn feed, so I invite you to connect with me there! https://ca.linkedin.com/pub/al-fedoruk/4/35b/483\r\nFor those of you who are graduating this semester, congratulations! \r\nFor everyone I wish you a happy holiday and a healthy and happy new year. \r\nAl\r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Monday, December 22, 2014 2:11:34 PM MST",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Final Grades"
+	},
+	{
+		"content": "\r\nI have calculated the grades so far (see gradebook). The number you see there is out of 70. \r\nThe final exam is weighted at 30 so the highest you can get is the number there + 30. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Monday, December 15, 2014 12:30:48 PM MST",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Grades so far ..."
+	},
+	{
+		"content": "\r\nA few things about the exam. \r\nI still have the third assignment to mark. Should get that done tomorrow so you will know where you stand prior to the exam. \r\n\r\nCourse Link/Exams and Quizzes/Final Exam: Tue Dec 16 11:15-2:15 Room B202\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Saturday, December 13, 2014 5:01:28 PM MST",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Exam Information (Start at 11:15)"
+	},
+	{
+		"content": "\r\nAll presentations will take place on the last day of classes: Thursday Dec. 4. There will be 10 presentations so each group/person will be about 7-8 minutes, including transition time. We will need to make sure that not too much time is lost between groups, so we will need to be organized. \r\nYou will likely want 2-3 slides. Pick one or two interesting things that you found. You can save the other stuff for the report! \r\nUsing a random number generator I have come up with the following order of presentation: \r\n\r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Tuesday, December 2, 2014 9:44:18 AM MST",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Presentations (Edited)"
+	},
+	{
+		"content": "\r\nA couple of things to help you out. \r\nWhen creating your view for the training set, DO NOT INCLUDE the speed! You use speed to do the classification of good or poor but if you include speed in the view the algorithm will just build a rule on that, which is no use as you want to apply the rule to days that you do not have riding data for (and hence no speed). \r\nFor your 'target' or classification I recomend using 0 or 1 to start with. 0 is poor, 1 is good. Once you get it to work you can try three values or to use text like 'good', 'bad'. Whatever you do you need to have your classification domain match the domain of the cost matrix 'actual value' and 'predicted value'. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Friday, November 21, 2014 3:22:43 PM MST",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Decision Tree Classifier Help"
+	},
+	{
+		"content": "\r\nReminder that we will have Quiz 5 on Thursday (Nov 20). It has 4 questions: \r\n2 distributed database question (replication, 2 phase commit etc). \r\n2 about web scale database applications. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Wednesday, November 19, 2014 9:27:08 PM MST",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Quiz 5"
+	},
+	{
+		"content": "\r\nTuesday: \r\n- Help with Histograms and using the classifcation DM tool. \r\n- Continue talking about the Cassandra Data Model. \r\nThursday: \r\n- Quiz on NoSQL, the CAP theorem etc. \r\n- Continue with Cassandra Data Model. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Tuesday, November 18, 2014 10:21:41 AM MST",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Week 11"
+	},
+	{
+		"content": "\r\nVick found a couple of problems with the YYCWAREHOUSE data. \r\nThe speed for RiDER2 was all 0. \r\nThe weather data ended at sep 18 2013. \r\nI have corrected both. The YCCWEATHER.CALGARYWEATHER table has been updated. \r\nAl\r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Saturday, November 15, 2014 6:48:26 AM MST",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Assignment Data Warehouse"
+	},
+	{
+		"content": "\r\nI have posted the last part of the assignment. This will be the final assignment for the class! I will give you a take home quiz/exercise that covers the Cassandra part (that used to be the last assignment). The assignment is mostly just using the data warehouse. There is one question that requires you to use the data mining tools. There is an item under assignments that gives you some information on how to do that.\r\nProjects. I would like to know who is working with whom (for planning the presentations). Please send me an email by end of day Thursday Nov 13 listing the members of your group. Remember that you can work indivdually, or as a pair or triple. Four could be OK but I would expect something fairly hefty from four people. If you would like to meet with me (reccommended) to discuss the project, look at my Google Calendar and send me a request for an appointment. To do this project well you will need to spend some time on it, so starting sooner rather than later is advised.  \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Wednesday, November 12, 2014 11:27:42 AM MST",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Assignments and Projects"
+	},
+	{
+		"content": "\r\nI have graded A1 Part II. The score shown is out of 65. These were mostly pretty well done. I will post my solution under assignments. \r\nNext assignment will be out tomorrow. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Tuesday, November 11, 2014 6:07:30 PM MST",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "A1 Part II"
+	},
+	{
+		"content": "\r\nMidterms are graded and the results posted. The average is 52 = 74%. \r\nI will be posting a solution. I will return the exams in class on Tuesday. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Saturday, November 1, 2014 11:53:51 AM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Midterm Grades"
+	},
+	{
+		"content": "\r\nI have had a number of questions about the assignment. If you need a couple of extra days, no problem. Lets slip the due date to Friday at midnight.\r\nAl\r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Monday, October 27, 2014 3:34:10 PM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Assignment 1 II"
+	},
+	{
+		"content": "\r\nIn lecture this week we will start talking about our next topic, which is distributed databases, which leads us to NOSQL databases.\r\nI have marked about 40% of the midterm. I will get back on it tonight.\r\nI have posted some tips for assignment 1, part 2 under assignments.\r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Monday, October 27, 2014 12:08:54 PM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Midterms, Assignments and Lectures"
+	},
+	{
+		"content": "\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Wednesday, October 22, 2014 8:14:43 PM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "I have posted some additional information for the exam under Exams and Quizzes"
+	},
+	{
+		"content": "\r\nI have created some oracle examples. They are available in the directory: /users/library/csis/comp4522/Oracle \r\nauto_increment.sql : an example of using an Oracle sequence. This is Oracle's way of doing auto-increment. \r\nloops.sql : an example of PL/SQL loops. \r\ntime_fmt.sql : an example of a PL/SQL function. \r\ndatadict.sql : an example of using the Oracle data dictionaary. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Monday, October 20, 2014 7:40:45 PM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Oracle Examples"
+	},
+	{
+		"content": "\r\nI have posted my solution to assignment 1 on the assignments page. \r\n\r\nCourse Link/Assignments/Assignment 1 Part II\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Monday, October 20, 2014 8:45:44 AM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Assignment 1 Soln Posted"
+	},
+	{
+		"content": "\r\nRemember! No class on Thursday. You can use the time to work on Assignment 2, or your data mining project. \r\nTuesday: \r\nWeek 7: \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Monday, October 13, 2014 12:18:59 PM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Week 6: Quiz 3, Week 7 Midterm"
+	},
+	{
+		"content": "\r\nMeta data for the weather information is posted on the assignments page. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Saturday, October 4, 2014 6:06:12 PM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Assignment 1"
+	},
+	{
+		"content": "\r\nWe will continue with Data Mining, specifically Classifications and maybe into Associations. \r\nAssignment 1 is due on Wednesday by midnight. Submit it via the BB drop box under assignments. It should be a single SQL file. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Saturday, October 4, 2014 10:55:51 AM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Week 5"
+	},
+	{
+		"content": "\r\nWe will have a Quiz on Tuesday. Topics: \r\nTuesday: Data Mining: Statistics. \r\nThursday: Data Mining: Classifications.\r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Monday, September 29, 2014 8:40:40 AM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Week 4"
+	},
+	{
+		"content": "\r\nI have posted a tutorial that explains and walks you through connecting to the Oracle ACAD instance via sqlplus on ins.\r\nIt is under Assignments/Oracle Information.\r\nIt has details about your username and Oracle resources.\r\n\r\nCourse Link/Assignments/Oracle Information\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Wednesday, September 24, 2014 8:54:25 AM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Oracle!"
+	},
+	{
+		"content": "\r\nOn Tuesday we will work through an example of buiilding a star schema for a data warehouse. \r\nOn Thursday we will look at how to query a star schema and introduce data mininig. \r\nI will give out assignment 1 on Thursday. In it you will create a data warehouse using Oracle, perform some queries and analysis and a simple bit of data mining. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Tuesday, September 23, 2014 9:42:49 AM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Week 3"
+	},
+	{
+		"content": "\r\nThere is always something hopeful and optomistic about week 2.\r\nI have posted the solution to the relational algebra handout. See Lectures->Week 1. \r\nMaterials for Week 2 are in progress. We will have a quiz on Tues and move into Business Intelligence and data warehousing. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Sunday, September 14, 2014 9:54:13 AM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Week 2!"
+	},
+	{
+		"content": "\r\nI have posted the materials for week 1. Note that the relational algebra sheet has been corrected. (The one handed out in class makes a mess of the minue operator). I created an example for minue and described it correctly. \r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Thursday, September 11, 2014 4:06:01 PM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Materials for Week 1"
+	},
+	{
+		"content": "\r\nWelcome to the Fall 2014 instance of Database II. I will be posting course outlines and all that other good stuff shortly, so watch this space.\r\nThere is no required text for this course (we jump around a bit so there is no text that really covers things).\r\nWe will be covering:\r\nI will give you the usual midterm, final and a bunch of quizzes. There will be three assignments and a term project. The term project will be to take some large dataset and do some data mining on it. I have several sets of twitter tweets (#cdnpoli, #yyc, #worldcup) that we can use but other data is possible.\r\nWe will primarily be using Oracle for our data warehousing and data mining and we will implement a simple database using Cassandra.\r\n\r\n",
+		"postedBy": "Alan Fedoruk",
+		"postedOn": "Saturday, August 16, 2014 9:17:19 AM MDT",
+		"postedTo": "COMP-4522-001 Database II:Advanced Database 201404",
+		"title": "Welcome!"
+	},
+	{
+		"content": "\r\nWelcome to a new semester at MRU, and welcome to Math 0115-065! The Blackboard website that will contain all the documents and links that you need for this course is now live. You can access this website via www.mymru.ca. Go to the Student tab and find the link for Blackboard. The name of the website is Math 0115-065 Introductory Algebra Fall 2016. \r\nHere is a brief checklist of items to take care of as soon as possible:\r\n* Browse through the Blackboard website to familiarize yourself with its organization. The course outline can be found in the section \"Introduction to this Course\".\r\n* Obtain a textbook and bring it to each class. The text is specified on the course outline. It is available in the university bookstore.\r\n* Get ready to start homework problems! The homework problems are listed on Blackboard, in the section \"Course Topics\".\r\nReminder of Room Change:\r\nOur room has been changed to:  Monday 9:00 - 10:50  EA1067      Wednesday, Friday 9:00 - 10:50  EA2013\r\nOur first class is on Friday September 9 in room EA2013.\r\nI look forward to seeing you on Friday.\r\nFlora Serchuk (instructor for Math 0115-065)    email: fserchuk@mtroyal.ca\r\n\r\n",
+		"postedBy": "Flora Serchuk",
+		"postedOn": "Wednesday, September 7, 2016 10:50:57 AM MDT",
+		"postedTo": "MATH-0115-065 Introductory Algebra  Fall 2016",
+		"title": "Welcome to Math 0115-065; Reminder of Room Change"
+	},
+	{
+		"content": "\r\nAll tutorial information, documents, and online quizzes can be accessed here. Click on the Tutorials menu button at left.\r\nThe grades for the weekly pre and post tutorial online quizzes can be viewed here.  Click on the View Tutorial Grades menu button at left.\r\n\r\n",
+		"postedBy": "Blackboard5 Administrator",
+		"postedOn": "Tuesday, September 8, 2015 9:02:41 PM MDT",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Math 0130 Tutorials"
+	},
+	{
+		"content": "\r\nHi all,\r\nAll information about the group project is posted now under \"Information\" on the left panel.\r\nALL members of a group are required to collaborate in the creation of the project and to attend the presentation next week. The members who are not in this tutorial are required to attend the presentation with the rest of the group.\r\nAll members should use the discussion board and email tools in their work.\r\nDocuments should be shared on the discussion group and the final presentation should be uploaded on this site.either as a PowerPoint or a poster picture and poster documents in word or pdf format.\r\nPlease let me know if you have any questions.\r\nMircea\r\nMC Atanasiu\r\nInstructor\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Monday, November 30, 2015 3:49:00 PM MST",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Group Project Information"
+	},
+	{
+		"content": "\r\nHi all,\r\nTutorial 10 is posted.\r\nThe prep quiz is due on Thursday November 26 at 11:59pm.\r\nThe tutorial will be on Monday November 23 as usual and he post quiz will be due on Tuesday November 24 at 11:59pm.\r\nPlease print the tutorial sheet and bring to clqass.\r\nSee you in class.\r\nMircea\r\nMC Atanasiu\r\nInstructor\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Saturday, November 21, 2015 11:23:11 PM MST",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Tutorial 10 posted"
+	},
+	{
+		"content": "\r\nHi all,\r\nI hope you had a pleasant and productive reading week.\r\nThis is a reminder that Tutorial 9 online preparation quiz is due today Sunday Nov 15 at 11:59pm.\r\nThere will also be a Tutorial 9 quiz tomorrow during tutorial time from pages 356 and 359.\r\nSee you tomorrow in class.\r\nMircea\r\nMC Atanasiu\r\nInstructor\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Sunday, November 15, 2015 2:32:51 PM MST",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Online quiz due today"
+	},
+	{
+		"content": "\r\nHi all,\r\nTutorial 9 preparation quiz and tutorial sheet have been posted.\r\nThe post quiz will be available on Monday Nov 16 at 4pm. \r\nPlease note that the post quiz has now two attempts.\r\nThe preparation quiz is DUE ON SUNDAY NOVEMBER 15 AT 11:59PM.\r\nSee you in class.\r\nMircea\r\nMC Atanasiu\r\nInstructor\r\n\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Thursday, November 12, 2015 10:57:28 PM MST",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Tutorial 9 posted"
+	},
+	{
+		"content": "\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Monday, November 16, 2015 4:00:00 PM MST",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Test Posted"
+	},
+	{
+		"content": "\r\nHi all,\r\nTutorial 8 preparation quiz and tutorial sheet have been posted.\r\nThe post quiz will be available on Monday Nov 09 at 4pm. \r\nPlease note that the post quiz has now two attempts.\r\nThe preparation quiz is DUE ON SUNDAY NOVEMBER 8 AT 11;69PM.\r\nSee you in class.\r\nM ircea\r\n\\MC Atanasiu\r\nInstructor\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Thursday, November 5, 2015 7:54:33 AM MST",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Tutorial 8 posted"
+	},
+	{
+		"content": "\r\nHi all,\r\nPlease use the Chrome browser to answer all pre and post quizzes.\r\nTutorial 6 due today at 11:59pm contains questions that do not work with Internet Explorer.\r\nI will also upgrade this tutorial to allow partial credit and your marks will be recalculated accordingly.\r\nSee you tomorrow in class.\r\nMircea\r\nMC Atanasiu\r\nInstructor\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Sunday, October 25, 2015 8:57:12 AM MDT",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Tutorial 6"
+	},
+	{
+		"content": "\r\nHi all,\r\nTutorial 6 Prep Quiz is posted and open and is due on Sunday, October 25 at 11:59pm.\r\nPlease work on it !!\r\nMircea\r\nMC Atanasiu\r\nInstructor\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Thursday, October 22, 2015 10:36:25 AM MDT",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Tutorial 6 Prep Quiz due on Sunday"
+	},
+	{
+		"content": "\r\nHi all,\r\nTest 2 will take place on Monday Oct 19 from 11:00 to 11:50am in T141.\r\nThe details for the review are on this site:\r\nMircea\r\nMC Atanasiu\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Saturday, October 17, 2015 8:19:02 AM MDT",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Test 2 on Monday"
+	},
+	{
+		"content": "\r\nHI all,\r\nTutorial 5 is posted and the pre-tutorial quiz is due on Sunday Oct 11 at 11:45pm.\r\nThe tutorial will take place on Monday Oct 19.\r\nHave a nice long weekend.\r\nMircea\r\nMC Atanasiu\r\nInstructor\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Saturday, October 10, 2015 8:09:30 AM MDT",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Tutorial 5"
+	},
+	{
+		"content": "\r\nHi all,\r\nTutorial 4 (absolute Value Functions) is on Blackboard and consists of\r\n1. Online preparation quiz due on Sunday Oct 5 at 11L59pm\r\n2. Tutorial 4 worksheet to print and bring to the tutorial class\r\n3. Online post tutorial quiz due Tuesday Oct 6 at 11:59pm\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Friday, October 2, 2015 5:10:05 AM MDT",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Tutorial 4"
+	},
+	{
+		"content": "\r\nHi all,\r\nIf you want to review your quizzes after the due date  go to My Grades, click on the quiz you want to review, the click on the score for the attempt you want to review.\r\nSee a short video tutorial under Information.\r\nHope this is helpful.\r\nMircea\r\nMC Atanasiu\r\nInstructor\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Tuesday, September 29, 2015 5:35:47 PM MDT",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "How to review your quizzes"
+	},
+	{
+		"content": "\r\nHi all,\r\nBoth quizzes for Tutorial 3 are available and due tomorrow Tuesday at 11:59pm.\r\nMircea\r\nMC Atanasiu\r\nInstructor\r\n\r\n",
+		"postedBy": "Mircea Atanasiu",
+		"postedOn": "Monday, September 28, 2015 3:41:18 PM MDT",
+		"postedTo": "MATH-0130-008 TUTORIAL 415",
+		"title": "Tutorial 3 Quizzes"
+	},
+	{
+		"content": "\r\nHi Team,\r\nThe reading break (November 9 - 11) is quickly approaching. What does that mean in the world of peer tutoring?\r\nIf you normally tutor on Wednesday, Thursday, and/or Friday, please discuss with your student(s) whether or not you would like to hold your regular session during the break (except for November 11). If you'd like to reschedule for earlier that week, you are welcome to do so. Otherwise, please complete your \"no sessions this week\" form.\r\n\r\n",
+		"postedBy": "Courtenay Smart",
+		"postedOn": "Wednesday, November 2, 2016 12:35:06 PM MDT",
+		"postedTo": "Peer Tutor Program",
+		"title": "Reading Break"
+	},
+	{
+		"content": "\r\nHi Everyone,\r\nTo view the most current list of unfilled requests, please visit this Google document. If you see a time that fits with your schedule or with a session you already run, let me know and I can arrange the match for you (whether this is adding a student to your total or adding a student into your existing session).\r\nNOTE: This is a live document, so as students send me availability, I will make updates. Check back regularly if you're hoping for more students or a space opens up.\r\nThanks, Team!\r\n\r\n",
+		"postedBy": "Courtenay Smart",
+		"postedOn": "Friday, October 14, 2016 4:47:03 PM MDT",
+		"postedTo": "Peer Tutor Program",
+		"title": "Remaining Requests - Updated October 14"
+	},
+	{
+		"content": "\r\nJust a reminder that the link to the Sign-In form is available on the menu to the left or in the Tutor Resources folder (also on the left).\r\n\r\n",
+		"postedBy": "Kristin Fulton",
+		"postedOn": "Wednesday, September 14, 2016 2:15:29 PM MDT",
+		"postedTo": "Peer Tutor Program",
+		"title": "Link to Sign-in form"
+	},
+	{
+		"content": "\r\nWelcome to the Peer Tutor Program Blackboard site! This is an exciting new resource available to all tutors.\r\nThroughout the year, you can use this site to:\r\nWondering where to start? Well that depends on where you're at in your tutoring journey.\r\n\r\n",
+		"postedBy": "Courtenay Smart",
+		"postedOn": "Wednesday, August 31, 2016 3:03:14 PM MDT",
+		"postedTo": "Peer Tutor Program",
+		"title": "Welcome!"
+	},
+	{
+		"content": "\r\nDear Students,\r\nLast class we started working with the prepositions: POR and PARA.\r\nI encourage you to have more avtivities and explanations looking at the link of studyspanish.com here on the BlackBoard under the content.\r\nAlso it is useful because of the listening and pronunciation.\r\nEnjoy it!\r\n\r\n",
+		"postedBy": "Adriana Velez",
+		"postedOn": "Monday, October 20, 2014 3:01:29 PM MDT",
+		"postedTo": "Spanish, Level 2 2014 Fall Term",
+		"title": "Reading about Por and Para"
+	},
+	{
+		"content": "\r\nHola a todos!\r\nThis message is to let you know that \"Charlemos en Espanol\" will start on October the 7th and it goes until November the 18th. It is very good time for register as soon as you can because the deadline is October the 1st!!\r\nThis is very good for you to practice the conversation in Spanish. You do not need to worry about anything, you just go to practice! it would be very helpful. Of course, this is if you have time and you can accomodate this in your schedule.\r\nGood luck!\r\nAdriana\r\n\r\n",
+		"postedBy": "Adriana Velez",
+		"postedOn": "Tuesday, September 30, 2014 10:43:53 PM MDT",
+		"postedTo": "Spanish, Level 2 2014 Fall Term",
+		"title": "Charlemos en Espanol"
+	},
+	{
+		"content": "\r\nHola a todos!\r\nEste es el Nivel 2 de Espanol en Otono.\r\nEspero que disfruten de este curso a la vez que aprenden a usar el nuevo vocabulario y los nuevos temas, pondremos en practica lo que aprendamos en clase.\r\nBuena Suerte!\r\nAdriana\r\n\r\n",
+		"postedBy": "Adriana Velez",
+		"postedOn": "Sunday, September 21, 2014 6:21:54 PM MDT",
+		"postedTo": "Spanish, Level 2 2014 Fall Term",
+		"title": "Bienvenidos al Curso de Espanol Nivel 2"
+	},
+	{
+		"content": "\r\n\r\n",
+		"postedBy": "Leigh-Ann Duke",
+		"postedOn": "Thursday, July 25, 2013 12:30:00 AM MDT",
+		"postedTo": "Spanish, Level 2 2014 Fall Term",
+		"title": "Credit-free World Languages"
+	}
+]
