@@ -66,12 +66,13 @@
     <Compile Include="Fragments\InstructorsFragment.cs" />
     <Compile Include="Fragments\ProgramFragment.cs" />
     <Compile Include="Fragments\SocietyFragment.cs" />
+    <Compile Include="InstructorBioDetailActivity.cs" />
     <Compile Include="InstructorBiosListActivity.cs" />
     <Compile Include="LandingPageActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\Announcement.cs" />
     <Compile Include="Model\AnnouncementGroup.cs" />
-    <Compile Include="Model\InstructorBio.cs" />
+    <Compile Include="Model\Instructor.cs" />
     <Compile Include="Music.cs" />
     <Compile Include="Preferences.cs" />
     <Compile Include="RegistrationActivity.cs" />
@@ -97,6 +98,7 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\courseAnnouncements.json" />
     <None Include="packages.config" />
     <None Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>
@@ -159,9 +161,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logoIcon.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\UniBlu.png" />
   </ItemGroup>

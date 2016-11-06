@@ -18,11 +18,11 @@ namespace UniBlu.Service
     {
         private static InstructorBioRepository instructorBioRepository = new InstructorBioRepository();
 
-        public List<InstructorBio> GetAllInstructorBios()
+        public List<Instructor> GetAllInstructorBios()
         {
             return instructorBioRepository.GetAllInstructorBios();
         }
-        public InstructorBio GetInstructorBioById(int Id)
+        public Instructor GetInstructorBioById(int Id)
         {
             return instructorBioRepository.GetInstructorBioById(Id);
         }

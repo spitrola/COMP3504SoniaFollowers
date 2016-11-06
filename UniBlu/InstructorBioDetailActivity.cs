@@ -22,7 +22,7 @@ namespace UniBlu
 		private TextView professorText;
 
 		private InstructorBioDataService instructorBioDataService;
-		private InstructorBio instructor;
+		private Instructor instructor;
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{

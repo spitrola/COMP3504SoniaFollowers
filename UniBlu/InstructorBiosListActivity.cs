@@ -20,7 +20,7 @@ namespace UniBlu
 	{
 		private ListView instructorBioListView;
 		private InstructorBioDataService instructorBioDataService;
-		private List<InstructorBio> allInstructorBios;
+		private List<Instructor> allInstructorBios;
 		private InstructorBioAdapter InstructorBioAdapter;
 
 		protected override void OnCreate(Bundle savedInstanceState)

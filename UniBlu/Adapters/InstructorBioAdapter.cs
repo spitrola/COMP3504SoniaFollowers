@@ -13,12 +13,12 @@ using UniBlu.Model;
 
 namespace UniBlu.Adapters
 {
-    public class InstructorBioAdapter : BaseAdapter<InstructorBio>
+    public class InstructorBioAdapter : BaseAdapter<Instructor>
     {
-        private List<InstructorBio> items;
+        private List<Instructor> items;
         private Activity context;
 
-        public InstructorBioAdapter(Activity context, List<InstructorBio> items) : base()
+        public InstructorBioAdapter(Activity context, List<Instructor> items) : base()
         {
             this.context = context;
             this.items = items;
@@ -27,7 +27,7 @@ namespace UniBlu.Adapters
         {
             return position;
         }
-        public override InstructorBio this[int position]
+        public override Instructor this[int position]
         {
             get { return items[position]; }
         }
@@ -42,7 +42,7 @@ namespace UniBlu.Adapters
             if (view == null) // no view to re-use, create new
                 view = context.LayoutInflater.Inflate(Resource.Layout.InstructorBiosView, null);
             //TODo change image to a picture
-            view.FindViewById<TextView>(Resource.Id.professorImageView).Text = item.Picture;
+            view.FindViewById<TextView>(Resource.Id.professorImageView).Text = item.ImagePath;
             view.FindViewById<TextView>(Resource.Id.professorNameTextView).Text = item.Name;
             view.FindViewById<TextView>(Resource.Id.professorBioTextView).Text = item.Bio;
             return view;
