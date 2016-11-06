@@ -48,8 +48,9 @@ namespace UniBlu
 
 		private void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
 		{
-			var instructorBio = allInstructorBios[e.Position];
-			Android.Widget.Toast.MakeText(this, instructorBio.Bio, ToastLength.Long).Show();
+			Intent instructorBioIntent = new Intent(this, typeof(InstructorBioDetailActivity));
+			instructorBioIntent.PutExtra("Id", (int)e.Position);
+			StartActivity(instructorBioIntent);
 		}
 
 		private void SetToolBar()
