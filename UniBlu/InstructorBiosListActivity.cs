@@ -15,40 +15,47 @@ using UniBlu.Service;
 
 namespace UniBlu
 {
-    [Activity(Label = "Instructor Bios List Activity")]
-    public class InstructorBiosListActivity : Activity
-    {
-        private ListView instructorBioListView;
-        private InstructorBioDataService instructorBioDataService;
-        private List<InstructorBio> allInstructorBios;
-        private InstructorBioAdapter InstructorBioAdapter;
+	[Activity(Label = "Instructor Bios List Activity")]
+	public class InstructorBiosListActivity : BaseActivity
+	{
+		private ListView instructorBioListView;
+		private InstructorBioDataService instructorBioDataService;
+		private List<InstructorBio> allInstructorBios;
+		private InstructorBioAdapter InstructorBioAdapter;
 
-        protected override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
+		protected override void OnCreate(Bundle savedInstanceState)
+		{
+			base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.InstructorBioListView);
-            instructorBioDataService = new InstructorBioDataService();
-            allInstructorBios = instructorBioDataService.GetAllInstructorBios();
-            FindViews();
-            
-            InstructorBioAdapter = new InstructorBioAdapter(this, allInstructorBios);
+			SetContentView(Resource.Layout.InstructorBioListView);
+			instructorBioDataService = new InstructorBioDataService();
+			allInstructorBios = instructorBioDataService.GetAllInstructorBios();
+			FindViews();
+			SetToolBar();
+			InstructorBioAdapter = new InstructorBioAdapter(this, allInstructorBios);
 
-            instructorBioListView.Adapter = InstructorBioAdapter;
-            // TODO Need to get the data and bind to view
-            
-            instructorBioListView.ItemClick += ListView_ItemClick;
-        }
+			instructorBioListView.Adapter = InstructorBioAdapter;
+			// TODO Need to get the data and bind to view
 
-        private void FindViews()
-        {
-            instructorBioListView = FindViewById<ListView>(Resource.Id.listView1);
-        }
+			instructorBioListView.ItemClick += ListView_ItemClick;
+		}
 
-        private void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
-        {
-            var instructorBio = allInstructorBios[e.Position];
-            Android.Widget.Toast.MakeText(this, instructorBio.Bio, ToastLength.Long).Show();
-        }
-    }
+		private void FindViews()
+		{
+			instructorBioListView = FindViewById<ListView>(Resource.Id.listView1);
+			this.toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+		}
+
+		private void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+		{
+			var instructorBio = allInstructorBios[e.Position];
+			Android.Widget.Toast.MakeText(this, instructorBio.Bio, ToastLength.Long).Show();
+		}
+
+		private void SetToolBar()
+		{
+			SetActionBar(this.toolbar);
+			ActionBar.Title = GetString(Resource.String.instructor);
+		}
+	}
 }
