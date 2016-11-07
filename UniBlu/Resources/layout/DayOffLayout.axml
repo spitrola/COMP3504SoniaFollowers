@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/selectDayOff"/>
+  <RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/mondayRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monday" />
+    <RadioButton
+        android:id="@+id/tuesdayRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tuesday" />
+    <RadioButton
+        android:id="@+id/wednesdayRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wednesday" />
+    <RadioButton
+        android:id="@+id/thursdayRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thursday" />
+    <RadioButton
+         android:id="@+id/fridayRadioButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/friday" />
+  </RadioGroup>
+  <Button
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/ok"
+      android:id="@+id/okButton"/>
+</LinearLayout>

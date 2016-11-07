@@ -62,6 +62,7 @@
     <Compile Include="Adapters\AnnouncementListAdapter.cs" />
     <Compile Include="AnnouncementMenuActivity.cs" />
     <Compile Include="BaseActivity.cs" />
+    <Compile Include="CreateFilterActivity.cs" />
     <Compile Include="Fragments\BaseFragment.cs" />
     <Compile Include="Fragments\InstructorsFragment.cs" />
     <Compile Include="Fragments\ProgramFragment.cs" />
@@ -135,6 +136,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\InstructorBiosView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\addFilterLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\DayOffLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

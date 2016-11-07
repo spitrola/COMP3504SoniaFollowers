@@ -70,7 +70,9 @@ namespace UniBlu
 
         private void LabSchedulesButton_Click(object sender, EventArgs e)
         {
-            notDone();
+            // Using this button to test the create filter activity
+            var intent = new Intent(this, typeof(CreateFilterActivity));
+            StartActivity(intent);
         }
 
         private void InstructorBiosButton_Click(object sender, EventArgs e)
