@@ -83,6 +83,7 @@
     <Compile Include="Service\AnnouncementDataService.cs" />
     <Compile Include="Service\InstructorBioDataService.cs" />
     <Compile Include="SettingsActivity.cs" />
+    <Compile Include="Utility\ImageHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">

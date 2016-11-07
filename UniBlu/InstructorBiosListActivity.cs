@@ -21,7 +21,7 @@ namespace UniBlu
 		private ListView instructorBioListView;
 		private InstructorBioDataService instructorBioDataService;
 		private List<Instructor> allInstructorBios;
-		private InstructorBioAdapter InstructorBioAdapter;
+		private InstructorBioAdapter instructorBioAdapter;
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -32,21 +32,19 @@ namespace UniBlu
 			allInstructorBios = instructorBioDataService.GetAllInstructorBios();
 			FindViews();
 			SetToolBar();
-			InstructorBioAdapter = new InstructorBioAdapter(this, allInstructorBios);
-
-			instructorBioListView.Adapter = InstructorBioAdapter;
-			// TODO Need to get the data and bind to view
+			instructorBioAdapter = new InstructorBioAdapter(this, allInstructorBios);
+            instructorBioListView.Adapter = instructorBioAdapter;
 
 			instructorBioListView.ItemClick += ListView_ItemClick;
 		}
 
 		private void FindViews()
 		{
-			instructorBioListView = FindViewById<ListView>(Resource.Id.listView1);
+			instructorBioListView = FindViewById<ListView>(Resource.Id.instructorBioListView);
 			this.toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
 		}
 
-		private void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+		private void ListView_ItemClick(object sender, ListView.ItemClickEventArgs e)
 		{
 			Intent instructorBioIntent = new Intent(this, typeof(InstructorBioDetailActivity));
 			instructorBioIntent.PutExtra("Id", (int)e.Position);

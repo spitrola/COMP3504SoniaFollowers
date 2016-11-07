@@ -20,6 +20,7 @@ namespace UniBlu
 	{
 		private TextView professorName;
 		private TextView professorText;
+        private ImageView professorImage;
 
 		private InstructorBioDataService instructorBioDataService;
 		private Instructor instructor;
@@ -37,12 +38,14 @@ namespace UniBlu
 			instructor = instructorBioDataService.GetInstructorBioById(instructorId);
 			professorName.Text = instructor.Name;
 			professorText.Text = instructor.Bio;
+            
 		}
 
 		private void FindViews()
 		{
 			professorName = FindViewById<TextView>(Resource.Id.professorNameTextView);
 			professorText = FindViewById<TextView>(Resource.Id.professorBioTextView);
-		}
+            professorImage = FindViewById<ImageView>(Resource.Id.professorImageView);
+        }
 	}
 }

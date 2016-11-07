@@ -21,7 +21,7 @@
             android:paddingRight="8dp"
             android:paddingLeft="8dp"
             android:paddingBottom="8dp">
-            <TextView
+            <ImageView
                 android:src="@android:drawable/ic_menu_gallery"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

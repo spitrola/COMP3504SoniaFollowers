@@ -262,6 +262,9 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0012
 			public const int imageView1 = 2131558418;
 			
+			// aapt resource value: 0x7f0d000e
+			public const int instructorBioListView = 2131558414;
+			
 			// aapt resource value: 0x7f0d0015
 			public const int instructorBiosButton = 2131558421;
 			
@@ -273,9 +276,6 @@ namespace UniBlu
 			
 			// aapt resource value: 0x7f0d0016
 			public const int labSchedulesButton = 2131558422;
-			
-			// aapt resource value: 0x7f0d000e
-			public const int listView1 = 2131558414;
 			
 			// aapt resource value: 0x7f0d001c
 			public const int loginButton = 2131558428;

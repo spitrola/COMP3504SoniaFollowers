@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using UniBlu.Model;
+using UniBlu.Utility;
 
 namespace UniBlu.Adapters
 {
@@ -42,7 +43,9 @@ namespace UniBlu.Adapters
             if (view == null) // no view to re-use, create new
                 view = context.LayoutInflater.Inflate(Resource.Layout.InstructorBiosView, null);
             //TODo change image to a picture
-            view.FindViewById<TextView>(Resource.Id.professorImageView).Text = item.ImagePath;
+            
+            var imageBitmap = ImageHelper.GetImageBitmapFromUrl(item.ImagePath);
+            view.FindViewById<ImageView>(Resource.Id.professorImageView).SetImageBitmap(imageBitmap);
             view.FindViewById<TextView>(Resource.Id.professorNameTextView).Text = item.Name;
             view.FindViewById<TextView>(Resource.Id.professorBioTextView).Text = item.Bio;
             return view;
