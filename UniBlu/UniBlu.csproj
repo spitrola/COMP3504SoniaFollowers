@@ -169,7 +169,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logoIcon.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\menu\hateEarlyMorningsPopupMenu.xml" />
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\UniBlu.png" />
   </ItemGroup>

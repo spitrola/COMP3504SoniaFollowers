@@ -62,12 +62,39 @@ namespace UniBlu
 
         private void FreeLunchButton_Click(object sender, EventArgs e)
         {
-            notDone();
+            AlertDialog.Builder alert = new AlertDialog.Builder(this);
+            alert.SetTitle("Free Up My Lunch Time!");
+            alert.SetMessage("Please, no classes from 12 - 1!");
+            alert.SetPositiveButton("Free Lunch", (senderAlert, args) => {
+                Toast.MakeText(this, "Bring on the food!", ToastLength.Short).Show();
+            });
+
+            alert.SetNegativeButton("No Free Lunch", (senderAlert, args) => {
+                Toast.MakeText(this, "I'll Eat whenever!", ToastLength.Short).Show();
+            });
+
+            Dialog dialog = alert.Create();
+            dialog.Show();
+
         }
 
         private void HateEarlyMorningsButton_Click(object sender, EventArgs e)
         {
-            notDone();
+            PopupMenu menu = new PopupMenu(this, hateEarlyMorningsButton);
+            menu.Inflate(Resource.Menu.hateEarlyMorningsPopupMenu);
+
+            menu.MenuItemClick += (s1, arg1) => {
+                Toast toast = Toast.MakeText(this, arg1.Item.TitleFormatted, ToastLength.Long);
+                toast.SetGravity(GravityFlags.Center, 0, 0);
+                toast.Show();
+            };
+
+            menu.DismissEvent += (s2, arg2) => {
+                Toast toast = Toast.MakeText(this, "Menu Dismissed", ToastLength.Long);
+                toast.SetGravity(GravityFlags.Center, 0, 0);
+                toast.Show();
+            };
+            menu.Show();
         }
 
         private void DayOffButton_Click(object sender, EventArgs e)

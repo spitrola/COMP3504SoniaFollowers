@@ -445,7 +445,10 @@ namespace UniBlu
 		{
 			
 			// aapt resource value: 0x7f0c0000
-			public const int SettingsMenu = 2131492864;
+			public const int hateEarlyMorningsPopupMenu = 2131492864;
+			
+			// aapt resource value: 0x7f0c0001
+			public const int SettingsMenu = 2131492865;
 			
 			static Menu()
 			{
@@ -551,6 +554,15 @@ namespace UniBlu
 			// aapt resource value: 0x7f0a000e
 			public const int music_title = 2131361806;
 			
+			// aapt resource value: 0x7f0a0033
+			public const int notBefore10_label = 2131361843;
+			
+			// aapt resource value: 0x7f0a0034
+			public const int notBefore11_label = 2131361844;
+			
+			// aapt resource value: 0x7f0a0032
+			public const int notBefore9_label = 2131361842;
+			
 			// aapt resource value: 0x7f0a001e
 			public const int notRegistered = 2131361822;
 			
@@ -587,8 +599,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0a0017
 			public const int search_label = 2131361815;
 			
-			// aapt resource value: 0x7f0a0032
-			public const int selectDayOff = 2131361842;
+			// aapt resource value: 0x7f0a0035
+			public const int selectDayOff = 2131361845;
 			
 			// aapt resource value: 0x7f0a0020
 			public const int selectPassword = 2131361824;
