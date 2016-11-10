@@ -62,6 +62,7 @@
     <Compile Include="Adapters\AnnouncementListAdapter.cs" />
     <Compile Include="AnnouncementMenuActivity.cs" />
     <Compile Include="BaseActivity.cs" />
+    <Compile Include="CISFaceBookActivity.cs" />
     <Compile Include="CreateFilterActivity.cs" />
     <Compile Include="Fragments\BaseFragment.cs" />
     <Compile Include="Fragments\InstructorsFragment.cs" />
@@ -142,6 +143,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\DayOffLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\FaceBookLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

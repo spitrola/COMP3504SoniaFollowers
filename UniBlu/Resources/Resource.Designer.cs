@@ -217,11 +217,14 @@ namespace UniBlu
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0d0033
-			public const int about = 2131558451;
+			// aapt resource value: 0x7f0d0018
+			public const int FaceBookHeaderTextView = 2131558424;
 			
-			// aapt resource value: 0x7f0d001f
-			public const int announcementButton = 2131558431;
+			// aapt resource value: 0x7f0d0035
+			public const int about = 2131558453;
+			
+			// aapt resource value: 0x7f0d0021
+			public const int announcementButton = 2131558433;
 			
 			// aapt resource value: 0x7f0d000d
 			public const int announcementCloseButton = 2131558413;
@@ -232,8 +235,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d000f
 			public const int announcementDateTextView = 2131558415;
 			
-			// aapt resource value: 0x7f0d0018
-			public const int announcementListView = 2131558424;
+			// aapt resource value: 0x7f0d001a
+			public const int announcementListView = 2131558426;
 			
 			// aapt resource value: 0x7f0d0010
 			public const int announcementPostedByTextView = 2131558416;
@@ -244,14 +247,14 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0000
 			public const int card_view = 2131558400;
 			
-			// aapt resource value: 0x7f0d002c
-			public const int confirmPasswordEditText = 2131558444;
+			// aapt resource value: 0x7f0d002e
+			public const int confirmPasswordEditText = 2131558446;
 			
-			// aapt resource value: 0x7f0d002b
-			public const int confirmPasswordTextView = 2131558443;
+			// aapt resource value: 0x7f0d002d
+			public const int confirmPasswordTextView = 2131558445;
 			
-			// aapt resource value: 0x7f0d001e
-			public const int coursePlannerButton = 2131558430;
+			// aapt resource value: 0x7f0d0020
+			public const int coursePlannerButton = 2131558432;
 			
 			// aapt resource value: 0x7f0d0005
 			public const int createFilterTitleTextView = 2131558405;
@@ -262,8 +265,11 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0009
 			public const int doneWithFilterButton = 2131558409;
 			
-			// aapt resource value: 0x7f0d0031
-			public const int downloadData = 2131558449;
+			// aapt resource value: 0x7f0d0033
+			public const int downloadData = 2131558451;
+			
+			// aapt resource value: 0x7f0d0019
+			public const int facebookWebView = 2131558425;
 			
 			// aapt resource value: 0x7f0d000e
 			public const int fragmentContainer = 2131558414;
@@ -277,14 +283,14 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0007
 			public const int hateEarlyMorningsButton = 2131558407;
 			
-			// aapt resource value: 0x7f0d001d
-			public const int imageView1 = 2131558429;
+			// aapt resource value: 0x7f0d001f
+			public const int imageView1 = 2131558431;
 			
-			// aapt resource value: 0x7f0d0019
-			public const int instructorBioListView = 2131558425;
+			// aapt resource value: 0x7f0d001b
+			public const int instructorBioListView = 2131558427;
 			
-			// aapt resource value: 0x7f0d0020
-			public const int instructorBiosButton = 2131558432;
+			// aapt resource value: 0x7f0d0022
+			public const int instructorBiosButton = 2131558434;
 			
 			// aapt resource value: 0x7f0d0003
 			public const int jamesImageView = 2131558403;
@@ -292,11 +298,11 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0004
 			public const int jamesTextView = 2131558404;
 			
-			// aapt resource value: 0x7f0d0021
-			public const int labSchedulesButton = 2131558433;
+			// aapt resource value: 0x7f0d0023
+			public const int labSchedulesButton = 2131558435;
 			
-			// aapt resource value: 0x7f0d0027
-			public const int loginButton = 2131558439;
+			// aapt resource value: 0x7f0d0029
+			public const int loginButton = 2131558441;
 			
 			// aapt resource value: 0x7f0d000a
 			public const int mainScrollView = 2131558410;
@@ -304,44 +310,44 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0012
 			public const int mondayRadioButton = 2131558418;
 			
-			// aapt resource value: 0x7f0d0026
-			public const int notRegistered = 2131558438;
+			// aapt resource value: 0x7f0d0028
+			public const int notRegistered = 2131558440;
 			
 			// aapt resource value: 0x7f0d0017
 			public const int okButton = 2131558423;
 			
-			// aapt resource value: 0x7f0d0025
-			public const int passwordEditText = 2131558437;
+			// aapt resource value: 0x7f0d0027
+			public const int passwordEditText = 2131558439;
 			
-			// aapt resource value: 0x7f0d002a
-			public const int passwordTextView = 2131558442;
+			// aapt resource value: 0x7f0d002c
+			public const int passwordTextView = 2131558444;
 			
 			// aapt resource value: 0x7f0d000c
 			public const int postedByTextView = 2131558412;
 			
-			// aapt resource value: 0x7f0d0030
-			public const int printScreen = 2131558448;
+			// aapt resource value: 0x7f0d0032
+			public const int printScreen = 2131558450;
+			
+			// aapt resource value: 0x7f0d001e
+			public const int professorBioTextView = 2131558430;
 			
 			// aapt resource value: 0x7f0d001c
-			public const int professorBioTextView = 2131558428;
+			public const int professorImageView = 2131558428;
 			
-			// aapt resource value: 0x7f0d001a
-			public const int professorImageView = 2131558426;
-			
-			// aapt resource value: 0x7f0d001b
-			public const int professorNameTextView = 2131558427;
-			
-			// aapt resource value: 0x7f0d002d
-			public const int registerButton = 2131558445;
-			
-			// aapt resource value: 0x7f0d0032
-			public const int search = 2131558450;
-			
-			// aapt resource value: 0x7f0d0028
-			public const int selectUserNameTextView = 2131558440;
+			// aapt resource value: 0x7f0d001d
+			public const int professorNameTextView = 2131558429;
 			
 			// aapt resource value: 0x7f0d002f
-			public const int settings = 2131558447;
+			public const int registerButton = 2131558447;
+			
+			// aapt resource value: 0x7f0d0034
+			public const int search = 2131558452;
+			
+			// aapt resource value: 0x7f0d002a
+			public const int selectUserNameTextView = 2131558442;
+			
+			// aapt resource value: 0x7f0d0031
+			public const int settings = 2131558449;
 			
 			// aapt resource value: 0x7f0d0001
 			public const int soniaImageView = 2131558401;
@@ -349,26 +355,26 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0002
 			public const int soniaTextView = 2131558402;
 			
-			// aapt resource value: 0x7f0d0022
-			public const int studentSocietyButton = 2131558434;
+			// aapt resource value: 0x7f0d0024
+			public const int studentSocietyButton = 2131558436;
 			
-			// aapt resource value: 0x7f0d0023
-			public const int textView1 = 2131558435;
+			// aapt resource value: 0x7f0d0025
+			public const int textView1 = 2131558437;
 			
 			// aapt resource value: 0x7f0d0015
 			public const int thursdayRadioButton = 2131558421;
 			
-			// aapt resource value: 0x7f0d002e
-			public const int toolbar = 2131558446;
+			// aapt resource value: 0x7f0d0030
+			public const int toolbar = 2131558448;
 			
 			// aapt resource value: 0x7f0d0013
 			public const int tuesdayRadioButton = 2131558419;
 			
-			// aapt resource value: 0x7f0d0029
-			public const int userNameEditText = 2131558441;
+			// aapt resource value: 0x7f0d002b
+			public const int userNameEditText = 2131558443;
 			
-			// aapt resource value: 0x7f0d0024
-			public const int usernameEditText = 2131558436;
+			// aapt resource value: 0x7f0d0026
+			public const int usernameEditText = 2131558438;
 			
 			// aapt resource value: 0x7f0d0014
 			public const int wednesdayRadioButton = 2131558420;
@@ -405,31 +411,34 @@ namespace UniBlu
 			public const int DayOffLayout = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int InstructorAnnouncementFragment = 2130903046;
+			public const int FaceBookLayout = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int InstructorBioListView = 2130903047;
+			public const int InstructorAnnouncementFragment = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int InstructorBiosView = 2130903048;
+			public const int InstructorBioListView = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int LandingPageView = 2130903049;
+			public const int InstructorBiosView = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int Main = 2130903050;
+			public const int LandingPageView = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int ProgramAnnouncementFragment = 2130903051;
+			public const int Main = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int registrationLayout = 2130903052;
+			public const int ProgramAnnouncementFragment = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int StudentSocietyAnnouncementFragment = 2130903053;
+			public const int registrationLayout = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int toolbar = 2130903054;
+			public const int StudentSocietyAnnouncementFragment = 2130903054;
+			
+			// aapt resource value: 0x7f03000f
+			public const int toolbar = 2130903055;
 			
 			static Layout()
 			{
@@ -502,6 +511,12 @@ namespace UniBlu
 			
 			// aapt resource value: 0x7f0a0001
 			public const int appName = 2131361793;
+			
+			// aapt resource value: 0x7f0a0036
+			public const int cisFaceBook = 2131361846;
+			
+			// aapt resource value: 0x7f0a0037
+			public const int cisTitle = 2131361847;
 			
 			// aapt resource value: 0x7f0a0021
 			public const int confirmPassword = 2131361825;

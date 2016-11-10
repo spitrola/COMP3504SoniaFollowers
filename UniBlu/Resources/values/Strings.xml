@@ -72,4 +72,6 @@
   <string name="notBefore10_label">I can start to smell the coffee at 10.  No classes before 10!</string>
   <string name="notBefore11_label">I like my late nights! No classes before 11!</string>
   <string name="selectDayOff">Select the day to get off</string>
+  <string name="cisFaceBook">Portal to CIS Facebook Page</string>
+  <string name="cisTitle">Student Society</string>
 </resources>
