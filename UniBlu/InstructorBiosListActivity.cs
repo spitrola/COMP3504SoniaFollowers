@@ -33,7 +33,7 @@ namespace UniBlu
 			FindViews();
 			SetToolBar();
 			instructorBioAdapter = new InstructorBioAdapter(this, allInstructorBios);
-            instructorBioListView.Adapter = instructorBioAdapter;
+			instructorBioListView.Adapter = instructorBioAdapter;
 
 			instructorBioListView.ItemClick += ListView_ItemClick;
 		}
@@ -54,7 +54,7 @@ namespace UniBlu
 		private void SetToolBar()
 		{
 			SetActionBar(this.toolbar);
-			ActionBar.Title = GetString(Resource.String.instructor);
+			ActionBar.Title = GetString(Resource.String.instructors);
 		}
 	}
 }
