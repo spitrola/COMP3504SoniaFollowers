@@ -74,6 +74,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\Announcement.cs" />
     <Compile Include="Model\AnnouncementGroup.cs" />
+    <Compile Include="Model\Course.cs" />
     <Compile Include="Model\Instructor.cs" />
     <Compile Include="Music.cs" />
     <Compile Include="Preferences.cs" />
