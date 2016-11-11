@@ -149,6 +149,7 @@
     <AndroidResource Include="Resources\layout\FaceBookLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\InstructorBioDetailView.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Heart.png" />
