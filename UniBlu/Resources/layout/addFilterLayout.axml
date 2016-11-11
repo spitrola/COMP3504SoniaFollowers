@@ -8,40 +8,63 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         layout="@layout/toolbar" />
-    <TextView
-        android:text="@string/createFilterTitle"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:minHeight="25px"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/createFilterTitleTextView" />
-    <Button
-        android:text="@string/dayOffFilter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:id="@+id/dayOffButton" />
-    <Button
-        android:text="@string/hateEarlyMorningsFilter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:id="@+id/hateEarlyMorningsButton" />
-    <Button
-        android:text="@string/freeLunchFilter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:id="@+id/freeLunchButton" />
-    <Button
-        android:text="@string/doneWithFilter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:id="@+id/doneWithFilterButton" />
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <TextView
+                    android:text="@string/createFilterTitle"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="25px"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/createFilterTitleTextView" />
+                <Button
+                    android:text="@string/dayOffFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/dayOffButton" />
+                <Button
+                    android:text="@string/hateEarlyMorningsFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/hateEarlyMorningsButton" />
+                <Button
+                    android:text="@string/freeLunchFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/freeLunchButton" />
+                <Button
+                    android:text="@string/doneWithFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/doneWithFilterButton" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
 </LinearLayout>
