@@ -13,26 +13,42 @@ using UniBlu.Adapters;
 using UniBlu.Model;
 using UniBlu.Service;
 using UniBlu.Fragments;
+using Android.Views.Animations;
+using static Android.App.ActionBar;
 
 namespace UniBlu
 {
-    [Activity(Label = "Announcements")]
-    public class AnnouncementMenuActivity :  Activity
+    [Activity(Label = "Announcements", Theme = "@style/TabTheme")]
+    public class AnnouncementMenuActivity : TabBaseActivity
     {
         private ListView announcementListView;
         private List<Announcement> allAnnouncements;
         private AnnouncementDataService announcementDataService;
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
+            SetToolBar();
+ 
+            base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.AnnouncementMenuView);
+            FindViews();
+            SetToolBar();
+        }
 
+        private void FindViews()
+        {
+            this.toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+        }
+
+        private void SetToolBar()
+        {
+            this.ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
+            ActionBar.Title = GetString(Resource.String.announcementsTitle);
             AddTab("Program", new ProgramFragment());
             AddTab("Instructors", new InstructorsFragment());
             AddTab("Society", new SocietyFragment());
         }
+
 
         private void AddTab(string tabText, Fragment view)
         {

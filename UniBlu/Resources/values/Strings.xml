@@ -75,4 +75,5 @@
 	<string name="cisFaceBook">Portal to CIS Facebook Page</string>
 	<string name="cisTitle">Student Society</string>
 	<string name="instructor">Instructor Bio</string>
+  <string name="announcementsTitle">Announcements</string>
 </resources>

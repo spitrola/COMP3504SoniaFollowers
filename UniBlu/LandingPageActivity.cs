@@ -84,7 +84,7 @@ namespace UniBlu
 
         private void AnnouncementButton_Click(object sender, EventArgs e)
         {
-            var intent = new Intent(this, typeof(AnnouncementMenuActivity));
+            Intent intent = new Intent(this, typeof(AnnouncementMenuActivity));
             StartActivity(intent);
         }
 
