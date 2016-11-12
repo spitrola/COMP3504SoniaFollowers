@@ -25,7 +25,7 @@ namespace UniBlu.Fragments
         {
             base.OnActivityCreated(savedInstanceState);
             FindViews();
-            // HandleEvents();
+            HandleEvents();
 
             announcements = announcementDataService.GetAnnouncementsForGroup(3);
             listView.Adapter = new AnnouncementListAdapter(this.Activity, announcements);

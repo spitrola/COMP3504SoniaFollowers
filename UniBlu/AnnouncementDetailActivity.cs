@@ -15,7 +15,7 @@ using UniBlu.Service;
 namespace UniBlu
 {
     [Activity(Label = "Announcements")]
-    public class AnnouncementDetailActivity : Activity
+    public class AnnouncementDetailActivity : TabBaseActivity
     {
         private TextView announcementTitleTextView;
         private TextView postedByTextView;
@@ -37,31 +37,26 @@ namespace UniBlu
             BindData();
             HandleEvents();
         }
-
         private void HandleEvents()
         {
             announcementCloseButton.Click += AnnouncementCloseButton_Click;
         }
-
         private void AnnouncementCloseButton_Click(object sender, EventArgs e)
         {
             var intent = new Intent();
             SetResult(Result.Ok, intent);
             this.Finish();
         }
-
         private void BindData()
         {
             announcementTitleTextView.Text = selectedAnnouncement.Title;
             postedByTextView.Text = selectedAnnouncement.PostedBy;
         }
-
         private void FindViews()
         {
             announcementTitleTextView = FindViewById<TextView>(Resource.Id.announcementTitleTextView);
             postedByTextView = FindViewById<TextView>(Resource.Id.postedByTextView);
             announcementCloseButton = FindViewById<Button>(Resource.Id.announcementCloseButton);
         }
-
     }
 }

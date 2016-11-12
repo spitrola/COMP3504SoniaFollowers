@@ -28,17 +28,27 @@ namespace UniBlu
 			base.OnCreate(savedInstanceState);
 
 			SetContentView(Resource.Layout.InstructorBioListView);
-			instructorBioDataService = new InstructorBioDataService();
-			allInstructorBios = instructorBioDataService.GetAllInstructorBios();
+			
 			FindViews();
 			SetToolBar();
-			instructorBioAdapter = new InstructorBioAdapter(this, allInstructorBios);
-			instructorBioListView.Adapter = instructorBioAdapter;
-
-			instructorBioListView.ItemClick += ListView_ItemClick;
+            BindData();
+            HandleEvents();
 		}
 
-		private void FindViews()
+        private void HandleEvents()
+        {
+            instructorBioListView.ItemClick += ListView_ItemClick;
+        }
+
+        private void BindData()
+        {
+            instructorBioDataService = new InstructorBioDataService();
+            allInstructorBios = instructorBioDataService.GetAllInstructorBios();
+            instructorBioAdapter = new InstructorBioAdapter(this, allInstructorBios);
+            instructorBioListView.Adapter = instructorBioAdapter;
+        }
+
+        private void FindViews()
 		{
 			instructorBioListView = FindViewById<ListView>(Resource.Id.instructorBioListView);
 			this.toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);

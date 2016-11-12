@@ -31,12 +31,11 @@ namespace UniBlu.Fragments
         }
         protected void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            var announcement = announcements[e.Position];
-            var intent = new Intent();
-            intent.SetClass(this.Activity, typeof(AnnouncementDetailActivity));
-            intent.PutExtra("selectedAnnouncmentId", announcement.Id);
+            var announcement = announcements[e.Position]; 
+            Intent intent = new Intent(this.Activity, typeof(AnnouncementDetailActivity));
+            intent.PutExtra("selectedAnnouncementId", announcement.Id);
 
-            StartActivityForResult(intent, 100);
+            StartActivity(intent);
         }
         protected void FindViews()
         {
