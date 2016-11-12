@@ -3,18 +3,17 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="8dp"
-    android:background="#f1e5c1">
+    android:padding="8dp">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="10dip">
+        android:paddingLeft="10dp">
         <TextView
             android:id="@+id/announcementTitleTextView"
-            android:layout_width="200dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:textColor="@android:color/black"
+            android:textColor="@color/blueText"
             android:textSize="16dp"
             android:textStyle="bold"
             android:gravity="left" />
