@@ -19,11 +19,11 @@
             android:gravity="left" />
         <TextView
             android:id="@+id/announcementDateTextView"
-            android:layout_width="200dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:textColor="@android:color/black"
-            android:textSize="12dp"
+            android:textSize="14dp"
             android:gravity="left"
             android:layout_below="@+id/announcementTitleTextView" />
         <TextView
@@ -32,17 +32,27 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:textColor="@android:color/black"
-            android:textSize="16dp"
+            android:textSize="12dp"
             android:textStyle="bold"
-            android:gravity="right"
+            android:gravity="left"
             android:layout_below="@+id/announcementDateTextView" />
+        <TextView
+            android:id="@+id/announcementPostedToTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_below="@+id/announcementPostedByTextView" />
         <TextView
             android:id="@+id/announcementContentTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:textColor="@android:color/black"
-            android:textSize="16dp"
+            android:textSize="12dp"
             android:textStyle="bold"
             android:gravity="right"
             android:layout_below="@+id/announcementPostedByTextView"

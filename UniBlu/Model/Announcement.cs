@@ -12,13 +12,13 @@ using Android.Widget;
 
 namespace UniBlu.Model
 {
-    public class Announcement
-    {
-        public int Id { get; set; }
-        public string Date { get; set; }
-        public string Title { get; set; }
-        public string PostedBy { get; set; }
-        public string PostedTo { get; set; }
-        public string Content { get; set; }
-    }
+	public class Announcement
+	{
+		public int Id { get; set; }
+		public string Date { get; set; }
+		public string Title { get; set; }
+		public string PostedBy { get; set; }
+		public string PostedTo { get; set; }
+		public string Content { get; set; }
+	}
 }

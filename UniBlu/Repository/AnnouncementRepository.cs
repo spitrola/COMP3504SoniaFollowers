@@ -41,7 +41,7 @@ namespace UniBlu.Repository
 						Title = "Sample Xamarin.Android projects",
 						PostedBy = "Jordan Kidney",
 						PostedTo = "Comp 3504 F16 Prog IV: Software Engineering",
-						Content = "https://developer.xamarin.com/samples/android/all/"
+						Content = "\\r\\n(1) Skills demo 1 period has been extended. You have from Oct 5 to Oct 31 to sign up for and do your demo. Each demo now has a 40 minute time period.\\r\\n\u00a0 \u00a0 \u00a0All previously booked demos have been cancelled\u00a0to allow for rebooking. If you have already done your demo you are good. If you have not done your demo please sign up for a demo again through the following link:\\r\\n\u00a0 \u00a0 \u00a0 \u00a0http://tinyurl.com/j76neg6\\r\\n\u00a0(2) The dates for Exams 3,4,\u00a0and 5\u00a0have been changed. The course calendar has been updated along with the main course content section to reflect this. The new dates are listed below\\r\\n(3) For Course material 3 you will now see \\\"Exam and Studying Prep Material\\\" this contains a document with questions to help you study the provided material. Exam 3 will be built using these questions. These questions will also help you with early prep for Skills demo 2\\r\\n(4) Phase 4 of the course project is now worth 11% ( some of the weight of phase 5 was moved here)\\r\\n(5) Phase 5 of the project now contains fewer steps. I will discuss this in class next week.\\r\\n\\r\\nCourse Link/Main course content/Course Material 3 (Oct 5 to Oct 25)/Exam and Studying Prep Material\\r\\n"
 					}
 				}
 			},

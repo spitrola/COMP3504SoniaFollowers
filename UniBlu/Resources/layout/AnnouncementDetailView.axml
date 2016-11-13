@@ -3,35 +3,73 @@
     android:id="@+id/mainScrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/uniblue"
     android:minWidth="25px"
-    android:minHeight="25px">
+    android:minHeight="25px"
+    android:background="@color/uniblue">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp">
-        <TextView
-            android:text="Announcement Title"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/announcementTitleTextView"
-            android:paddingTop="20dp"
-            android:textSize="20dp"
-            android:textColor="@android:color/white" />
-        <TextView
-            android:text="Posted By:"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/postedByTextView"
-            android:paddingTop="20dp"
-            android:textSize="16dp"
-            android:textColor="@android:color/white" />
-        <Button
-              android:text="Close"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:id="@+id/announcementCloseButton" />
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            card_view:cardElevation="5dp"
+            card_view:cardCornerRadius="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:paddingBottom="8dp">
+                <TextView
+                    android:text="Announcement Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/announcementTitleTextView"
+                    android:paddingTop="20dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blueText" />
+                <TextView
+                    android:text="Posted By:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/postedByTextView"
+                    android:paddingTop="20dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black" />
+                <TextView
+                    android:text="Posted To:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/postedToTextView"
+                    android:paddingTop="20dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black" />
+                <TextView
+                    android:text="Content:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contentTextView"
+                    android:paddingTop="20dp"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginBottom="8dp" />
+                <Button
+                    android:text="Close"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/announcementCloseButton" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
     </LinearLayout>
 </ScrollView>

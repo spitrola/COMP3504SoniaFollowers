@@ -15,49 +15,55 @@ using Android.Views.Animations;
 
 namespace UniBlu
 {
-    [Activity(Label = "Announcements")]
-    public class AnnouncementDetailActivity : TabBaseActivity
-    {
-        private TextView announcementTitleTextView;
-        private TextView postedByTextView;
+	[Activity(Label = "Announcements")]
+	public class AnnouncementDetailActivity : TabBaseActivity
+	{
+		private TextView announcementTitleTextView;
+		private TextView postedByTextView;
+		private TextView contentTextView;
+		private TextView postedToTextView;
 
-        private Button announcementCloseButton;
+		private Button announcementCloseButton;
 
-        private Announcement selectedAnnouncement;
-        private AnnouncementDataService dataService;
-        protected override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
+		private Announcement selectedAnnouncement;
+		private AnnouncementDataService dataService;
+		protected override void OnCreate(Bundle savedInstanceState)
+		{
+			base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.AnnouncementDetailView);
-            dataService = new AnnouncementDataService();
-            var selectedAnnouncementId = Intent.Extras.GetInt("selectedAnnouncementId");
-            selectedAnnouncement = dataService.GetAnnouncementById(selectedAnnouncementId);
+			SetContentView(Resource.Layout.AnnouncementDetailView);
+			dataService = new AnnouncementDataService();
+			var selectedAnnouncementId = Intent.Extras.GetInt("selectedAnnouncementId");
+			selectedAnnouncement = dataService.GetAnnouncementById(selectedAnnouncementId);
 
-            FindViews();
-            BindData();
-            HandleEvents();
-        }
-        private void HandleEvents()
-        {
-            announcementCloseButton.Click += AnnouncementCloseButton_Click;
-        }
-        private void AnnouncementCloseButton_Click(object sender, EventArgs e)
-        {
-            var intent = new Intent();
-            SetResult(Result.Ok, intent);
-            this.Finish();
-        }
-        private void BindData()
-        {
-            announcementTitleTextView.Text = selectedAnnouncement.Title;
-            postedByTextView.Text = selectedAnnouncement.PostedBy;
-        }
-        private void FindViews()
-        {
-            announcementTitleTextView = FindViewById<TextView>(Resource.Id.announcementTitleTextView);
-            postedByTextView = FindViewById<TextView>(Resource.Id.postedByTextView);
-            announcementCloseButton = FindViewById<Button>(Resource.Id.announcementCloseButton);
-        }
-    }
+			FindViews();
+			BindData();
+			HandleEvents();
+		}
+		private void HandleEvents()
+		{
+			announcementCloseButton.Click += AnnouncementCloseButton_Click;
+		}
+		private void AnnouncementCloseButton_Click(object sender, EventArgs e)
+		{
+			var intent = new Intent();
+			SetResult(Result.Ok, intent);
+			this.Finish();
+		}
+		private void BindData()
+		{
+			announcementTitleTextView.Text = selectedAnnouncement.Title;
+			postedByTextView.Text = "Posted By: " + selectedAnnouncement.PostedBy;
+			postedToTextView.Text = "Posted To: " + selectedAnnouncement.PostedTo;
+			contentTextView.Text = selectedAnnouncement.Content;
+		}
+		private void FindViews()
+		{
+			announcementTitleTextView = FindViewById<TextView>(Resource.Id.announcementTitleTextView);
+			postedByTextView = FindViewById<TextView>(Resource.Id.postedByTextView);
+			postedToTextView = FindViewById<TextView>(Resource.Id.postedToTextView);
+			contentTextView = FindViewById<TextView>(Resource.Id.contentTextView);
+			announcementCloseButton = FindViewById<Button>(Resource.Id.announcementCloseButton);
+		}
+	}
 }
