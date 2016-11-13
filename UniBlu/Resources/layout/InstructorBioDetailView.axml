@@ -40,7 +40,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/professorNameTextView"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:textColor="@color/blueText" />
             <TextView
                 android:text="Small Text"
                 android:textAppearance="?android:attr/textAppearanceSmall"
