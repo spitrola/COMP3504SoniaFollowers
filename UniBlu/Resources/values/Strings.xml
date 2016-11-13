@@ -77,4 +77,7 @@
 	<string name="instructor">Instructor Bio</string>
   <string name="announcementsTitle">Announcements</string>
   <string name="schedulesTitle">Important Schedules</string>
+  <string name="currentSchedule">Current Schedule</string>
+  <string name="courseScheduleTitle">Course Schedule</string>
+  <string name="goToCoursePlannerButton">Plan Your Courses</string>
 </resources>

@@ -62,13 +62,6 @@ namespace UniBlu
             StartActivity(intent);
         }
 
-        private void notDone()
-        {
-            Toast toast = Toast.MakeText(this, Resource.String.sorryNotDone, ToastLength.Long);
-            toast.SetGravity(GravityFlags.Center, 0, 0);
-            toast.Show();
-        }
-
         private void LabSchedulesButton_Click(object sender, EventArgs e)
         {
             // Using this button to test the create filter activity
@@ -90,7 +83,8 @@ namespace UniBlu
 
         private void CoursePlannerButton_Click(object sender, EventArgs e)
         {
-            notDone();
+            Intent intent = new Intent(this, typeof(CourseScheduleActivity));
+            StartActivity(intent);
         }
     }
 }

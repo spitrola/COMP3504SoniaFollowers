@@ -63,6 +63,7 @@
     <Compile Include="AnnouncementMenuActivity.cs" />
     <Compile Include="BaseActivity.cs" />
     <Compile Include="CISFaceBookActivity.cs" />
+    <Compile Include="CourseScheduleActivity.cs" />
     <Compile Include="CreateFilterActivity.cs" />
     <Compile Include="Fragments\BaseFragment.cs" />
     <Compile Include="Fragments\TAsFragment.cs" />
@@ -161,6 +162,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SchedulesView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CourseScheduleLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
