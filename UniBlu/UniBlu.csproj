@@ -65,6 +65,8 @@
     <Compile Include="CISFaceBookActivity.cs" />
     <Compile Include="CreateFilterActivity.cs" />
     <Compile Include="Fragments\BaseFragment.cs" />
+    <Compile Include="Fragments\TAsFragment.cs" />
+    <Compile Include="Fragments\OpenLabsFragment.cs" />
     <Compile Include="Fragments\InstructorsFragment.cs" />
     <Compile Include="Fragments\ProgramFragment.cs" />
     <Compile Include="Fragments\SocietyFragment.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="Repository\InstructorBioRepository.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SchedulesActivity.cs" />
     <Compile Include="Service\AnnouncementDataService.cs" />
     <Compile Include="Service\InstructorBioDataService.cs" />
     <Compile Include="SettingsActivity.cs" />
@@ -151,6 +154,15 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\InstructorBioDetailView.axml" />
+    <AndroidResource Include="Resources\layout\LabSchedulesFragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\TAsScheduleFragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SchedulesView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Heart.png" />
@@ -216,6 +228,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logo2Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\LabSchedule1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.24.2.1\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.24.2.1\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Views.Animations;
 using Android.Animation;
+using Android.Preferences;
 
 namespace UniBlu
 {
@@ -40,7 +41,6 @@ namespace UniBlu
             base.OnPause();
             Music.stop(this);
         }
-
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
             MenuInflater.Inflate(Resource.Menu.SettingsMenu, menu);

@@ -72,7 +72,7 @@ namespace UniBlu
         private void LabSchedulesButton_Click(object sender, EventArgs e)
         {
             // Using this button to test the create filter activity
-            var intent = new Intent(this, typeof(CreateFilterActivity));
+            var intent = new Intent(this, typeof(SchedulesActivity));
             StartActivity(intent);
         }
 
