@@ -34,8 +34,8 @@ namespace UniBlu
 
         private void GoToCoursePlannerButton_Click(object sender, EventArgs e)
         {
-            // Intent intent = new Intent(this, typeof(CoursePlannerActivity));
-            // StartActivity(intent);
+            Intent intent = new Intent(this, typeof(SchedulePlannerActivity));
+            StartActivity(intent);
         }
 
         private void SetToolBar()

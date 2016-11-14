@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/toolbar" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <Button
+            android:text="@string/addCourseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/addCourseButton" />
+        <Button
+            android:text="@string/addFilterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/addFilterButton" />
+        <Button
+            android:text="@string/clearCalendarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/clearCalendarButton" />
+    </LinearLayout>
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedulePlannerCalendarView" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <Button
+            android:text="@string/removeFromCalendarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/removeFromCalendarButton" />
+        <Button
+            android:text="@string/saveCalendarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/saveCalendarButton" />
+    </LinearLayout>
+</LinearLayout>

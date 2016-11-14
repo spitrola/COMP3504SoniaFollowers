@@ -58,8 +58,10 @@ namespace UniBlu
         private void DoneWithFilterButton_Click(object sender, EventArgs e)
         {
             //TODO Need to set this activity to go back to the scheduling page
-            var intent = new Intent(this, typeof(LandingPageActivity));
-            StartActivity(intent);
+            var intent = new Intent(this, typeof(SchedulePlannerActivity));
+            //TODO put the returning data into the intent.
+            SetResult(Result.Ok, intent);
+            Finish();
         }
 
         private void FreeLunchButton_Click(object sender, EventArgs e)

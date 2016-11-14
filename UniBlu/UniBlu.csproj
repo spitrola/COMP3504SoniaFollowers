@@ -86,6 +86,7 @@
     <Compile Include="Repository\InstructorBioRepository.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SchedulePlannerActivity.cs" />
     <Compile Include="SchedulesActivity.cs" />
     <Compile Include="Service\AnnouncementDataService.cs" />
     <Compile Include="Service\InstructorBioDataService.cs" />
@@ -165,6 +166,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\CourseScheduleLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SchedulePlannerLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

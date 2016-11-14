@@ -79,5 +79,11 @@
   <string name="schedulesTitle">Important Schedules</string>
   <string name="currentSchedule">Current Schedule</string>
   <string name="courseScheduleTitle">Course Schedule</string>
-  <string name="goToCoursePlannerButton">Plan Your Courses</string>
+  <string name="addCourseButton">Add Course</string>
+  <string name="addFilterButton">Add a Filter</string>
+  <string name="clearCalendarButton">Clear Calendar</string>
+  <string name="saveCalendarButton">Save This Calendar</string>
+  <string name="removeFromCalendarButton">Remove From Calendar</string>
+  <string name="schedulePlannerTitle">Schedule Planner</string>
+  <string name="goToCoursePlannerButton">Go to Schedule Planner</string>
 </resources>
