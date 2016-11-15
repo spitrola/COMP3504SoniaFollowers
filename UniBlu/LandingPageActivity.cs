@@ -58,7 +58,7 @@ namespace UniBlu
 
         private void StudentSocietyButton_Click(object sender, EventArgs e)
         {
-            Intent intent = new Intent(this, typeof(CISFaceBookActivity));
+            Intent intent = new Intent(this, typeof(CISActivity));
             StartActivity(intent);
         }
 

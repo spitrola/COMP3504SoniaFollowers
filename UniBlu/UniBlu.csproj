@@ -62,18 +62,20 @@
     <Compile Include="Adapters\AnnouncementListAdapter.cs" />
     <Compile Include="AnnouncementMenuActivity.cs" />
     <Compile Include="BaseActivity.cs" />
-    <Compile Include="CISFaceBookActivity.cs" />
+    <Compile Include="CISActivity.cs" />
     <Compile Include="CourseScheduleActivity.cs" />
     <Compile Include="CreateFilterActivity.cs" />
     <Compile Include="Fragments\B203Fragment.cs" />
     <Compile Include="Fragments\B215Fragment.cs" />
     <Compile Include="Fragments\BaseFragment.cs" />
+    <Compile Include="Fragments\CISFaceBookFragment.cs" />
     <Compile Include="Fragments\JordanPrattFragment.cs" />
     <Compile Include="Fragments\B107Fragment.cs" />
     <Compile Include="Fragments\InstructorsFragment.cs" />
     <Compile Include="Fragments\ProgramFragment.cs" />
     <Compile Include="Fragments\SocietyFragment.cs" />
     <Compile Include="Fragments\SteveKalmarFragment.cs" />
+    <Compile Include="Fragments\CISWebSiteFragment.cs" />
     <Compile Include="InstructorBioDetailActivity.cs" />
     <Compile Include="InstructorBiosListActivity.cs" />
     <Compile Include="LandingPageActivity.cs" />
@@ -155,7 +157,7 @@
     <AndroidResource Include="Resources\layout\DayOffLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\FaceBookLayout.axml">
+    <AndroidResource Include="Resources\layout\CISLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\InstructorBioDetailView.axml" />
@@ -169,6 +171,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SchedulePlannerLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CISFragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
