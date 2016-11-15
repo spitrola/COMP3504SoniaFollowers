@@ -10,11 +10,13 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Android.Webkit;
 
 namespace UniBlu.Fragments
 {
-    public class OpenLabsFragment : Fragment
+    public class B215Fragment : Fragment
     {
+        private WebView localWebView;
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -24,8 +26,12 @@ namespace UniBlu.Fragments
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            // Use this to return your custom view for this Fragment
-            return inflater.Inflate(Resource.Layout.LabSchedulesFragment, container, false);
+            var view = inflater.Inflate(Resource.Layout.LabSchedulesFragment, container, false);
+            localWebView = view.FindViewById<WebView>(Resource.Id.labSchedulesWebView);
+            localWebView.SetWebViewClient(new WebViewClient());
+            localWebView.Settings.JavaScriptEnabled = true;
+            localWebView.LoadUrl("http://bit.ly/b215-fall-2016");
+            return view;
         }
     }
 }

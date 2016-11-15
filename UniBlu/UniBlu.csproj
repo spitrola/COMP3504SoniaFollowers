@@ -65,12 +65,15 @@
     <Compile Include="CISFaceBookActivity.cs" />
     <Compile Include="CourseScheduleActivity.cs" />
     <Compile Include="CreateFilterActivity.cs" />
+    <Compile Include="Fragments\B203Fragment.cs" />
+    <Compile Include="Fragments\B215Fragment.cs" />
     <Compile Include="Fragments\BaseFragment.cs" />
-    <Compile Include="Fragments\TAsFragment.cs" />
-    <Compile Include="Fragments\OpenLabsFragment.cs" />
+    <Compile Include="Fragments\JordanPrattFragment.cs" />
+    <Compile Include="Fragments\B107Fragment.cs" />
     <Compile Include="Fragments\InstructorsFragment.cs" />
     <Compile Include="Fragments\ProgramFragment.cs" />
     <Compile Include="Fragments\SocietyFragment.cs" />
+    <Compile Include="Fragments\SteveKalmarFragment.cs" />
     <Compile Include="InstructorBioDetailActivity.cs" />
     <Compile Include="InstructorBiosListActivity.cs" />
     <Compile Include="LandingPageActivity.cs" />
@@ -157,9 +160,6 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\InstructorBioDetailView.axml" />
     <AndroidResource Include="Resources\layout\LabSchedulesFragment.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\TAsScheduleFragment.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SchedulesView.axml">

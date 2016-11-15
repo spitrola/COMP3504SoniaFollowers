@@ -33,8 +33,13 @@ namespace UniBlu
         {
             this.ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
             ActionBar.Title = GetString(Resource.String.schedulesTitle);
-            AddTab("Lab Schedules", new OpenLabsFragment());
-            AddTab("TA Schedules", new TAsFragment());
+
+            AddTab("Jordan", new JordanPrattFragment());
+            AddTab("Steve", new SteveKalmarFragment());
+
+            AddTab("B107", new B107Fragment());
+            AddTab("B203", new B203Fragment());
+            AddTab("B215", new B215Fragment()); 
         }
         private void AddTab(string tabText, Fragment view)
         {
