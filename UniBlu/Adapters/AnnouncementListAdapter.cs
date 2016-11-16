@@ -56,7 +56,7 @@ namespace UniBlu.Adapters
 				convertView = context.LayoutInflater.Inflate(Resource.Layout.AnnouncementRowView, null);
 			}
 			convertView.FindViewById<TextView>(Resource.Id.announcementTitleTextView).Text = item.Title;
-			convertView.FindViewById<TextView>(Resource.Id.announcementDateTextView).Text = item.Title; //TO DO stringify date
+			convertView.FindViewById<TextView>(Resource.Id.announcementDateTextView).Text = item.Date;
 			convertView.FindViewById<TextView>(Resource.Id.announcementPostedByTextView).Text = "Posted By: " + item.PostedBy;
 			convertView.FindViewById<TextView>(Resource.Id.announcementPostedToTextView).Text = "Posted To: " + item.PostedTo;
 			convertView.FindViewById<TextView>(Resource.Id.announcementContentTextView).Text = item.Content;
