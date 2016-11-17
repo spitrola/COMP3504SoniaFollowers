@@ -13,146 +13,146 @@ using UniBlu.Model;
 
 namespace UniBlu.Repository
 {
-    class CourseRepository
-    {
-        private static List<CourseGroup> courseGroups = new List<CourseGroup>()
-        {
-            new CourseGroup()
-            {
-                CourseGroupId = 0,
-                Title = "Core Courses",
-                CourseGrouping = new List<Course>()
-                {
-                    new Course()
-                    {
-                        CourseId = 0,
-                        CRN = 12345,
-                        Subject = "COMP",
-                        CourseNumber = 1501,
-                        Section = 001,
+	class CourseRepository
+	{
+		private static List<CourseGroup> courseGroups = new List<CourseGroup>()
+		{
+			new CourseGroup()
+			{
+				CourseGroupId = 0,
+				Title = "Core Courses",
+				CourseGrouping = new List<Course>()
+				{
+					new Course()
+					{
+						CourseId = 0,
+						SectionId = 12345,
+						Subject = "COMP",
+						CourseNumber = 1501,
+                        //Section = 001,
                         Title = "Introduction to Programming",
-                        days = null,
-                        Instructor = "Jordan Kidney",
-                        Location = "B215",
-                        FullClass = false
+						days = null,
+						Instructor = "Jordan Kidney",
+						Location = "B215",
+                        //FullClass = false
                     },
-                    new Course()
-                    {
-                        CourseId = 1,
-                        CRN = 67890,
-                        Subject = "COMP",
-                        CourseNumber = 1501,
-                        Section = 001,
+					new Course()
+					{
+						CourseId = 1,
+						SectionId = 67890,
+						Subject = "COMP",
+						CourseNumber = 1501,
+                        //Section = 001,
                         Title = "Introduction to Programming",
-                        days = null,
-                        Instructor = "Jordan Kidney",
-                        Location = "B215",
-                        FullClass = false
+						days = null,
+						Instructor = "Jordan Kidney",
+						Location = "B215",
+                        //FullClass = false
                     }
-                }
-            },
-            new CourseGroup()
-            {
-                CourseGroupId = 1,
-                Title = "GNED",
-                CourseGrouping = new List<Course>()
-                {
-                                  new Course()
-                    {
-                        CourseId = 3,
-                        CRN = 67890,
-                        Subject = "COMP",
-                        CourseNumber = 1501,
-                        Section = 001,
+				}
+			},
+			new CourseGroup()
+			{
+				CourseGroupId = 1,
+				Title = "GNED",
+				CourseGrouping = new List<Course>()
+				{
+								  new Course()
+					{
+						CourseId = 3,
+						SectionId = 67890,
+						Subject = "COMP",
+						CourseNumber = 1501,
+                        //Section = 001,
                         Title = "Introduction to Programming",
-                        days = null,
-                        Instructor = "Jordan Kidney",
-                        Location = "B215",
-                        FullClass = false
+						days = null,
+						Instructor = "Jordan Kidney",
+						Location = "B215",
+                        //FullClass = false
                     },
-                    new Course()
-                    {
-                        CourseId = 4,
-                        CRN = 67890,
-                        Subject = "COMP",
-                        CourseNumber = 1501,
-                        Section = 001,
+					new Course()
+					{
+						CourseId = 4,
+						SectionId = 67890,
+						Subject = "COMP",
+						CourseNumber = 1501,
+                        //Section = 001,
                         Title = "Introduction to Programming",
-                        days = null,
-                        Instructor = "Jordan Kidney",
-                        Location = "B215",
-                        FullClass = false
+						days = null,
+						Instructor = "Jordan Kidney",
+						Location = "B215",
+                        //FullClass = false
                     }
-                }
-            },
-            new CourseGroup()
-            {
-                CourseGroupId = 2,
-                Title = "Electives",
-                CourseGrouping = new List<Course>()
-                {
-                    new Course()
-                    {
-                        CourseId = 5,
-                        CRN = 67890,
-                        Subject = "COMP",
-                        CourseNumber = 1501,
-                        Section = 001,
-                        Title = "Introduction to Programming",
-                        days = null,
-                        Instructor = "Jordan Kidney",
-                        Location = "B215",
-                        FullClass = false
+				}
+			},
+			new CourseGroup()
+			{
+				CourseGroupId = 2,
+				Title = "Electives",
+				CourseGrouping = new List<Course>()
+				{
+					new Course()
+					{
+						CourseId = 5,
+						SectionId = 67890,
+						Subject = "COMP",
+						CourseNumber = 1501,
+						//Section = 001,
+						Title = "Introduction to Programming",
+						days = null,
+						Instructor = "Jordan Kidney",
+						Location = "B215",
+                        //FullClass = false
                     },
-                     new Course()
-                    {
-                        CourseId = 6,
-                        CRN = 67890,
-                        Subject = "COMP",
-                        CourseNumber = 1501,
-                        Section = 001,
-                        Title = "Introduction to Programming",
-                        days = null,
-                        Instructor = "Jordan Kidney",
-                        Location = "B215",
-                        FullClass = false
+					 new Course()
+					{
+						CourseId = 6,
+						SectionId = 67890,
+						Subject = "COMP",
+						CourseNumber = 1501,
+						//Section = 001,
+						Title = "Introduction to Programming",
+						days = null,
+						Instructor = "Jordan Kidney",
+						Location = "B215",
+                        //FullClass = false
                     }
-                }
-            }
-        };
+				}
+			}
+		};
 
-        public List<Course> GetAllCourses()
-        {
-            IEnumerable<Course> courses =
-                from courseGroup in courseGroups
-                from course in courseGroup.CourseGrouping
+		public List<Course> GetAllCourses()
+		{
+			IEnumerable<Course> courses =
+				from courseGroup in courseGroups
+				from course in courseGroup.CourseGrouping
 
-                select course;
-            return courses.ToList<Course>();
-        }
+				select course;
+			return courses.ToList<Course>();
+		}
 
-        public Course GetCourseById(int CourseId)
-        {
-            IEnumerable<Course> courses =
-                from courseGroup in courseGroups
-                from course in courseGroup.CourseGrouping
-                where course.CourseId == CourseId
-                select course;
-            return courses.FirstOrDefault();
-        }
-        public List<CourseGroup> GetGroupedCourses()
-        {
-            return courseGroups;
-        }
-        public List<Course> GetCoursesForGroup(int courseGroupId)
-        {
-            var group = courseGroups.Where(h => h.CourseGroupId == courseGroupId).FirstOrDefault();
+		public Course GetCourseById(int CourseId)
+		{
+			IEnumerable<Course> courses =
+				from courseGroup in courseGroups
+				from course in courseGroup.CourseGrouping
+				where course.CourseId == CourseId
+				select course;
+			return courses.FirstOrDefault();
+		}
+		public List<CourseGroup> GetGroupedCourses()
+		{
+			return courseGroups;
+		}
+		public List<Course> GetCoursesForGroup(int courseGroupId)
+		{
+			var group = courseGroups.Where(h => h.CourseGroupId == courseGroupId).FirstOrDefault();
 
-            if (group != null)
-            {
-                return group.CourseGrouping;
-            }
-            return null;
-        }
-    }
+			if (group != null)
+			{
+				return group.CourseGrouping;
+			}
+			return null;
+		}
+	}
 }
