@@ -75,15 +75,16 @@
 	<string name="cisFaceBook">Portal to CIS Facebook Page</string>
 	<string name="cisTitle">Student Society</string>
 	<string name="instructor">Instructor Bio</string>
-  <string name="announcementsTitle">Announcements</string>
-  <string name="schedulesTitle">Important Schedules</string>
-  <string name="currentSchedule">Current Schedule</string>
-  <string name="courseScheduleTitle">Course Schedule</string>
-  <string name="addCourseButton">Add Course</string>
-  <string name="addFilterButton">Add a Filter</string>
-  <string name="clearCalendarButton">Clear Calendar</string>
-  <string name="saveCalendarButton">Save Calendar</string>
-  <string name="removeFromCalendarButton">Remove Course</string>
-  <string name="schedulePlannerTitle">Schedule Planner</string>
-  <string name="goToCoursePlannerButton">Go to Schedule Planner</string>
+	<string name="announcementsTitle">Announcements</string>
+	<string name="schedulesTitle">Important Schedules</string>
+	<string name="currentSchedule">Current Schedule</string>
+	<string name="courseScheduleTitle">Course Schedule</string>
+	<string name="addCourseButton">Add Course</string>
+	<string name="addFilterButton">Add a Filter</string>
+	<string name="clearCalendarButton">Clear Calendar</string>
+	<string name="saveCalendarButton">Save Calendar</string>
+	<string name="removeFromCalendarButton">Remove Course</string>
+	<string name="schedulePlannerTitle">Schedule Planner</string>
+	<string name="goToCoursePlannerButton">Go to Schedule Planner</string>
+	<string name="hours">Hours</string>
 </resources>
