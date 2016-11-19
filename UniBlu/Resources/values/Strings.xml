@@ -87,4 +87,5 @@
 	<string name="schedulePlannerTitle">Schedule Planner</string>
 	<string name="goToCoursePlannerButton">Go to Schedule Planner</string>
 	<string name="hours">Hours</string>
+  <string name="addCourseTitle">Adding A Course</string>
 </resources>

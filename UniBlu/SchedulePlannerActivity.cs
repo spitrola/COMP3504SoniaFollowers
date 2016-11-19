@@ -20,7 +20,8 @@ namespace UniBlu
 		private Button clearCalendar;
 		private Button removeFromCalendar;
 		private Button saveCalendar;
-		private CalendarView schedulePlannerCalendarView;
+        private const int FILTER = 100;
+        private const int ADDCOURSE = 200;
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -30,7 +31,12 @@ namespace UniBlu
 			FindViews();
 			SetToolBar();
 			HandleEvents();
-		}
+            if (savedInstanceState != null && savedInstanceState.GetInt("requestCode") == ADDCOURSE)
+            {
+                //Todo What do we do with the add course returned data
+            }
+
+        }
 
 		private void HandleEvents()
 		{
@@ -59,18 +65,24 @@ namespace UniBlu
 		private void AddFilter_Click(object sender, EventArgs e)
 		{
 			Intent intent = new Intent(this, typeof(CreateFilterActivity));
-			StartActivityForResult(intent, 100);
+			StartActivityForResult(intent, FILTER);
 		}
 		protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
 		{
-			// Todo - how do we now add a filter to the searches
+			// Todo - how do we now add a filter to the searches (requestCode = 100)
+            // Todo - how do we add a course to the calendar (requestCode = 200)
 			base.OnActivityResult(requestCode, resultCode, data);
-		}
+            var msg = "Request code " + requestCode + " was returned";
+            Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
+            toast.SetGravity(GravityFlags.Center, 0, 0);
+            toast.Show();
+        }
 
 		private void AddCourse_Click(object sender, EventArgs e)
 		{
-			notDone();
-		}
+			Intent intent = new Intent(this, typeof(AddCourseActivity));
+            StartActivity(intent);
+        }
 
 		private void notDone()
 		{
@@ -88,7 +100,6 @@ namespace UniBlu
 		private void FindViews()
 		{
 			this.toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-			//schedulePlannerCalendarView = FindViewById<CalendarView>(Resource.Id.currentScheduleCalendarView);
 			addCourse = FindViewById<Button>(Resource.Id.addCourseButton);
 			addFilter = FindViewById<Button>(Resource.Id.addFilterButton);
 			clearCalendar = FindViewById<Button>(Resource.Id.clearCalendarButton);

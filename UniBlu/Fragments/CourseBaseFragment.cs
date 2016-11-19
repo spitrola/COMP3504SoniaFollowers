@@ -33,7 +33,9 @@ namespace UniBlu.Fragments
             var course = courses[e.Position];
             Intent intent = new Intent(this.Activity, typeof(SchedulePlannerActivity));
             //TODO put in extras required once course is selected
-            StartActivity(intent);
+            intent.PutExtra("requestCode", 200);
+            //Todo put into the intent course name, number, and days/times, Course Title
+            StartActivity(intent);            
         }
         protected void FindViews()
         {

@@ -16,7 +16,7 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -59,6 +59,7 @@
     <Compile Include="AboutActivity.cs" />
     <Compile Include="Adapters\CourseListAdapter.cs" />
     <Compile Include="Adapters\InstructorBioAdapter.cs" />
+    <Compile Include="AddCourseActivity.cs" />
     <Compile Include="AnnouncementDetailActivity.cs" />
     <Compile Include="Adapters\AnnouncementListAdapter.cs" />
     <Compile Include="AnnouncementMenuActivity.cs" />
@@ -76,7 +77,7 @@
     <Compile Include="Fragments\JordanPrattFragment.cs" />
     <Compile Include="Fragments\B107Fragment.cs" />
     <Compile Include="Fragments\InstructorsFragment.cs" />
-    <Compile Include="Fragments\ProgramCoursesFragment.cs" />
+    <Compile Include="Fragments\CoreCourseFragment.cs" />
     <Compile Include="Fragments\ProgramFragment.cs" />
     <Compile Include="Fragments\SocietyFragment.cs" />
     <Compile Include="Fragments\SteveKalmarFragment.cs" />
@@ -198,6 +199,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\CoreCourseFragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\CourseMenuView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

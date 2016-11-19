@@ -14,7 +14,7 @@ using UniBlu.Adapters;
 
 namespace UniBlu.Fragments
 {
-    public class ProgramCoursesFragment : CourseBaseFragment
+    public class CoreCourseFragment : CourseBaseFragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {

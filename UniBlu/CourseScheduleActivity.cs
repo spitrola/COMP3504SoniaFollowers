@@ -15,7 +15,6 @@ namespace UniBlu
 	[Activity(Label = "Course Schedule")]
 	public class CourseScheduleActivity : BaseActivity
 	{
-		private CalendarView currentScheduleCalendarView;
 		private Button goToCoursePlannerButton;
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -47,7 +46,6 @@ namespace UniBlu
 		private void FindViews()
 		{
 			this.toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-			//currentScheduleCalendarView = FindViewById<CalendarView>(Resource.Id.currentScheduleCalendarView);
 			goToCoursePlannerButton = FindViewById<Button>(Resource.Id.goToCoursePlannerButton);
 		}
 	}
