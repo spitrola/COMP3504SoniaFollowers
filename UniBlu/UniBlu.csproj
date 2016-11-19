@@ -88,6 +88,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\Announcement.cs" />
     <Compile Include="Model\AnnouncementGroup.cs" />
+    <Compile Include="Model\CoreCourse.cs" />
     <Compile Include="Model\Course.cs" />
     <Compile Include="Model\CourseGroup.cs" />
     <Compile Include="Model\Instructor.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Preferences.cs" />
     <Compile Include="RegistrationActivity.cs" />
     <Compile Include="Repository\AnnouncementRepository.cs" />
+    <Compile Include="Repository\CoreCourseRepository.cs" />
     <Compile Include="Repository\CourseRepository.cs" />
     <Compile Include="Repository\InstructorBioRepository.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
