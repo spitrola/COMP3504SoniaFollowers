@@ -17,6 +17,6 @@ namespace UniBlu.Model
         public int Id { get; set; }                 
         public string Program { get; set; }         // i.e., COMP
         public int CourseNumber { get; set; }       // i.e., 1501
-        public string [,] PreReq { get; set }      // ie { "COMP", "1501" }, { "COMP", "1502" }
+        public string [,] PreReq { get; set; }      // ie { "COMP", "1501" }, { "COMP", "1502" }
     }
 }
