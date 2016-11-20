@@ -40,7 +40,7 @@ namespace UniBlu
 		private void SetToolBar()
 		{
 			SetActionBar(this.toolbar);
-			ActionBar.Title = GetString(Resource.String.courseScheduleTitle);
+			ActionBar.Title = GetString(Resource.String.currentSchedule);
 		}
 
 		private void FindViews()
