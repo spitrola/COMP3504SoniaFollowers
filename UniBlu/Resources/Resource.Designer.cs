@@ -229,8 +229,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0015
 			public const int CISWebView = 2131558421;
 			
-			// aapt resource value: 0x7f0d0067
-			public const int about = 2131558503;
+			// aapt resource value: 0x7f0d0066
+			public const int about = 2131558502;
 			
 			// aapt resource value: 0x7f0d005a
 			public const int addCourseButton = 2131558490;
@@ -265,8 +265,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0000
 			public const int card_view = 2131558400;
 			
-			// aapt resource value: 0x7f0d0060
-			public const int clearCalendarButton = 2131558496;
+			// aapt resource value: 0x7f0d005f
+			public const int clearCalendarButton = 2131558495;
 			
 			// aapt resource value: 0x7f0d0057
 			public const int confirmPasswordEditText = 2131558487;
@@ -295,8 +295,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0009
 			public const int doneWithFilterButton = 2131558409;
 			
-			// aapt resource value: 0x7f0d0065
-			public const int downloadData = 2131558501;
+			// aapt resource value: 0x7f0d0064
+			public const int downloadData = 2131558500;
 			
 			// aapt resource value: 0x7f0d0010
 			public const int fragmentContainer = 2131558416;
@@ -343,8 +343,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0059
 			public const int linearLayout2 = 2131558489;
 			
-			// aapt resource value: 0x7f0d005e
-			public const int linearLayout3 = 2131558494;
+			// aapt resource value: 0x7f0d005d
+			public const int linearLayout3 = 2131558493;
 			
 			// aapt resource value: 0x7f0d0052
 			public const int loginButton = 2131558482;
@@ -376,8 +376,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d000d
 			public const int postedToTextView = 2131558413;
 			
-			// aapt resource value: 0x7f0d0064
-			public const int printScreen = 2131558500;
+			// aapt resource value: 0x7f0d0063
+			public const int printScreen = 2131558499;
 			
 			// aapt resource value: 0x7f0d0044
 			public const int professorBioTextView = 2131558468;
@@ -394,23 +394,20 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d005c
 			public const int removeFromCalendarButton = 2131558492;
 			
-			// aapt resource value: 0x7f0d005f
-			public const int saveCalendarButton = 2131558495;
+			// aapt resource value: 0x7f0d005e
+			public const int saveCalendarButton = 2131558494;
 			
-			// aapt resource value: 0x7f0d005d
-			public const int schedulePlannerCalendarView = 2131558493;
+			// aapt resource value: 0x7f0d0060
+			public const int schedulesFragmentContainer = 2131558496;
 			
-			// aapt resource value: 0x7f0d0061
-			public const int schedulesFragmentContainer = 2131558497;
-			
-			// aapt resource value: 0x7f0d0066
-			public const int search = 2131558502;
+			// aapt resource value: 0x7f0d0065
+			public const int search = 2131558501;
 			
 			// aapt resource value: 0x7f0d0053
 			public const int selectUserNameTextView = 2131558483;
 			
-			// aapt resource value: 0x7f0d0063
-			public const int settings = 2131558499;
+			// aapt resource value: 0x7f0d0062
+			public const int settings = 2131558498;
 			
 			// aapt resource value: 0x7f0d0001
 			public const int soniaImageView = 2131558401;
@@ -514,8 +511,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d003d
 			public const int thursdayRadioButton = 2131558461;
 			
-			// aapt resource value: 0x7f0d0062
-			public const int toolbar = 2131558498;
+			// aapt resource value: 0x7f0d0061
+			public const int toolbar = 2131558497;
 			
 			// aapt resource value: 0x7f0d001a
 			public const int tuesday = 2131558426;
