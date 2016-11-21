@@ -29,12 +29,10 @@ namespace UniBlu.Repository
 						SectionId = 12345,
 						Subject = "COMP",
 						CourseNumber = 1501,
-                        //Section = 001,
                         Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
 						Location = "B215",
-                        //FullClass = false
                     },
 					new Course()
 					{
@@ -42,12 +40,10 @@ namespace UniBlu.Repository
 						SectionId = 67890,
 						Subject = "COMP",
 						CourseNumber = 1501,
-                        //Section = 001,
                         Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
 						Location = "B215",
-                        //FullClass = false
                     }
 				}
 			},
@@ -63,12 +59,10 @@ namespace UniBlu.Repository
 						SectionId = 67890,
 						Subject = "COMP",
 						CourseNumber = 1501,
-                        //Section = 001,
                         Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
 						Location = "B215",
-                        //FullClass = false
                     },
 					new Course()
 					{
@@ -81,7 +75,6 @@ namespace UniBlu.Repository
 						days = null,
 						Instructor = "Jordan Kidney",
 						Location = "B215",
-                        //FullClass = false
                     }
 				}
 			},
@@ -97,12 +90,10 @@ namespace UniBlu.Repository
 						SectionId = 67890,
 						Subject = "COMP",
 						CourseNumber = 1501,
-						//Section = 001,
 						Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
 						Location = "B215",
-                        //FullClass = false
                     },
 					 new Course()
 					{
@@ -110,12 +101,10 @@ namespace UniBlu.Repository
 						SectionId = 67890,
 						Subject = "COMP",
 						CourseNumber = 1501,
-						//Section = 001,
 						Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
 						Location = "B215",
-                        //FullClass = false
                     }
 				}
 			}
