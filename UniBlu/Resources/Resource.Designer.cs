@@ -289,8 +289,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0006
 			public const int dayOffButton = 2131558406;
 			
-			// aapt resource value: 0x7f0d0018
-			public const int daysOfWeek = 2131558424;
+			// aapt resource value: 0x7f0d0019
+			public const int daysOfWeek = 2131558425;
 			
 			// aapt resource value: 0x7f0d0009
 			public const int doneWithFilterButton = 2131558409;
@@ -304,14 +304,14 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0008
 			public const int freeLunchButton = 2131558408;
 			
-			// aapt resource value: 0x7f0d001d
-			public const int friday = 2131558429;
+			// aapt resource value: 0x7f0d001e
+			public const int friday = 2131558430;
 			
 			// aapt resource value: 0x7f0d003e
 			public const int fridayRadioButton = 2131558462;
 			
-			// aapt resource value: 0x7f0d0039
-			public const int goToCoursePlannerButton = 2131558457;
+			// aapt resource value: 0x7f0d0017
+			public const int goToCoursePlannerButton = 2131558423;
 			
 			// aapt resource value: 0x7f0d0007
 			public const int hateEarlyMorningsButton = 2131558407;
@@ -352,8 +352,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d000a
 			public const int mainScrollView = 2131558410;
 			
-			// aapt resource value: 0x7f0d0019
-			public const int monday = 2131558425;
+			// aapt resource value: 0x7f0d001a
+			public const int monday = 2131558426;
 			
 			// aapt resource value: 0x7f0d003a
 			public const int mondayRadioButton = 2131558458;
@@ -418,95 +418,95 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d004d
 			public const int studentSocietyButton = 2131558477;
 			
-			// aapt resource value: 0x7f0d0017
-			public const int tableLayout1 = 2131558423;
-			
-			// aapt resource value: 0x7f0d0026
-			public const int tableRow10 = 2131558438;
+			// aapt resource value: 0x7f0d0018
+			public const int tableLayout1 = 2131558424;
 			
 			// aapt resource value: 0x7f0d0027
-			public const int tableRow11 = 2131558439;
+			public const int tableRow10 = 2131558439;
 			
 			// aapt resource value: 0x7f0d0028
-			public const int tableRow12 = 2131558440;
+			public const int tableRow11 = 2131558440;
 			
 			// aapt resource value: 0x7f0d0029
-			public const int tableRow13 = 2131558441;
+			public const int tableRow12 = 2131558441;
 			
 			// aapt resource value: 0x7f0d002a
-			public const int tableRow14 = 2131558442;
+			public const int tableRow13 = 2131558442;
 			
 			// aapt resource value: 0x7f0d002b
-			public const int tableRow15 = 2131558443;
+			public const int tableRow14 = 2131558443;
 			
 			// aapt resource value: 0x7f0d002c
-			public const int tableRow16 = 2131558444;
+			public const int tableRow15 = 2131558444;
 			
 			// aapt resource value: 0x7f0d002d
-			public const int tableRow17 = 2131558445;
+			public const int tableRow16 = 2131558445;
 			
 			// aapt resource value: 0x7f0d002e
-			public const int tableRow18 = 2131558446;
+			public const int tableRow17 = 2131558446;
 			
 			// aapt resource value: 0x7f0d002f
-			public const int tableRow19 = 2131558447;
-			
-			// aapt resource value: 0x7f0d001e
-			public const int tableRow2 = 2131558430;
+			public const int tableRow18 = 2131558447;
 			
 			// aapt resource value: 0x7f0d0030
-			public const int tableRow20 = 2131558448;
-			
-			// aapt resource value: 0x7f0d0031
-			public const int tableRow21 = 2131558449;
-			
-			// aapt resource value: 0x7f0d0032
-			public const int tableRow22 = 2131558450;
-			
-			// aapt resource value: 0x7f0d0033
-			public const int tableRow23 = 2131558451;
-			
-			// aapt resource value: 0x7f0d0034
-			public const int tableRow24 = 2131558452;
-			
-			// aapt resource value: 0x7f0d0035
-			public const int tableRow25 = 2131558453;
-			
-			// aapt resource value: 0x7f0d0036
-			public const int tableRow26 = 2131558454;
-			
-			// aapt resource value: 0x7f0d0037
-			public const int tableRow27 = 2131558455;
-			
-			// aapt resource value: 0x7f0d0038
-			public const int tableRow28 = 2131558456;
+			public const int tableRow19 = 2131558448;
 			
 			// aapt resource value: 0x7f0d001f
-			public const int tableRow3 = 2131558431;
+			public const int tableRow2 = 2131558431;
+			
+			// aapt resource value: 0x7f0d0031
+			public const int tableRow20 = 2131558449;
+			
+			// aapt resource value: 0x7f0d0032
+			public const int tableRow21 = 2131558450;
+			
+			// aapt resource value: 0x7f0d0033
+			public const int tableRow22 = 2131558451;
+			
+			// aapt resource value: 0x7f0d0034
+			public const int tableRow23 = 2131558452;
+			
+			// aapt resource value: 0x7f0d0035
+			public const int tableRow24 = 2131558453;
+			
+			// aapt resource value: 0x7f0d0036
+			public const int tableRow25 = 2131558454;
+			
+			// aapt resource value: 0x7f0d0037
+			public const int tableRow26 = 2131558455;
+			
+			// aapt resource value: 0x7f0d0038
+			public const int tableRow27 = 2131558456;
+			
+			// aapt resource value: 0x7f0d0039
+			public const int tableRow28 = 2131558457;
 			
 			// aapt resource value: 0x7f0d0020
-			public const int tableRow4 = 2131558432;
+			public const int tableRow3 = 2131558432;
 			
 			// aapt resource value: 0x7f0d0021
-			public const int tableRow5 = 2131558433;
+			public const int tableRow4 = 2131558433;
 			
 			// aapt resource value: 0x7f0d0022
-			public const int tableRow6 = 2131558434;
+			public const int tableRow5 = 2131558434;
 			
 			// aapt resource value: 0x7f0d0023
-			public const int tableRow7 = 2131558435;
+			public const int tableRow6 = 2131558435;
 			
 			// aapt resource value: 0x7f0d0024
-			public const int tableRow8 = 2131558436;
+			public const int tableRow7 = 2131558436;
 			
 			// aapt resource value: 0x7f0d0025
-			public const int tableRow9 = 2131558437;
+			public const int tableRow8 = 2131558437;
+			
+			// aapt resource value: 0x7f0d0026
+			public const int tableRow9 = 2131558438;
 			
 			// aapt resource value: 0x7f0d004e
 			public const int textView1 = 2131558478;
 			
-			// aapt resource value: 0x7f0d001c
-			public const int thursday = 2131558428;
+			// aapt resource value: 0x7f0d001d
+			public const int thursday = 2131558429;
 			
 			// aapt resource value: 0x7f0d003d
 			public const int thursdayRadioButton = 2131558461;
@@ -514,8 +514,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d0061
 			public const int toolbar = 2131558497;
 			
-			// aapt resource value: 0x7f0d001a
-			public const int tuesday = 2131558426;
+			// aapt resource value: 0x7f0d001b
+			public const int tuesday = 2131558427;
 			
 			// aapt resource value: 0x7f0d003b
 			public const int tuesdayRadioButton = 2131558459;
@@ -526,8 +526,8 @@ namespace UniBlu
 			// aapt resource value: 0x7f0d004f
 			public const int usernameEditText = 2131558479;
 			
-			// aapt resource value: 0x7f0d001b
-			public const int wednesday = 2131558427;
+			// aapt resource value: 0x7f0d001c
+			public const int wednesday = 2131558428;
 			
 			// aapt resource value: 0x7f0d003c
 			public const int wednesdayRadioButton = 2131558460;

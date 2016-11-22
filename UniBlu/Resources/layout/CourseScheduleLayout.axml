@@ -10,6 +10,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         layout="@layout/toolbar" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="@string/goToCoursePlannerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToCoursePlannerButton" />
+    </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -83,36 +93,107 @@
                         android:textStyle="bold" />
                 </TableRow>
                 <TableRow
-                    android:id="@+id/tableRow2"
-                    android:paddingBottom="10dp"
-                    android:paddingTop="10dp">
+                    android:id="@+id/tableRow2">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:text="8:00AM"
+                        android:layout_marginRight="0.0dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="Comp"
+                        android:layout_marginRight="0.0dp"
+                        android:background="@android:color/holo_blue_bright"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
                         android:layout_marginRight="0.0dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="Comp"
+                        android:layout_marginRight="0.0dp"
+                        android:background="@android:color/holo_blue_bright"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:gravity="center_horizontal" />
                 </TableRow>
                 <TableRow
-                    android:id="@+id/tableRow3"
-                    android:paddingBottom="10dp"
-                    android:paddingTop="10dp">
+                    android:id="@+id/tableRow3">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:text="8:30AM"
-                        android:layout_marginRight="0.0dp" />
-                </TableRow>
-                <TableRow
-                    android:id="@+id/tableRow4"
-                    android:paddingBottom="10dp"
-                    android:paddingTop="10dp">
+                        android:layout_marginRight="0.0dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
-                        android:text="9:00AM" />
+                        android:layout_marginRight="0.0dp"
+                        android:background="@android:color/holo_blue_bright"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="1501"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp"
+                        android:background="@android:color/holo_blue_bright"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="1501"
+                        android:gravity="center_horizontal" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow4">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="9:00AM"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp"
+                        android:background="@android:color/holo_blue_bright"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp"
+                        android:background="@android:color/holo_blue_bright"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" />
                 </TableRow>
                 <TableRow
                     android:id="@+id/tableRow5"
@@ -175,34 +256,112 @@
                         android:text="12:00PM" />
                 </TableRow>
                 <TableRow
-                    android:id="@+id/tableRow11"
-                    android:paddingBottom="10dp"
-                    android:paddingTop="10dp">
+                    android:id="@+id/tableRow11">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:text="12:30PM" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="GNED"
+                        android:background="#ff90fc67"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="GNED"
+                        android:background="#ff90fc67"
+                        android:gravity="center_horizontal" />
                 </TableRow>
                 <TableRow
-                    android:id="@+id/tableRow12"
-                    android:paddingBottom="10dp"
-                    android:paddingTop="10dp">
+                    android:id="@+id/tableRow12">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:text="1:00PM" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp"
+                        android:background="#ff90fc67"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="1201"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp"
+                        android:background="#ff90fc67"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="1201"
+                        android:gravity="center_horizontal" />
                 </TableRow>
                 <TableRow
-                    android:id="@+id/tableRow13"
-                    android:paddingBottom="10dp"
-                    android:paddingTop="10dp">
+                    android:id="@+id/tableRow13">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:text="1:30PM" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp"
+                        android:background="#ff90fc67"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:layout_marginRight="0.0dp"
+                        android:background="#ff90fc67"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" />
                 </TableRow>
                 <TableRow
                     android:id="@+id/tableRow14"
@@ -355,11 +514,6 @@
                         android:text="9:00PM" />
                 </TableRow>
             </TableLayout>
-            <Button
-                android:text="@string/goToCoursePlannerButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/goToCoursePlannerButton" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
