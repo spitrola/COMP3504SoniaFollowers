@@ -20,8 +20,8 @@ namespace UniBlu
 		private Button clearCalendar;
 		private Button removeFromCalendar;
 		private Button saveCalendar;
-        private const int FILTER = 100;
-        private const int ADDCOURSE = 200;
+		private const int FILTER = 100;
+		private const int ADDCOURSE = 200;
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
@@ -31,16 +31,16 @@ namespace UniBlu
 			FindViews();
 			SetToolBar();
 			HandleEvents();
-            if (savedInstanceState != null)
-            {
-                var courseId = savedInstanceState.GetString("courseId");
-                var msg = "Yippee!!! you courseID = " + courseId;
-                Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
-                toast.SetGravity(GravityFlags.Center, 0, 0);
-                toast.Show();
-            }
+			if (savedInstanceState != null)
+			{
+				var courseId = savedInstanceState.GetString("courseId");
+				var msg = "Yippee!!! you courseID = " + courseId;
+				Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
+				toast.SetGravity(GravityFlags.Center, 0, 0);
+				toast.Show();
+			}
 
-        }
+		}
 
 		private void HandleEvents()
 		{
@@ -74,20 +74,20 @@ namespace UniBlu
 		protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
 		{
 			// Todo - how do we now add a filter to the searches (requestCode = 100)
-            // Todo - how do we add a course to the calendar (requestCode = 200)
+			// Todo - how do we add a course to the calendar (requestCode = 200)
 			base.OnActivityResult(requestCode, resultCode, data);
-            var msg = "Request code " + requestCode + " was returned";
-            Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
-            toast.SetGravity(GravityFlags.Center, 0, 0);
-            toast.Show();
-        }
+			var msg = "Request code " + requestCode + " was returned";
+			Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
+			toast.SetGravity(GravityFlags.Center, 0, 0);
+			toast.Show();
+		}
 
 		private void AddCourse_Click(object sender, EventArgs e)
 		{
 			Intent intent = new Intent(this, typeof(AddCourseActivity));
-            intent.PutExtra("requestCode", ADDCOURSE);
-            StartActivity(intent);
-        }
+			intent.PutExtra("requestCode", ADDCOURSE);
+			StartActivity(intent);
+		}
 
 		private void notDone()
 		{
