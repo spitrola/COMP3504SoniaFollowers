@@ -32,7 +32,7 @@ namespace UniBlu.Repository
                         Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
-						Location = "B215",
+						Location = "B215"
                     },
 					new Course()
 					{
@@ -43,7 +43,7 @@ namespace UniBlu.Repository
                         Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
-						Location = "B215",
+						Location = "B215"
                     }
 				}
 			},
@@ -53,7 +53,7 @@ namespace UniBlu.Repository
 				Title = "GNED",
 				CourseGrouping = new List<Course>()
 				{
-								  new Course()
+					new Course()
 					{
 						CourseId = 3,
 						SectionId = 67890,
@@ -62,7 +62,7 @@ namespace UniBlu.Repository
                         Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
-						Location = "B215",
+						Location = "B215"
                     },
 					new Course()
 					{
@@ -74,7 +74,7 @@ namespace UniBlu.Repository
                         Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
-						Location = "B215",
+						Location = "B215"
                     }
 				}
 			},
@@ -93,7 +93,7 @@ namespace UniBlu.Repository
 						Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
-						Location = "B215",
+						Location = "B215"
                     },
 					 new Course()
 					{
@@ -104,7 +104,7 @@ namespace UniBlu.Repository
 						Title = "Introduction to Programming",
 						days = null,
 						Instructor = "Jordan Kidney",
-						Location = "B215",
+						Location = "B215"
                     }
 				}
 			}

@@ -88,4 +88,8 @@
 	<string name="goToCoursePlannerButton">Go to Schedule Planner</string>
 	<string name="hours">Hours</string>
   <string name="addCourseTitle">Adding A Course</string>
+  <string name="courseTitle">Course Name</string>
+  <string name="courseDiscipline">Program</string>
+  <string name="courseNumber">Number</string>
+  <string name="courseInstructor">Instructors Name</string>
 </resources>

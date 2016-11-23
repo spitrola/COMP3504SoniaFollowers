@@ -11,6 +11,8 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using UniBlu.Adapters;
+using UniBlu.Model;
+using UniBlu.Service;
 
 namespace UniBlu.Fragments
 {

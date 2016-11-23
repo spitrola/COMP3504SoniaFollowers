@@ -20,6 +20,7 @@ namespace UniBlu.Fragments
         protected ListView listView;
         protected List<Course> courses;
         protected CourseDataService courseDataService;
+        private const int ADDCOURSE = 200;
         public CourseBaseFragment()
         {
             courseDataService = new CourseDataService();
@@ -31,15 +32,14 @@ namespace UniBlu.Fragments
         protected void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
             var course = courses[e.Position];
-            Intent intent = new Intent(this.Activity, typeof(SchedulePlannerActivity));
-            //TODO put in extras required once course is selected
-            intent.PutExtra("requestCode", 200);
-            //Todo put into the intent course name, number, and days/times, Course Title
+            Intent intent = new Intent(Context, typeof(SchedulePlannerActivity));
+            intent.PutExtra("courseId", course.CourseId.ToString());
+            intent.PutExtra("requestCode", ADDCOURSE);
             StartActivity(intent);            
         }
         protected void FindViews()
         {
-            listView = this.View.FindViewById<ListView>(Resource.Id.courseListView);
+            listView = this.View.FindViewById<ListView>(Resource.Id.coreCourseListView);
         }
     }
 }

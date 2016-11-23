@@ -13,7 +13,7 @@ using UniBlu.Model;
 
 namespace UniBlu.Adapters
 {
-    class CourseListAdapter : BaseAdapter<Course>
+    public class CourseListAdapter : BaseAdapter<Course>
     {
         List<Course> items;
         Activity context;
@@ -53,13 +53,10 @@ namespace UniBlu.Adapters
             {
                 convertView = context.LayoutInflater.Inflate(Resource.Layout.CourseRowView, null);
             }
-            //TODO Bind the data for the CourseRowView.
-/*            convertView.FindViewById<TextView>(Resource.Id.announcementTitleTextView).Text = item.Title;
-            convertView.FindViewById<TextView>(Resource.Id.announcementDateTextView).Text = item.Date;
-            convertView.FindViewById<TextView>(Resource.Id.announcementPostedByTextView).Text = "Posted By: " + item.PostedBy;
-            convertView.FindViewById<TextView>(Resource.Id.announcementPostedToTextView).Text = "Posted To: " + item.PostedTo;
-            convertView.FindViewById<TextView>(Resource.Id.announcementContentTextView).Text = item.Content;
-*/
+            convertView.FindViewById<TextView>(Resource.Id.courseTitleTextView).Text = item.Title;
+            convertView.FindViewById<TextView>(Resource.Id.courseDisciplineTextView).Text = item.Subject;
+            convertView.FindViewById<TextView>(Resource.Id.courseNumberTextView).Text = item.CourseNumber.ToString();
+            convertView.FindViewById<TextView>(Resource.Id.courseInstructorTextView).Text = item.Instructor;
             return convertView;
 
         }

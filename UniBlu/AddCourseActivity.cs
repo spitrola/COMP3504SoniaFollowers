@@ -10,6 +10,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using UniBlu.Fragments;
+using UniBlu.Model;
+using UniBlu.Service;
 
 namespace UniBlu
 {

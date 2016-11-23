@@ -31,9 +31,13 @@ namespace UniBlu
 			FindViews();
 			SetToolBar();
 			HandleEvents();
-            if (savedInstanceState != null && savedInstanceState.GetInt("requestCode") == ADDCOURSE)
+            if (savedInstanceState != null)
             {
-                //Todo What do we do with the add course returned data
+                var courseId = savedInstanceState.GetString("courseId");
+                var msg = "Yippee!!! you courseID = " + courseId;
+                Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
+                toast.SetGravity(GravityFlags.Center, 0, 0);
+                toast.Show();
             }
 
         }
@@ -81,6 +85,7 @@ namespace UniBlu
 		private void AddCourse_Click(object sender, EventArgs e)
 		{
 			Intent intent = new Intent(this, typeof(AddCourseActivity));
+            intent.PutExtra("requestCode", ADDCOURSE);
             StartActivity(intent);
         }
 
