@@ -18,5 +18,8 @@ namespace UniBlu.Model
         public string Name { get; set; }
         public string ImagePath { get; set; }
         public string Bio { get; set; }
+        public string Office { get; set; }
+        public string Email { get; set; }
+        public string Education { get; set; }
     }
 }
