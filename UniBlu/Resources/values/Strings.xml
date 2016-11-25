@@ -29,20 +29,24 @@
 	<string name="search_label">Search</string>
 	<string name="about_label">About</string>
 	<string name="aboutSonia">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Fusce ultricies augue nulla, eget lobortis nibh tempus sit amet.
-    Duis nec aliquam sem. Nam ac gravida purus, a porttitor sapien.
+    Sonia, the group alpha, has a flair for style as can be seen from the look of the app.  She is a great team leader, 
+who only gets mad when James is super annoying.  She brings depth of experience when dealing with integration of services
+into both web and app development.  She comes from a good family, inheriting her good looks from her mother and her Joie de
+vivre from her dad. We were lucky to have her as our leader cuz she played the "girl" card with Jordan and got us extra 
+marks (Jordan dig!).
   </string>
 	<string name="aboutJames">
-    Nam aliquam suscipit nunc, sit amet mollis massa blandit ac.
-    Nam eget luctus turpis, eu pharetra urna. Fusce eu accumsan ligula.
-    Nullam gravida ornare nunc, a gravida risus varius non.
+	James, clearly the most mature of the group, the best dresser and the one his fellow students voted most likely
+not to graduate!  After a few false starts, the group came to rely on his ability to copy and paste.  His drive to create 
+checklists was only exceeded by his ability to mark them done -- without him, our Trello board would have been lacking in 
+such important unimplemented features such as print screen, only show unread messages, and having a filter to ensure that
+the lunch hour was free to eat.  He was the pomp and circumstance when the team was wondering "P.S.K. What Does It Mean?"
   </string>
 	<string name="aboutRyan">
-    Mauris eu lacinia nibh, quis vehicula velit. Duis eget bibendum eros, at sagittis metus.
-    Nullam gravida tellus sed leo eleifend, nec facilisis leo scelerisque.
-    Quisque sit amet est arcu.
-    Nullam hendrerit, leo ut gravida egestas, tellus enim mollis mauris, quis aliquet velit lacus eu ex.
+	Ryan, soft spoken, even keeled,even in the face of epic design battles between James and Sonia.  Attentive, 
+thoughtful, he listens and weighs the arguments and then, after allowing the debate to simmer, says "How about .... ?", 
+which was of course the right idea and got the group off dead center.  Ryan can be counted on to do his part in a reliable
+and professional manner.  He single handedly guided the group through the Azure setup and database implementation.
   </string>
 	<string name="aboutUs">About Us</string>
 	<string name="sorryNotDone">Sorry, that feature has not been implemented yet, stay tuned it is coming!</string>
