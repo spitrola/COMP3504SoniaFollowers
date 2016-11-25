@@ -19,9 +19,7 @@ namespace UniBlu.Model
         public string Subject { get; set; }         // i.e., COMP
         public int CourseNumber { get; set; }       // i.e., 1501
         public string Title { get; set; }           // i.e., Introduction to Programming
-        public string [][] days { get; set; }       // i.e., TR (Tuesday and Thursday) with start & end time 9 and 10:20
-        public string Instructor { get; set; }      // i.e., Jordan Kidney
-        public string Location { get; set; }        // i.e., B215
+        public List<Section> Sections { get; set; } // i.e., an array of section objects
         //todo check for full feature class
     }
 }

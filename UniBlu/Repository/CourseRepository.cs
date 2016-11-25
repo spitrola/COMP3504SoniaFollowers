@@ -30,9 +30,54 @@ namespace UniBlu.Repository
 						Subject = "COMP",
 						CourseNumber = 1501,
                         Title = "Introduction to Programming",
-						days = null,
-						Instructor = "Jordan Kidney",
-						Location = "B215"
+						Sections = new List<Section>
+                        {
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "LEC",
+                                Day = "T",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "LEC",
+                                Day = "R",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "11:00 AM",
+                                End = "11:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "10:00 AM",
+                                End = "10:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "W",
+                                Start = "1:00 PM",
+                                End = "1:50 PM",
+                                Location = "B215"
+                            }
+                        }
                     },
 					new Course()
 					{
@@ -41,9 +86,54 @@ namespace UniBlu.Repository
 						Subject = "COMP",
 						CourseNumber = 1501,
                         Title = "Introduction to Programming",
-						days = null,
-						Instructor = "Jordan Kidney",
-						Location = "B215"
+                        Sections = new List<Section>
+                        {
+                            new Section()
+                            {
+                                Instructor = "Ricardo Hoar",
+                                Type = "LEC",
+                                Day = "T",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "LEC",
+                                Day = "R",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "11:00 AM",
+                                End = "11:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "10:00 AM",
+                                End = "10:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "W",
+                                Start = "1:00 PM",
+                                End = "1:50 PM",
+                                Location = "B215"
+                            }
+                        }
                     }
 				}
 			},
@@ -60,9 +150,54 @@ namespace UniBlu.Repository
 						Subject = "COMP",
 						CourseNumber = 1501,
                         Title = "Introduction to Programming",
-						days = null,
-						Instructor = "Jordan Kidney",
-						Location = "B215"
+                        Sections = new List<Section>
+                        {
+                            new Section()
+                            {
+                                Instructor = "Jordan Kidney",
+                                Type = "LEC",
+                                Day = "T",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "LEC",
+                                Day = "R",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "11:00 AM",
+                                End = "11:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "10:00 AM",
+                                End = "10:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "W",
+                                Start = "1:00 PM",
+                                End = "1:50 PM",
+                                Location = "B215"
+                            }
+                        }
                     },
 					new Course()
 					{
@@ -72,9 +207,54 @@ namespace UniBlu.Repository
 						CourseNumber = 1501,
                         //Section = 001,
                         Title = "Introduction to Programming",
-						days = null,
-						Instructor = "Jordan Kidney",
-						Location = "B215"
+                        Sections = new List<Section>
+                        {
+                            new Section()
+                            {
+                                Instructor = "Charles Hepler",
+                                Type = "LEC",
+                                Day = "T",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "LEC",
+                                Day = "R",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "11:00 AM",
+                                End = "11:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "10:00 AM",
+                                End = "10:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "W",
+                                Start = "1:00 PM",
+                                End = "1:50 PM",
+                                Location = "B215"
+                            }
+                        }
                     }
 				}
 			},
@@ -91,9 +271,54 @@ namespace UniBlu.Repository
 						Subject = "COMP",
 						CourseNumber = 1501,
 						Title = "Introduction to Programming",
-						days = null,
-						Instructor = "Jordan Kidney",
-						Location = "B215"
+                        Sections = new List<Section>
+                        {
+                            new Section()
+                            {
+                                Instructor = "Ruben Yumol",
+                                Type = "LEC",
+                                Day = "T",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "LEC",
+                                Day = "R",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "11:00 AM",
+                                End = "11:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "10:00 AM",
+                                End = "10:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "W",
+                                Start = "1:00 PM",
+                                End = "1:50 PM",
+                                Location = "B215"
+                            }
+                        }
                     },
 					 new Course()
 					{
@@ -102,9 +327,54 @@ namespace UniBlu.Repository
 						Subject = "COMP",
 						CourseNumber = 1501,
 						Title = "Introduction to Programming",
-						days = null,
-						Instructor = "Jordan Kidney",
-						Location = "B215"
+                        Sections = new List<Section>
+                        {
+                            new Section()
+                            {
+                                Instructor = "Jordan Pratt",
+                                Type = "LEC",
+                                Day = "T",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "LEC",
+                                Day = "R",
+                                Start = "2:00 PM",
+                                End = "3:20 PM",
+                                Location = "T234"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "11:00 AM",
+                                End = "11:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "M",
+                                Start = "10:00 AM",
+                                End = "10:50 AM",
+                                Location = "B215"
+                            },
+                            new Section()
+                            {
+                                Instructor = "Randy Connoly",
+                                Type = "TUT",
+                                Day = "W",
+                                Start = "1:00 PM",
+                                End = "1:50 PM",
+                                Location = "B215"
+                            }
+                        }
                     }
 				}
 			}

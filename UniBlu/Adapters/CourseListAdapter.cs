@@ -56,7 +56,7 @@ namespace UniBlu.Adapters
             convertView.FindViewById<TextView>(Resource.Id.courseTitleTextView).Text = item.Title;
             convertView.FindViewById<TextView>(Resource.Id.courseDisciplineTextView).Text = item.Subject;
             convertView.FindViewById<TextView>(Resource.Id.courseNumberTextView).Text = item.CourseNumber.ToString();
-            convertView.FindViewById<TextView>(Resource.Id.courseInstructorTextView).Text = item.Instructor;
+            convertView.FindViewById<TextView>(Resource.Id.courseInstructorTextView).Text = item.Sections[0].Instructor;
             return convertView;
 
         }

@@ -92,6 +92,7 @@
     <Compile Include="Model\Course.cs" />
     <Compile Include="Model\CourseGroup.cs" />
     <Compile Include="Model\Instructor.cs" />
+    <Compile Include="Model\Section.cs" />
     <Compile Include="Music.cs" />
     <Compile Include="Preferences.cs" />
     <Compile Include="RegistrationActivity.cs" />
