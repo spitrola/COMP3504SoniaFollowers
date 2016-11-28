@@ -19,6 +19,7 @@ namespace UniBlu.Model
         public string Subject { get; set; }         // i.e., COMP
         public int CourseNumber { get; set; }       // i.e., 1501
         public string Title { get; set; }           // i.e., Introduction to Programming
+        public string Attribute { get; set; }       // i.e., Cluster 1 Tier 2
         public List<Section> Sections { get; set; } // i.e., an array of section objects
         //todo check for full feature class
     }
