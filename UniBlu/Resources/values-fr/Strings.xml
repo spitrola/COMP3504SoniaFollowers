@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="welcome">Welcome to UniBlu</string>
+	<string name="appName">UniBlu l\'Application pir Vous</string>
+	<string name="username">Username:</string>
+	<string name="password">Password:</string>
+	<string name="usernameHint">Enter your username here</string>
+	<string name="passwordHint">Enter your password here</string>
+	<string name="loginButton">Login</string>
+	<string name="coursePlannerButton">Planificateur de Cours</string>
+	<string name="announcementsButton">Annonces</string>
+	<string name="instructorBiosButton">Instructeur Bio</string>
+	<string name="labSchedulesButton">Schedule des Laboratoires</string>
+	<string name="studentSocietyButton">Societe D\'Eleve</string>
+	<string name="settings_label">Settings...</string>
+	<string name="settings_title">UniBlu Settings</string>
+	<string name="music_title">Play Music</string>
+	<string name="music_summary">Pomp and Circumstance</string>
+	<string name="scrollingScreen_title">Add Background Scroll</string>
+	<string name="scrollingScreen_summary">Gotta Love the Disco Screen Scroll</string>
+	<string name="saveReadAnnouncements_title">Delete announcements after reading</string>
+	<string name="saveReadAnnouncements_summary">Announcements can still be found at www.mymru.ca</string>
+	<string name="language_prompt">Pick a language</string>
+	<string-array name="language_array">
+		<item>English</item>
+	</string-array>
+	<string name="printScreen_label">Print Screen</string>
+	<string name="downloadData_label">Download Data</string>
+	<string name="search_label">Search</string>
+	<string name="about_label">About</string>
+	<string name="aboutSonia">
+    Sonia, the group alpha, has a flair for style as can be seen from the look of the app.  She is a great team leader, 
+who only gets mad when James is super annoying.  She brings depth of experience when dealing with integration of services
+into both web and app development.  She comes from a good family, inheriting her good looks from her mother and her Joie de
+vivre from her dad. We were lucky to have her as our leader cuz she played the "girl" card with Jordan and got us extra 
+marks (Jordan dig!).
+  </string>
+	<string name="aboutJames">
+	James, clearly the most mature of the group, the best dresser and the one his fellow students voted most likely
+not to graduate!  After a few false starts, the group came to rely on his ability to copy and paste.  His drive to create 
+checklists was only exceeded by his ability to mark them done -- without him, our Trello board would have been lacking in 
+such important unimplemented features such as print screen, only show unread messages, and having a filter to ensure that
+the lunch hour was free to eat.  He was the pomp and circumstance when the team was wondering "P.S.K. What Does It Mean?"
+  </string>
+	<string name="aboutRyan">
+	Ryan, soft spoken, even keeled,even in the face of epic design battles between James and Sonia.  Attentive, 
+thoughtful, he listens and weighs the arguments and then, after allowing the debate to simmer, says "How about .... ?", 
+which was of course the right idea and got the group off dead center.  Ryan can be counted on to do his part in a reliable
+and professional manner.  He single handedly guided the group through the Azure setup and database implementation.
+  </string>
+	<string name="aboutUs">About Us</string>
+	<string name="sorryNotDone">Sorry, that feature has not been implemented yet, stay tuned it is coming!</string>
+	<string name="notRegistered">
+		<u>Not Registered?</u>
+	</string>
+	<string name="selectUserName">Select A User Name</string>
+	<string name="selectPassword">Select a Password</string>
+	<string name="confirmPassword">Confirm Password</string>
+	<string name="registration">Registration</string>
+	<string name="registerButton">Register</string>
+	<string name="thankYouForRegistering">Thank you for registering.</string>
+	<string name="instructors">Instructors</string>
+	<string name="createFilterTitle">Create a Filter</string>
+	<string name="dayOffFilter">I need a day off!</string>
+	<string name="hateEarlyMorningsFilter">I hate mornings!</string>
+	<string name="freeLunchFilter">Free lunch times for me!</string>
+	<string name="doneWithFilter">Done</string>
+	<string name="addAFilter">Add a Filter</string>
+	<string name="monday">Monday</string>
+	<string name="tuesday">Tuesday</string>
+	<string name="wednesday">Wednesday</string>
+	<string name="thursday">Thursday</string>
+	<string name="friday">Friday</string>
+	<string name="ok">OK</string>
+	<string name="notBefore9_label">My eyes are shut before 9.  No classes before 9!</string>
+	<string name="notBefore10_label">I can start to smell the coffee at 10.  No classes before 10!</string>
+	<string name="notBefore11_label">I like my late nights! No classes before 11!</string>
+	<string name="selectDayOff">Select the day to get off</string>
+	<string name="cisFaceBook">Portal to CIS Facebook Page</string>
+	<string name="cisTitle">Student Society</string>
+	<string name="instructor">Instructor Bio</string>
+	<string name="announcementsTitle">Announcements</string>
+	<string name="schedulesTitle">Important Schedules</string>
+	<string name="currentSchedule">Current Schedule</string>
+	<string name="courseScheduleTitle">Course Schedule</string>
+	<string name="addCourseButton">Add Course</string>
+	<string name="addFilterButton">Add a Filter</string>
+	<string name="clearCalendarButton">Clear Calendar</string>
+	<string name="saveCalendarButton">Save Calendar</string>
+	<string name="removeFromCalendarButton">Remove Course</string>
+	<string name="schedulePlannerTitle">Schedule Planner</string>
+	<string name="goToCoursePlannerButton">Go to Schedule Planner</string>
+	<string name="hours">Hours</string>
+  <string name="addCourseTitle">Adding A Course</string>
+  <string name="courseTitle">Course Name</string>
+  <string name="courseDiscipline">Program</string>
+  <string name="courseNumber">Number</string>
+  <string name="courseInstructor">Instructors Name</string>
+</resources>
