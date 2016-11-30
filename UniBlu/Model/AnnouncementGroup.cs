@@ -15,7 +15,7 @@ namespace UniBlu.Model
     public class AnnouncementGroup
     {
         public int GroupId { get; set; }
-        public string groupName { get; set; }
+        public string GroupName { get; set; }
         public List<Announcement> Announcements { get; set; }
     }
 }

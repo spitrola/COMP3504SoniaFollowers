@@ -21,8 +21,8 @@ namespace UniBlu.Repository
 		{
 			new AnnouncementGroup()
 			{
-				AnnouncementGroupId = 1,
-				Title = "Course",
+				GroupId = 1,
+				GroupName = "Course",
 				Announcements = new List<Announcement>()
 				{
 					new Announcement()
@@ -47,8 +47,8 @@ namespace UniBlu.Repository
 			},
 			new AnnouncementGroup()
 			{
-				AnnouncementGroupId = 2,
-				Title = "Instructor",
+				GroupId = 2,
+				GroupName = "Instructor",
 				Announcements = new List<Announcement>()
 				{
 					new Announcement()
@@ -73,8 +73,8 @@ namespace UniBlu.Repository
 			},
 			new AnnouncementGroup()
 			{
-				AnnouncementGroupId = 3,
-				Title = "Student Society",
+				GroupId = 3,
+				GroupName = "Student Society",
 				Announcements = new List<Announcement>()
 				{
 					new Announcement()
@@ -124,7 +124,7 @@ namespace UniBlu.Repository
 		}
 		public List<Announcement> GetAnnouncementsForGroup(int announcementGroupId)
 		{
-			var group = announcementGroups.Where(h => h.AnnouncementGroupId == announcementGroupId).FirstOrDefault();
+			var group = announcementGroups.Where(h => h.GroupId == announcementGroupId).FirstOrDefault();
 
 			if (group != null)
 			{
