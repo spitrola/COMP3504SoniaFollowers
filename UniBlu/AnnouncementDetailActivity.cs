@@ -27,6 +27,7 @@ namespace UniBlu
 
 		private Announcement selectedAnnouncement;
 		private AnnouncementDataService dataService;
+
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
