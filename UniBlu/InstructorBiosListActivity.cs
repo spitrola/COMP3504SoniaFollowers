@@ -57,8 +57,9 @@ namespace UniBlu
 		private void ListView_ItemClick(object sender, ListView.ItemClickEventArgs e)
 		{
 			Intent instructorBioIntent = new Intent(this, typeof(InstructorBioDetailActivity));
-			instructorBioIntent.PutExtra("Id", (int)e.Position);
-			StartActivity(instructorBioIntent);
+			//instructorBioIntent.PutExtra("Id", (int)e.Position);
+            instructorBioIntent.PutExtra("Id", instructorBioAdapter[e.Position].Id);
+            StartActivity(instructorBioIntent);
 		}
 
 		private void SetToolBar()

@@ -36,7 +36,7 @@ namespace UniBlu
 			SetToolBar();
 
 			int instructorId = Intent.GetIntExtra("Id", -1);
-			instructorId = instructorId + 1;
+			//instructorId = instructorId + 1;
 			instructor = instructorBioDataService.GetInstructorBioById(instructorId);
 
 			var imageBitmap = ImageHelper.GetImageBitmapFromUrl(instructor.ImagePath);
