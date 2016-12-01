@@ -31,9 +31,9 @@ namespace UniBlu.Fragments
         }
         protected void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            var announcement = announcements[e.Position]; 
+            Announcement selectedAnnouncement = announcements[e.Position];
             Intent intent = new Intent(this.Activity, typeof(AnnouncementDetailActivity));
-            intent.PutExtra("selectedAnnouncementId", announcement.Id);
+            intent.PutExtra("selectedAnnouncementId", selectedAnnouncement.Id);
 
             StartActivity(intent);
         }
