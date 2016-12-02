@@ -18,6 +18,8 @@ namespace UniBlu
         // Option names and default values
         private const String OPT_MUSIC = "music";
         private const bool OPT_MUSIC_DEFAULT = true;
+        private const String OPT_SCROLLINGSCREEN = "scrollingScreen";
+        private const bool OPT_SCROLLINGSCREEN_DEFAULT = true;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -37,6 +39,12 @@ namespace UniBlu
         public static Boolean getMusic(Context context)
         {
             return PreferenceManager.GetDefaultSharedPreferences(context).GetBoolean(OPT_MUSIC, OPT_MUSIC_DEFAULT);
+        }
+
+        // Get the current value of the Scrolling Screen option
+        public static Boolean getScrollingScreenView(Context context)
+        {
+            return PreferenceManager.GetDefaultSharedPreferences(context).GetBoolean(OPT_SCROLLINGSCREEN, OPT_SCROLLINGSCREEN_DEFAULT);
         }
     }
 }

@@ -14,7 +14,7 @@
       android:title="@string/scrollingScreen_title"
       android:summary="@string/scrollingScreen_summary"
       android:defaultValue="false"
-      android:checkable="false" />
+      android:checkable="true" />
     <CheckBoxPreference
       android:key="saveReadAnnouncements"
       android:title="@string/saveReadAnnouncements_title"
