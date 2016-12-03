@@ -35,6 +35,9 @@ namespace UniBlu.Fragments
             Intent intent = new Intent(Context, typeof(SchedulePlannerActivity));
             intent.PutExtra("courseId", course.CourseId.ToString());
             intent.PutExtra("requestCode", ADDCOURSE);
+
+            Console.WriteLine("Yippeee --- course selected was: " + intent.GetStringExtra("courseId"));
+
             StartActivity(intent);            
         }
         protected void FindViews()

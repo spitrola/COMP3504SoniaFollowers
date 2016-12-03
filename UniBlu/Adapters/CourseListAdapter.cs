@@ -53,6 +53,7 @@ namespace UniBlu.Adapters
             {
                 convertView = context.LayoutInflater.Inflate(Resource.Layout.CourseRowView, null);
             }
+
             convertView.FindViewById<TextView>(Resource.Id.courseTitleTextView).Text = item.Title;
             convertView.FindViewById<TextView>(Resource.Id.courseDisciplineTextView).Text = item.Subject;
             convertView.FindViewById<TextView>(Resource.Id.courseNumberTextView).Text = item.CourseNumber.ToString();

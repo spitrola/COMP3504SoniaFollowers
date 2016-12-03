@@ -26,20 +26,19 @@ namespace UniBlu
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
+            if (savedInstanceState != null && savedInstanceState.GetString("courseId") != null)
+            {
+                var courseId = savedInstanceState.GetString("courseId");
+                var msg = "Yippee!!! you courseID = " + courseId;
+                Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
+                toast.SetGravity(GravityFlags.Center, 0, 0);
+                toast.Show();
+            }
 
-			SetContentView(Resource.Layout.SchedulePlannerLayout);
+            SetContentView(Resource.Layout.SchedulePlannerLayout);
 			FindViews();
 			SetToolBar();
 			HandleEvents();
-			if (savedInstanceState != null)
-			{
-				var courseId = savedInstanceState.GetString("courseId");
-				var msg = "Yippee!!! you courseID = " + courseId;
-				Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
-				toast.SetGravity(GravityFlags.Center, 0, 0);
-				toast.Show();
-			}
-
 		}
 
 		private void HandleEvents()
