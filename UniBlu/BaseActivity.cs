@@ -18,9 +18,11 @@ namespace UniBlu
 	public class BaseActivity : Activity
 	{
 		protected Toolbar toolbar;
+        protected string courseId;
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
+   
 			SetContentView(Resource.Layout.Main);
 			FindViews();
 			SetToolBar();

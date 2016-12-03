@@ -12,7 +12,6 @@ using Android.Widget;
 using UniBlu.Fragments;
 using UniBlu.Model;
 using UniBlu.Service;
-using UniBlu.Adapters;
 
 namespace UniBlu
 {
@@ -32,7 +31,6 @@ namespace UniBlu
         {
             this.toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
         }
-
         private void SetToolBar()
         {
             this.ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
@@ -41,7 +39,6 @@ namespace UniBlu
             AddTab("GNED", new GNEDFragment());
             AddTab("Electives", new ElectivesFragment());
         }
-
         private void AddTab(string tabText, Fragment view)
         {
             var tab = this.ActionBar.NewTab();
