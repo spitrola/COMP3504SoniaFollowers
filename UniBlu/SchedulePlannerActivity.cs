@@ -26,10 +26,16 @@ namespace UniBlu
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
+            //fix to problem is to access the bundle extra values through Intent as seen below
+            var dialog = new AlertDialog.Builder(this);
+            String test = "Your course: " + Intent.GetStringExtra("courseSubject") + Intent.GetStringExtra("courseNumber") + "\nInstructor: " + Intent.GetStringExtra("professor");
+            dialog.SetMessage(test);
+            dialog.Show();
+            
             if (savedInstanceState != null && savedInstanceState.GetString("courseId") != null)
             {
                 var courseId = savedInstanceState.GetString("courseId");
-                var msg = "Yippee!!! you courseID = " + courseId;
+                var msg = "Yipee!!! you courseID = " + courseId;
                 Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
                 toast.SetGravity(GravityFlags.Center, 0, 0);
                 toast.Show();
