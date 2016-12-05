@@ -26,21 +26,18 @@ namespace UniBlu
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
-            //fix to problem is to access the bundle extra values through Intent as seen below
-            var dialog = new AlertDialog.Builder(this);
-            String test = "Your course: " + Intent.GetStringExtra("courseSubject") + Intent.GetStringExtra("courseNumber") + "\nInstructor: " + Intent.GetStringExtra("professor");
-            dialog.SetMessage(test);
-            dialog.Show();
-            
-            if (savedInstanceState != null && savedInstanceState.GetString("courseId") != null)
+            // Check for data and if we came from onResume rather than StartActivity
+            if (Intent.GetStringExtra("courseSubject") != null &&
+                Intent.GetStringExtra("courseNumber") != null &&
+                Intent.GetStringExtra("professor") != null &&
+                savedInstanceState == null) 
             {
-                var courseId = savedInstanceState.GetString("courseId");
-                var msg = "Yipee!!! you courseID = " + courseId;
-                Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
-                toast.SetGravity(GravityFlags.Center, 0, 0);
-                toast.Show();
+                var dialog = new AlertDialog.Builder(this);
+                String test = "Your course: " + Intent.GetStringExtra("courseSubject") + Intent.GetStringExtra("courseNumber") + "\nInstructor: " + Intent.GetStringExtra("professor");
+                dialog.SetMessage(test);
+                dialog.Show();
             }
-
+            
             SetContentView(Resource.Layout.SchedulePlannerLayout);
 			FindViews();
 			SetToolBar();
@@ -78,8 +75,7 @@ namespace UniBlu
 		}
 		protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
 		{
-			// Todo - how do we now add a filter to the searches (requestCode = 100)
-			// Todo - how do we add a course to the calendar (requestCode = 200)
+			// Todo - Add a filter to the searches (requestCode = 100)
 			base.OnActivityResult(requestCode, resultCode, data);
 			var msg = "Request code " + requestCode + " was returned";
 			Toast toast = Toast.MakeText(this, msg, ToastLength.Long);
@@ -91,6 +87,7 @@ namespace UniBlu
 		{
 			Intent intent = new Intent(this, typeof(AddCourseActivity));
 			intent.PutExtra("requestCode", ADDCOURSE);
+            //To Do add filter to the intent
 			StartActivity(intent);
 		}
 

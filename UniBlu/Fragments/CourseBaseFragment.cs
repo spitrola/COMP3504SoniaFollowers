@@ -35,13 +35,8 @@ namespace UniBlu.Fragments
             Intent intent = new Intent(Activity.BaseContext, typeof(SchedulePlannerActivity));
             intent.PutExtra("courseNumber", course.CourseNumber.ToString());
             intent.PutExtra("courseSubject", course.Subject.ToString());
-            intent.PutExtra("professor", course.Sections[e.Position].Instructor.ToString());
+            intent.PutExtra("professor", course.Sections[0].Instructor.ToString());
             intent.PutExtra("requestCode", ADDCOURSE);
-            //commented out for testing james' problem
-            //string msg = "course selected was: " + intent.GetStringExtra("courseSubject") + intent.GetStringExtra("courseNumber");
-            //Toast toast = Toast.MakeText(Activity, msg, ToastLength.Long);
-            //toast.SetGravity(GravityFlags.Center, 0, 0);
-            //toast.Show();
             StartActivity(intent);            
         }
         protected void FindViews()

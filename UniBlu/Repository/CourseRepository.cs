@@ -84,8 +84,8 @@ namespace UniBlu.Repository
 						CourseId = 1,
 						SectionId = 67890,
 						Subject = "COMP",
-						CourseNumber = 1501,
-                        Title = "Introduction to Programming",
+						CourseNumber = 1502,
+                        Title = "Programming II: Object Oriented Programming",
                         Sections = new List<Section>
                         {
                             new Section()
@@ -147,9 +147,9 @@ namespace UniBlu.Repository
 					{
 						CourseId = 3,
 						SectionId = 67890,
-						Subject = "COMP",
-						CourseNumber = 1501,
-                        Title = "Introduction to Programming",
+						Subject = "GNED",
+						CourseNumber = 1103,
+                        Title = "Scientific Innovation",
                         Sections = new List<Section>
                         {
                             new Section()
@@ -203,10 +203,10 @@ namespace UniBlu.Repository
 					{
 						CourseId = 4,
 						SectionId = 67890,
-						Subject = "COMP",
-						CourseNumber = 1501,
+						Subject = "GNED",
+						CourseNumber = 1202,
                         //Section = 001,
-                        Title = "Introduction to Programming",
+                        Title = "Texts and Ideas",
                         Sections = new List<Section>
                         {
                             new Section()
@@ -268,9 +268,9 @@ namespace UniBlu.Repository
 					{
 						CourseId = 5,
 						SectionId = 67890,
-						Subject = "COMP",
-						CourseNumber = 1501,
-						Title = "Introduction to Programming",
+						Subject = "CHEM",
+						CourseNumber = 2211,
+						Title = "The Chemistry Between Us",
                         Sections = new List<Section>
                         {
                             new Section()
@@ -324,9 +324,9 @@ namespace UniBlu.Repository
 					{
 						CourseId = 6,
 						SectionId = 67890,
-						Subject = "COMP",
-						CourseNumber = 1501,
-						Title = "Introduction to Programming",
+						Subject = "HIST",
+						CourseNumber = 1101,
+						Title = "Europe to 1500",
                         Sections = new List<Section>
                         {
                             new Section()
