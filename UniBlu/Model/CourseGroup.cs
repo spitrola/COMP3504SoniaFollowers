@@ -14,7 +14,7 @@ namespace UniBlu.Model
 {
     public class CourseGroup
     {
-        internal List<Course> Courses;
+        //internal List<Course> Courses;
 
         public int CourseGroupId { get; set; }
         public string Title { get; set; }
