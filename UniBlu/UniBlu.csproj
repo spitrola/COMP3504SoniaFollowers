@@ -213,6 +213,7 @@
     <AndroidResource Include="Resources\layout\CourseMenuView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout-normal-land\Main.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Heart.png" />
